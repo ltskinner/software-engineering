@@ -1,6 +1,10 @@
 """ 
 https://www.youtube.com/watch?v=cKPlPJyQrt4 
-https://docs.python.org/3/reference/datamodel.html
+"""
+
+"""
+Full Data Model documentation:
+    https://docs.python.org/3/reference/datamodel.html
 """
 
 class Polynomial:
