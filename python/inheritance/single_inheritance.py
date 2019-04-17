@@ -27,7 +27,8 @@ class Square(Rectangle):
         Rectangle.area()
         Rectangle.perimiter()
     """
-    """ __init__ b/c modifying attribute width to be length, copying one parameter """
+    """ __init__ b/c modifying attribute width to be length, 
+    copying one parameter """
     # Classes implentation example from site
     def __init__(self, length, **kwargs):
         print("__init__: Square")
@@ -69,8 +70,9 @@ if __name__ == "__main__":
     # Notice passing arugment, despite no init
     print(Cube.__mro__)
     cube = Cube(3)
-    print("cube.area():", cube.area())                  # accesses Rectangle.area()
-    print("cube.perimiter():", cube.perimiter())        # accesses Rectangle.perimiter()
+    print("cube.area():", cube.area()) # access Rectangle.area()
+    print("cube.perimiter():", cube.perimiter()) # access Rectangle.perimiter()
     print("cube.surface_area():", cube.surface_area())
     print("cube.volume():", cube.volume())
+    
     

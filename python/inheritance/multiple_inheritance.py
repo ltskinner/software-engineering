@@ -36,7 +36,7 @@ class RightPyramid(Triangle, Square):
         print("__init__: RightPyramid")
         self.base = base
         self.slant_height = slant_height
-        # Adding here instead of defining new --> kwargs may not be None as passed in
+        # Adding here instead of defining new --> passed kwargs may not be None
         kwargs["height"] = slant_height
         kwargs["length"] = base
         super().__init__(base=base, **kwargs)
