@@ -26,3 +26,9 @@ class Doggo:
     # Instance method
     def description(self):
         return f"{self.name} is {self.age} years old"
+
+
+"""
+Interesting to note that anything within __init__ can be considered
+"Stateful Behavior"
+"""
