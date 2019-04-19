@@ -20,6 +20,13 @@ $ git checkout master
 # Checkout old state to monkey around, not make commitable changes
 $ git checkout <SHA>
 
+# To compare branches
+$ git show-branch <branch_name> master
+
+# To merge
+$ git checkout master
+$ git merge <branch_name>
+
 
 
 #------------------------------------------------------------

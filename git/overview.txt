@@ -37,4 +37,4 @@ everything, so do dev in branch.
 To retain commits you need a branch
     $ git checkout -b my_branch_name
 After making changes, you can compare the two branches
-    $ git show-branch my_new_feature master
+    $ git show-branch my_branch_name master
