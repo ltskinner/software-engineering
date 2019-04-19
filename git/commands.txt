@@ -1,0 +1,20 @@
+
+
+# Check status of repo
+$ git status
+
+# Commit changes (aka save a new state)
+$ git commit -m "some commit message"
+
+# To create new branch
+$ git checkout -b <new_branch_name>
+
+# To switch back to master
+$ git checkout master
+
+# Checkout old state to monkey around, not make commitable changes
+$ git checkout <SHA>
+
+# Turn a directory into a repo
+$ git init
+
