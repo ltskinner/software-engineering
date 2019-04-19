@@ -8,7 +8,7 @@ $ git commit -m "some commit message"
 
 
 #-------------------------------------------------------------
-# To push a new branch 
+# To push a new branch (AFTER INITIAL YOU CAN JUST USE REGULAR PUSH)
 $ git push -u origin <branch_name>
 
 # To create new branch
