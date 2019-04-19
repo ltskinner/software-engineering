@@ -36,7 +36,6 @@ code is simplified, making it more reusable and easier to maintain.
 import json
 import xml.etree.ElementTree as et
 
-
 class Song:
     def __init__(self, song_id, title, artist):
         self.song_id = song_id
