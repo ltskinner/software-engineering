@@ -27,6 +27,12 @@ $ git show-branch <branch_name> master
 $ git checkout master
 $ git merge <branch_name>
 
+# To delete branch
+# Local
+$ git branch -d <branch_name>
+
+# Remote
+$ git push origin --delete <branch_name>
 
 
 #------------------------------------------------------------
