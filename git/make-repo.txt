@@ -1,6 +1,4 @@
 
-https://realpython.com/python-git-github-intro/
-
 $ mkdir example-repo
 $ cd example-repo
 $ git init

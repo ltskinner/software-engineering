@@ -38,3 +38,9 @@ To retain commits you need a branch
     $ git checkout -b my_branch_name
 After making changes, you can compare the two branches
     $ git show-branch my_branch_name master
+
+
+Pulls
+First, does a git fetch to upade all remotes/origin branches.
+Then, if the branch you are on is tracking a remote branch, it does a
+git metge of the corresponding origin branch to your branch
