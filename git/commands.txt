@@ -8,8 +8,11 @@ $ git commit -m "some commit message"
 
 
 #-------------------------------------------------------------
+# To push a new branch 
+$ git push -u origin <branch_name>
+
 # To create new branch
-$ git checkout -b <new_branch_name>
+$ git checkout -b <branch_name>
 
 # To switch back to master
 $ git checkout master
