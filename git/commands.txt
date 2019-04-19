@@ -6,6 +6,8 @@ $ git status
 # Commit changes (aka save a new state)
 $ git commit -m "some commit message"
 
+
+#-------------------------------------------------------------
 # To create new branch
 $ git checkout -b <new_branch_name>
 
@@ -15,6 +17,14 @@ $ git checkout master
 # Checkout old state to monkey around, not make commitable changes
 $ git checkout <SHA>
 
+
+
+#------------------------------------------------------------
+# Exit log or diff
+$ q
+
+
+
+#------------------------------------------------------------
 # Turn a directory into a repo
 $ git init
-
