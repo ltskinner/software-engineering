@@ -1,5 +1,8 @@
 # Compiled python modules
 *.pyc
 
+# Log files
+*.log
+
 # VS Code data
 /.vscode
