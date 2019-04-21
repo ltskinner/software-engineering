@@ -77,7 +77,7 @@ def logger_exception():
     import logging
 
     try:
-        x = get_number()
+         get_number()
     except Exception:
         logging.exception('Caught an error')
 
@@ -102,7 +102,7 @@ def traceback_exception():
         exception_logger.log(tb_text)
 
     try:
-        x = get_number()
+        get_number()
     except Exception as ex:
         log_traceback(ex)
 
