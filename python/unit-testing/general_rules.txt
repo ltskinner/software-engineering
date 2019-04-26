@@ -1,8 +1,8 @@
 
-"""https://docs.python-guide.org/writing/tests/"""
+https://docs.python-guide.org/writing/tests/
 
 
-"""Testing code is important
+Testing code is important
 
 Getting used to writing testing code and running it in parallel is
 considered a good habit.
@@ -29,5 +29,21 @@ Some general rules:
     interrupt your work, it is a good idea to write a broken unit test
     about what you want to develop next. When coming back to work there
     will be a pointer of where to get back to work
-"""
+- The first step when debugging code is to write a new test pinpointing
+    the bug. While it is not always possible to do, those bug catching
+    tests are among the most valuable pieces of code in a project
+- Use long and descriptive names for testing functions.
+    test_square_of_number_2()
+    test_square_negative_number()
+    These are the function names that are displayed when a test fails
+    so they should be as descriptive as possible
+- When something goes wrong or has to be changed, and if your code has a
+    good set of tests, you or other maintainers will largely rely on
+    the testing suite to fix the problems.
+    Testing code will be read as much or even more than running code.
+    A unit test whose purpose is unclear is not very helpful...
+- Another use of the testing code is as an introduction to new 
+    developers. Running and reading related testing code is a great 
+    place to start. It will uncover hot spots and corner cases easily
+
 
