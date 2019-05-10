@@ -1,0 +1,66 @@
+
+Chapter 3
+Measure Twice, Cut Once: Upstream Prerequisites
+
+Importance of Prerequisites
+"A common denominator of programmers who build high-quality software
+is their use of high-quality practices. Such practices emphasize
+quality at the beginning, middle, and end of a project."
+    End = testing --> quality assurance
+        Also note, testing wont uncover flaws like software being built
+        incorrectly or even building the wrong product
+    Middle = construction practices --> the focus of this book
+    Beginning = plan for, require and design a high-quality product
+        If you want a Rolls-Royce, you neeed to plan to build one from
+        the very beginning
+        Also, this planning need to be done when:
+            - the problem is defined
+            - the solution is specified
+            - the solution is designed
+
+The overarching goal of preparation is risk reduction:
+a good project planner clears out major risks as early as possible so
+the bulk of the project can proceed as smoothly as possible
+"By far" the most common project risks are poor requirements and poor
+project planning
+
+------------------------------------------------------------------------
+Part of your job as a technical employee is to educate the nontechnical
+people around you about the development process
+
+Appeal to logic
+    - we need to understand what to build so time and money isnt spent
+    on building the wrong thing
+
+Appeal to analogy
+    - you dont start a fire until opening the flue
+    - you dont put your shoes on before your socks
+    
+    Architects consume requirementsd
+    Designer consume the architecture
+    Coders consume the design
+
+Appeal to data
+    - studies of the the last 25 years have shown conclusively that
+    it pays to do things right the first time
+
+------------------------------------------------------------------------
+Types of software
+1) Business Systems
+2) Mission Critical Systems
+3) Embedded Life-Critical Systems
+
+Iterative = build things in iterations as requirements change
+    - requirements not well understood
+    - design is complex, challanging or both
+    - development team is unfamilliar with applications area
+    - project contains a lot of risk
+    - long term predictability is not important
+    - cost of changing reqs, design and code downstream is low
+Sequential = prerequisites need to be satisfied up front
+    - requirements are stable
+    - design is straightforward and fairly well understood
+    - dev team is familliar with application area
+    - project contains little risk
+    - long term predictability is important
+    - the cost of changing reqs, design and code downstream is high

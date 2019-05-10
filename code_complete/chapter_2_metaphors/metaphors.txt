@@ -1,0 +1,73 @@
+
+Basically metaphors serve to make explaining and conveying information
+easier to grasp. Conveys at a higher plane such that low-level
+mistakes can be avoided.
+
+Trying to think of a witty metaphor to describe metaphors
+
+------------------------------------------------------------------------
+How to use Software Metaphors?
+
+Software metaphors are more like a searchlight than a road map
+It doest tell you where to find the answer, it tells you how to look
+for it. Thus, they serve more as a heuristic than as an algorithm
+
+Algorithm is a well defined instruction set 
+    like street directions 
+
+Heuristic is a technique that helps you look for an answer
+    Tells you how to look, not what to find
+    - Find last letter mailed
+    - Drive to town in return address
+    - Ask someone in town for directions
+
+------------------------------------------------------------------------
+Software Penmanship: Writing Code
+the term "writing code" implies that its a casual affair
+    you sit down
+    write a script start to finish
+    and then youre done
+    and once its been sent, it can never be modified
+
+Writing original work is often less effective than reusing design ideas
+code and test cases from previous projects
+
+------------------------------------------------------------------------
+Software Farming: Growing a System
+Some say creating software is like plating seeds and growing crops
+    - Design a piece
+    - Code a piece
+    - Test a piece
+    - Add to system
+By taking small steps, minimize trouble one can get into at any given 
+time
+
+------------------------------------------------------------------------
+Software Oyster Farming: System Accretion
+Accretion = growing in size by gradual addition
+Basically this is incremental design
+    - First step is to design simplest possible version of the system
+    that will run
+    - Add dummy classes
+    - Replace dummy classes with real classes
+
+------------------------------------------------------------------------
+Software Construction: Building Software
+"building" is better suited than "writing" or "growing"
+
+Also, you wont try to build things that you know you can buy
+    - washer, dryer, freezer
+
+Lots of planning and revisions
+
+Treat code as structural components (or non structural)
+
+------------------------------------------------------------------------
+Applying Software Techniques: The Intellectual Toolbox
+Tehcniques are not rules, they are analytical tools
+A good craftsman knows the right tool for the job and how to use it
+correctly
+
+Also, some consultants many tell you to buy into certain methods and
+to exclude others. Thats no good
+

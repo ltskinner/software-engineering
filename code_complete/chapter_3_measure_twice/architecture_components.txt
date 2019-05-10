@@ -1,0 +1,217 @@
+Typical Architectural Components
+
+Concepts:
+    - Program Organization
+    - Major Classes
+    - Data Design
+    - Business Rules
+    - User Interface Design
+    - Resource Management
+    - Security
+    - Performance
+    - Scalability
+    - Interoperability
+    - Internationalization/Localization
+    - Input/Output
+    - Fault Tolerance
+    - Architectural Feasability
+    - Overengineering
+    - Buy-vs-Build Decisions
+    - Reuse Decisions
+    - Change Strategy
+    - General Architectural Quality
+
+
+Program Organization
+- Made up of blocks
+    --> these blocks can either be a single task, or a collection of
+        classes and routines
+- Every feature listed in requirements should be covered by at least
+    one building block.
+    - If a function is claimed by two or more building blocks, their
+    claims should cooperate, not conflict
+- What each block is responsible for should be well defined. It should
+    have one area of responsibility and have as little information about
+    other blocks as possible
+    - By minimizing what each block knows about other building blocks, 
+    you localize information about the design into a single building
+    block
+- Communication rules for each building block should be well defined.
+    - Architecture should describe what other blocks can and cannot be
+    accessed and how directly those that can be are allowed to
+- Basically need something that can be explained simply
+- Also need something that was selected out of several options
+    --> there needs to be thought put into why what was selected is the
+        best option
+- Design RATIONALE is at least as important for maintenance as the
+    design itself.
+
+Major Classes
+- Architecture should specify major classes to be used
+- identify responsibilities and other class interactions
+    - class hierarchies
+    - states of transition
+    - object persistence
+    - object subsystems
+- "Specify the 20% of classes that make up 80% of system behavior"
+
+Data Design
+- describe major files and table designs to be used
+- also note alternatives, and justify decisions
+    (sequential access silt vs random access or stack or hash)
+- databases and their contents
+    - why database over flat file
+    - what interactions are better
+    - what views are created
+- basically every decision about data
+
+Business Rules
+- If the architecture depends on specific business rules, these need to
+    be identified and their impact explained
+- Like lifespan of customer data forcing certain updates
+    --> mybama 30min timeout thing
+
+User Interface Design
+- Anywhere user touches it
+    - GUI, Web, CLI
+- Modularize architecture so new UIs can be plugged in easily
+
+Resource Management
+- Architecture should describe a plan for managing scarce resources 
+    such as:
+        - Database connections
+        - Threads
+        - Handles
+        - Memory
+- Need to make estimates of all these with justification
+
+Security
+- Code level security
+- Threat modeling
+- Rules for handling buffers, untrusted data (user input, cookies,
+    configs, other external sources)
+
+Performance
+- If performance is concern, need goals to be specified in reqs
+- Architecture provides estimates and explain why goals are achievable
+- Areas at risk of not making goals should be noted and elaborated on
+
+Scalability
+- How will the sytem address growth in:
+    - number of users
+    - number of servers
+    - number of network nodes
+    - number of database records
+    - size of database records
+    - transaction volume
+    - etc
+- if system is not expected to grow and scalability isnt an issue, that
+    assumption needs to be made explicit
+
+Interoperability
+- if system expected to share data or resources with other software or
+    hardware, the architecture should describe how thats accomplished
+
+Internationalization/Localization
+I18n/L10n
+- I18n is prepping a program to support multiple locales
+- L19n is translating a program to support a specific local language
+- Basically handling unicode, utf8, c strings, etc
+
+Input/Output
+- Specify
+    - Look-ahead
+    - Look-behind
+    - Just-in-time reading scheme
+- Also, where I/O errors are detected
+    - field, record, stream or file level
+Error Processing
+- is processing corrective or detective?
+    --> if detective, program can continue processing as nothing 
+        happened, or quit
+- is error detection active or passive?
+    - like can the system anticipate errors, like user giving too big
+    of a number, so program discarding it
+- How does the program propagate errors?
+    - discard data that caused error immediately?
+    - enter error processing state?
+    - wait until processing complete then notify?
+- What error handling conventions are there?
+    - need to specify a single, consistent strategy
+- How will exceptions be handled?
+    - architecture should address:
+        --> when code can throw an exception
+        --> where they will be caught
+        --> how they will be logged
+        --> how they will be documented
+        --> etc
+- Inside the program, at what level are errors handled?
+    - point of detection or pass to error handling class or 
+    up call chain?
+- What is the level of responsability of each class for validating its
+    input data?
+    - Is each class responsible for validating its own?
+    - Is there a group of classes responsible for validating data?
+    - Can classes at any level assume the data they receive is clean?
+- Do you want to use your environments built-in exception handling
+    mechanism or build your own?
+    - just cause env has one doesnt make it the best for your reqs
+
+
+Fault Tolerance
+- collection of techniques that increase systems reliability by
+    detecting erros, recovering from them if possible, and containing
+    their bad effects if not
+- Examples for error in computing a square root
+    --> system back up to a point where it knew everything was all right
+        and continue from there
+    --> system might have auxilliary code to use if it detects fault in
+        the primary code. if first answer is wrong, use alternative
+        routine to calc again
+    --> system use voting algoritm, where three routines answers are 
+        compared
+    --> system might replace erroneous value with phony value it knows
+        to have benign effect on rest of the system
+
+Architectural Feasability
+- Basically need to demonstrate the system is technically feasible
+- if any issues, the architecture should indicate how those issues
+    have been investigated
+
+Overengineering
+- architecture should clearly indicate whether programmers should err on
+    the side of overenggineering or on simplicity
+- by setting expectations explicitly in the architecture, you can avoid
+    cases where some classes are exceptionally robust and others arent
+
+Buy-vs-Build Decisions
+- Basically if not using off the shelf, need to justify how building
+    will result in better performance than ready made libraries and
+    components
+
+Reuse Decisions
+- If plan calls to reuse existing software, test cases, data formats, 
+    need to elaborate on how reused software will be made to conform to
+    other architectural goals
+
+Change Strategy
+- Need to make architecture flexible enough to accommodate changes
+- Likely changes include:
+    - volatile data types
+    - file formats
+    - changed functionality
+    - new features
+    - etc
+- Show anticipated changes and benefits of the changes
+    - "possible enhancements"
+
+General Architectural Quality
+- good architecture specifications are characterized by
+    --> discussions of the classes in the system
+    --> information hidden in each class
+    --> rationales for including and excluding ALL possible design 
+        alternatives
+- a good architecture should fit the problem
+- when you look a the architecture, you should be pleased by how natural
+    and easy the solution seems
+    - should NOT look like it was forced together with duct tape
