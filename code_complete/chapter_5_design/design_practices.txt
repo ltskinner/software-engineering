@@ -1,0 +1,85 @@
+
+Design Practices
+
+Previous section focused on heuristics related to design attributes
+- what you want the completed design to look like
+
+This section focuses on design practice heuristics, steps that you can
+take that often produce good results
+
+
+Iterate
+Design is an iterative process. 
+Most subsequent attempts are better than the previous
+"I have discovered a thousand things that dont work" - time not wasted
+
+Divide and Conquer
+Divide the program into different areas of concern and tackle each one
+individually
+
+Top-Down and Bottom-Up Design Approaches
+Top-Down begins at high level of abstraction, slowly increasing level of
+detail
+Bottom-up starts with specifics and works towards generalities
+
+Argument for Top Down
+Guiding principal is the human brain can only concentrate on a certain
+amount of detail at a time
+Think decomposing
+
+Argument for Bottom Up
+Sometimes top-down is so abstract its hard to get started, so you need
+to work with something more tangible
+Things to keep in mind w/ bottom up
+    - Ask yourself what you know the system needs to do
+    - Identify concrete objects and responsabilities from that question
+    - Identify common objects, and group them using subsystem 
+        organization, packages, composition within objects, or 
+        inhereitance, whichever is appropriate
+    - Continue with the next level up, or go back to the top and try
+        again to work down
+
+No Argument, Really
+The key difference is one is a decomposition strategy and the other is
+a composition strategy
+
+Experimental Prototyping
+Sometimes you cant really know if a design will work until you better
+understand some implementation detail
+Concept being prototyped needs to be very specific
+- "will this database framework support 1000 transactions/s?"
+- NOT "will this database work?"
+Also, prototypoe code should be treated as throwaway code!!
+Must write the absolute minimum code possible to test scenario
+
+Collaborative Design
+Two heads are better than one
+- You informally walk over to co-workers desk and ask to bounce ideas
+    around
+- You and your co-worker sit together in a conference room and draw 
+    design alternatives on a whiteboard
+- You and your co-worker sit together at the keyboard and do detailed
+    design in the programming language youre using - that is, you can 
+    use pair programming
+- You schedule a meeting to walk through your design ideas with one or
+    more co-workers
+- You schedule a formal inspection with all required structure
+- You dont work with anyone who can review your work, so you do some
+    initial work, put it into a drawer, and come back to it a week later
+    You will have forgotten enough that you should be able to give 
+    yourself a fairly good review
+- You ask someone outside your company for help: send questions to a
+    specialized forum or newsgroup
+
+How Much Design Is Enough
+see design_formality.txt
+
+Capturing Design Work
+Use whatever
+- Insert design docs into the code iteslf
+    - comments
+- Wiki discussions
+- emails summaries
+- take pictures if you have to
+- CRC (Class, Responsibility, Collaborator) cards
+- UML diagrams

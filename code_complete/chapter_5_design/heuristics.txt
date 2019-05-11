@@ -1,0 +1,206 @@
+
+Design Building Blocks: Heuristics
+
+Chasing "Do A, B, and C and X, Y, Z will follow every time"
+
+Heuristics can be thought not of as the solution, but as the trials in
+a trial and error session to find the solution
+
+Find Real-World Objects
+Like Employee, Timecard, Client, Bill
+- Identify objects and their attributes (methods and data)
+- Determine what can be done to each object
+- Determine what each object is allowed to do to other objects
+- Determine which parts of object will by public vs private
+- Define each objects public interface
+Also going to want to figure out inheritence from these
+
+Form Consistent Abstractions
+Abstraction: ability to engage in a concept while ignoring some details
+Create abstractions at:
+    - routine-interface level
+    - class-interface level
+    - package-interface level
+
+Encapsulate Implementation Details
+Encapsualtion picks up where abstraction leaves off
+Abstraction says: "Youre allowed to look at an object at a high level of
+"detail"
+Encapsulation says: "Furthermore, you arent allowed to look at an object
+at any other level of detail"
+
+Inherit - When Inheritence Simplifies the Design
+When objects are a lot like other objects
+Most data overlapps, but some is different
+
+Hide Secrets (Information Hiding)
+Partially about private information, but mostly about hiding COMPLEXITY
+In info hiding, each class (or package or routine) has secrets
+Idea is to keep changes from rippling outside of the implementation
+--> Class interfaces should be complete, but minimal (and revela as 
+    little about the inner workings as possible)
+Id example and why using id++ to assign new ids is bad
+    - not thread safe
+    - what if wanted non-sequential for security 
+    - what if want to reuse destroyed ids?
+    --> abstract to id = newID()
+        - can play with implementation behind abstraction layer now
+    --> also, declare Id to be its own data type
+        - that way can resolve to int
+        - or change to resolve to string without changing anything code
+            elsewhere in program
+Two Categories of Secrets
+--> Hiding complexity so that your brain doesnt have to deal with it 
+    unless youre specifically concerned with it
+--> Hiding source changes so that when change occurs, the effects are
+    localized
+
+Barriers to Information Hiding
+In some cases, info hiding is truly impossible, but nost of the time
+the barriers are just mental blocks built on old habits
+- Dont use 100, use MAX_EMPLOYEES
+- Dont interleave user interaction, really needs to be in single classe,
+    package or subsystem that can be changed without affecting the whole
+    system
+- Dont use circular dependancies
+- Global data is cancer haha want class data
+- Dont worry about pervieved performance penalties
+    - until you can measure systems performance dont sweat it
+    - as long as your design his highly modular, even if changes
+        arise it will be easy to modify
+
+Value of Information Hiding
+Found that programs that use information hiding ate 4x easier to modify
+Get in the habit of asking "What should I hide?"
+
+------------------------------------------------------------------------
+Identify Areas that are Likely to Change
+A great study of designers found that one attribute they had in common
+was the ability to anticipate change
+The goal is to isolate unstable areas so that the effect of a change
+will be limited to one routine, class, or package
+Steps:
+1) Identify items that seem likely to change
+    - if reqs done well, they include a list of potential changes and
+        the likelihood of each change
+2) Separate items that are likely to change
+    - compartmentalize each volatile componenet into separate classes
+3) Isolate items that seem likely to change
+    - design interfaces to be insensitive to the potential changes
+    - any other class using the changed class should be unaware that the
+        change occured
+
+Typical areas:
+--> Business rules
+    - tax laws, union renegotiates a contract, etc
+--> Hardware dependencies
+    - screens, printers, keyboards, gpus, cpus
+--> Input and Output
+    - application that creates its own data format will probably change
+    - user level inputs and output formats will also change
+    - positioning of fields on page, number of fields, sequence, etc
+--> Nonstandard language features
+    - using extensions is a double edge sword b/c not be avail in all
+        environments
+--> Difficult design and construction areas
+    - first pass might be done poorly so want to have flexibility to 
+        make changes
+    - compartmentalize and make change impacts minimal
+--> Status variables
+    - dont use booleans, use enumerated type so can add options
+    - use access routines rather than checking variable directly
+--> Data size constraints
+    - use named constants
+
+Anticipating Different Degrees of Change
+When thinking about potential changes to a system, design system so that
+the effect or scope of the change is proportional to the change that 
+will occur
+--> Start at core functionality that wont change, then incrementally 
+    identify potential changes
+    - both functionally
+    - and qualitatively (threading, localizable)
+
+------------------------------------------------------------------------
+Keep Coupling Loose
+Coupling describes how tightly a class or routine is related to other
+classes or routines
+The goal is to create classes and routines with small, direct, visible
+and flexible relations to other classes and routines - "loose coupling"
+sin() --> loosely coupled
+InitVars(var1, var2, var3, var4) --> tightly b/c with all variables that
+    need to be passed, the calling module practically knows whats 
+    happening inside
+Avoid classes that depend on each others use of the same global data
+    - these are even more tightly coupled
+
+Coupling Criteria
+- Size, the number of connection b/w modules
+    - small is beautiful b/c its less work to connect other modules
+        to a module that has a smaller interface
+- Visibility, the prominence of the connection b/w two modules
+    - Want to make connections as obvious and well defined as possible
+- Flexibility, how easily you can change the connection
+    - want USB sticks not wire and solder
+In short, the more easily other modules can call a module, the more
+loosely coupled it is
+
+Kinds of Coupling
+1) Simple-object coupling (Instantiate)
+    - A module is simple-object coupled to an object if it instantiates
+        that object
+    - This kind of coupling is fine
+2) Object-parameter coupling
+    - Object1 requires Object2 to pass it an Object3
+    - Means that Object2 needs to know about Object3
+3) Semantic coupling
+    - "The most insidious kind of coupling"
+    - Module makes use of another modules inner workings
+    - Arise from poor information hiding
+
+------------------------------------------------------------------------
+Look for Common Design Patterns
+see design_patterns.txt
+
+------------------------------------------------------------------------
+Other Heuristics
+
+Aim for Strong Cohesion
+Refers to how closely all the routines in a class or all the code in a
+routine support a central focus - how focused the class is
+Typically looked at at the routine level, and rebranded as abstraction
+at the class level
+
+Build Hierarchies
+Just like hierarchical understanding of the program to make it easier to
+grasp
+
+Formalize Class Contracts
+Like, you need to give me x, y, z in these formats, and I will return
+a, b, c
+
+Assign Responsabilities
+Asking what each object should be responsible for is important
+
+Design for Test
+Good because can help formalize class interfaces to make easier to test
+
+Avoid Failure
+Always look for ways the program could fail, instead of just looking at
+the successes
+
+Choose Binding Time Consciously
+The time a specific value is bound to a variable
+Code that binds early tends to be simpler, but less flexible
+
+Make Central Points of Control
+
+Consider Using Brute Force
+A brute force solution that works is better than an elagent one that
+doesnt
+
+Draw a Diagram
+
+Keep Your Design Modular
+Black box everything
+Simple interface, well defined functionality

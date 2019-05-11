@@ -1,0 +1,15 @@
+
+Choice of Programming Language
+Lmao 1 line of python is worth 6 lines of C
+
+Programming Conventions
+Deviations in coding-style tax the brain
+
+Your Location on the Technology Wave
+Programming INTO a language is also important and knowing how to leverage
+a specific languges tools to solve a problem language specific is key
+- First decide what thoughts what to be expressed, then express those
+    thoughts in the tools specific to a language
+
+Selection of Major Construction Practices
+See major_construction_practices.txt

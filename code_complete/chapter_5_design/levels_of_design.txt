@@ -1,0 +1,33 @@
+
+Levels of Design
+1) Software system
+2) Division into subsystems/packages
+3) Division into classes within packages
+4) Division into data and routines within classes
+5) Internal routine design
+
+Level 1: Software System
+First level is the entire system
+Just make sure you look at class combinations before you start coding
+
+Level 2: Division into Subsystems or Packages
+Main thing is need to identify all major subsystems
+    - Database, UI, business rulse, interpreter, report engine
+Also need to figure out how these all communicate
+    --> MAKE EACH SUBSYSTEM MEANINGFUL BY RESTRICTING COMMUINICATIONS
+    - if all can communicate, there will be unintended consequences 
+        in every modification to code
+    --> Allow communication on a NEED TO KNOW basis
+    - Easier to restrict communication early and then relax, than start
+        relaxed and make strict
+Keep subsystems acyclic
+
+Level 3: Division into Classes
+Define all interfaces and how each class interacts with rest of system
+
+Level 4: Division into Routines
+Pretty free reign to decompose tasks as a programmer
+
+Level 5: Internal Routine Design
+Lay out detailed functionality of individual routines
+
