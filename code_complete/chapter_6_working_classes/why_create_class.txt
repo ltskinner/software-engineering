@@ -1,0 +1,54 @@
+
+Reasons to Create a Class:
+- To model real world objects
+- To model abstract objects
+    --> Shape which is an abstraction of Circle or Square
+- Reduce complexity
+    --> Single most important reason
+- Isolate complexity
+    --> Complexity leads to errors which we are trying to avoid
+- Hide implementation details
+- Limit effects of changes
+    --> Isolation is key
+- Hide global data
+    --> force you to use access routine instead of working directly
+- Streamline parameter passing
+- Make central points of control
+    --> Control over the number of entries in a table
+    --> Control of devices - files, database connections, printers
+- Facilitate reusable code
+    --> planning ahead with good oop design can lead to 70% reuse
+- Plan for a family of programs
+    --> isolate elements that are expected to change
+- Package related operations
+- Accomplish a specific refactoring
+
+
+Classes to Avoid:
+- Avoid creating god classes
+    - if a class spends its time retrieving data from other classes using
+    get() and set() routines, ask whether that functionality might be
+    better organized into those other classes than the god class
+- Eliminate irrelivant classes
+    - if a class consists only of data but no behavior, consider 
+    demoting it to member data of an attribute of another class
+- Avoid classes named after verbs
+    - a class that has only behavior but no data is not really a class
+    --> DatabaseInitialization() or String-Builder()
+
+
+Summary for why to create a class:
+- Model real-world objects
+- Model abstract objects
+- Reduce complexity
+- Isolate complexity
+- Hide implementation details
+- Limit effects of changes
+- Hide global data
+- Streamline parameter passing
+- Make central points of control
+- Facilitate reusable code
+- Plan for a family of programs
+- Package related operations
+- Accomplish a specific refactoring
+

@@ -1,0 +1,14 @@
+
+
+- If multiple classes share common data but not behavior, create a
+common object that those classes can contain
+
+- If multiple classes share common behavior but not data, derive them
+from a common base class that defines the common routines
+
+- If multiple classes share common data and behavior, inherit from a
+common base class that defines the common data and routines
+
+- Inherit when you want the base class to control your interface;
+contain when you want to control your interface
+

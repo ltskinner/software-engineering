@@ -1,0 +1,9 @@
+coupling, abstraction and encapsulation go hand in hand
+coupling = how tight of a connection b/w two classes
+abstraction = obscuring underlying operations/removing detail
+encapsulation = compartmentalized and doesnt allow for more detail
+classes need to be black boxes
+
+The best way to prepare for future work is not to design extra layers of
+a base class; rather its to make current work as clear, straightforward,
+and simple as possible.
