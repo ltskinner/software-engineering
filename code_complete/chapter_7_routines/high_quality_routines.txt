@@ -1,0 +1,47 @@
+
+High-Quality Routines
+
+What is a "routine"?
+A routine is an individual method or procedure invocable for single 
+purpose.
+
+Things to keep in mind
+- Descriptive name
+- Is documented
+- Good layouts with logical organization
+- Input variable cannot be changed
+- No reading and writing to global variables
+- Routine should have single purpose
+- Routine needs to defend itself from bad data
+- Numbers need to be in variables
+- All parameters must be used
+- No more than 7 parameters
+- Parameters should be ordered thoughtfully
+
+------------------------------------------------------------------------
+Valid Reasons to Create a Routine
+- Reduce complexity
+    - create a routine to hide information so you wont have to think
+    about it
+    - pull blocks out of nested loops or conditionals
+    - moving a section of code into its own routine aids readability
+- Avoid duplicate code
+- Support subclassing
+    - You need less new code to override a short, well factored routine
+    than a long poorly factored one
+- Hide sequences
+    - Forces a sequence to happen in correct order
+- Hide pointer operations
+    - Difficult to look at
+- Improve portability
+- Simplify complicated boolean tests
+    - details of test are out of way
+    - descriptive function name summarizes purpose
+- Improve performance
+    - can optimize code in one place instead of several
+
+------------------------------------------------------------------------
+Operations That Seem Too Simple to Put Into Routines
+A one liner with like 4 mathematical operations is much more readable if
+wrapped in a function
+
