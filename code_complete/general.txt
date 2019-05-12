@@ -7,3 +7,7 @@ classes need to be black boxes
 The best way to prepare for future work is not to design extra layers of
 a base class; rather its to make current work as clear, straightforward,
 and simple as possible.
+
+Iterative design
+Write pseudocode before code
+Write test cases before code

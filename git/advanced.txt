@@ -3,4 +3,7 @@ https://realpython.com/advanced-git-for-pythonistas/
 
 maybe not yet lmao I should practice more with the basic stuff
 
+Also, should look into hooks and figure out how to do unit testing when making commits
+	- Need to be sure I figure out how to handle things when theyve failed too
+
 
