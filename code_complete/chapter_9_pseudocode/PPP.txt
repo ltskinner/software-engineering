@@ -1,0 +1,27 @@
+The Pseudocode Programming Process
+
+- Have you checked that the prerequisites have been satisfied?
+- Have you defined the problem that the class will solve?
+- Is the high-level design clear enough to give the class and each of
+    its routines a good name?
+- Have you thought about how to test the class and each of its routines?
+- Have you thought about efficiency mainly in terms of stable interfaces
+    and readable implementations or mainly in terms of meeting resource
+    and speed budgets?
+- Have you checked the standard libraries and other code libraries for
+    applicable routines or components?
+- Have you chedked reference books for helpful algorithms?
+- Have yoou designed each routine by using detailed pseudocode?
+- Have you mentally checked the pseudocode? Is it easy to understand?
+- Have you paid attention to warnings that would send you back to 
+    design (use of global data, operations that seem better suited for
+    another class or another routine, and so on)?
+- Did you translate the pseudocode to code accurately?
+- Did you apply the PPP recursively, breaking routines into smaller
+    routines when needed?
+- Did you document assumptions as you made them?
+- Did you remove comments that turned out to be redundant?
+- Have you chosen the best of several iterations, rather than merely
+    stopping after your first iteration?
+- Do you thoroughly understand your code? Is it easy to understand?
+

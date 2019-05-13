@@ -11,3 +11,91 @@ and simple as possible.
 Iterative design
 Write pseudocode before code
 Write test cases before code
+
+------------------------------------------------------------------------
+Design the Routine:
+Preliminary --> 
+- First, check the reqs, and make sure the routine is useful and defined
+- Define the problem the routine will solve
+    - The information the routine will hide
+    - The Inputs to the routine
+    - Outputs from the routine
+    - Preconditions that are guaranteed to be true before routine called
+    - Postconditions the routine guarantees before passing control back
+    to the caller
+- Name the routine
+- Decide how to test the routine
+- Research functionality available in the standard library
+    - Single biggest way to imrpove code and productivity is to reuse
+    good code
+- Think about error handling
+- Think about efficiency
+    - If efficiency isnt critical, make sure routines interface is well
+    abstracted and the code is readable
+    - If efficiency is critical, design routine so resource and speed
+    goals can be met
+    --> Its usually a waste of time to work on efficiency at the level
+        of individual routines. Big optimization comes from high level
+        design, not the individual routines
+- Research algorithms and data types
+    - Before writing complicated code from scratch, dont, look it up
+- Write pseudocode
+
+High Level Pseudocode -->
+- Start with the general and work towards something more specific
+    - Most general is the header comment of a routine describing it
+        - Trouble writing the statement is a warning that you need to
+        understand the routines role in the program better
+        - If its hard to summarize, assume something is wrong
+- Think about the data
+    - Good to think about the major pieces of data before logic
+- Check pseudocode
+    - Take a step back and just think about it
+- Ask someone else to look at it or have you explain it to them
+    - People are more willing to review a few lines of pseudocode than
+    35 lines of C yknow
+- Make sure you have an easy and comfortable understanding of routine
+- Try a few ideas in pseudocode
+    - Iterate and keep best
+
+Code the Routine
+1) Write routine declaration
+2) Write the first and last statements
+    - Also note all assumptions about the interface, in and out
+3) Turn pseudocode into high level comments
+4) Fill in code below each comment
+5) Check the code
+    - Sometimes code below each comment line will explode
+        Option 1: Factor code into a new routine
+        Option 2: Apply PPP recursively
+6) Clean up leftovers
+
+Checking the code
+- Make sure it works
+- Dont compile until you are sure it works
+    - If guessing and checking that is a nono
+
+Clean up Leftowvers
+- Check routines interface
+    - Make sure all IO data is acctounted for and parameters are used
+- Check for general design quality
+    - Make sure routine does one thing and does it well
+    - Loosely coupled
+- Check the routines variables
+    - Inaccurate variable names, unused objects, etc
+- Check routines statements and logic
+- Check routines layout
+    - Make usre youve used white space to clarify logical structure, 
+    expressions and parameter list
+- Check routines documentation
+    - Make sure pseudocode translated into comments is still accurate
+    - Check for algorithm descriptions
+    - Documentation on interface assumptions
+    - Non obvious dependencies
+    - Justification of unclear coding practices
+- Remove redundant comments
+
+Repeat all as needed haha
+------------------------------------------------------------------------
+
+
