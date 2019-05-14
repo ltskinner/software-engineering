@@ -1,0 +1,18 @@
+
+------------------------------------------------------------------------
+Key Points
+
+- Software construction is the central activity in software development;
+    construction is the only activity that's guaranteed to happen on
+    every project
+- The main activities in construction are detailed design, coding,
+    debugging, integration, and developer testing (unit testing and 
+    integration testing)
+- Other common terms for construction are "coding" and "programming"
+- The quality of the construction substantially effects the quality
+    of the software
+- In the final analysis, your understanding of how to do construction
+    determines how good a programmer you are, and thats the subject of
+    the rest of the book
+
+
