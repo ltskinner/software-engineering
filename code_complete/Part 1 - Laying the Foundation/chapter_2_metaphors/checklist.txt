@@ -1,0 +1,19 @@
+
+------------------------------------------------------------------------
+Key Points
+
+- Metaphors are heuristics, not algorithms. As such, they tend to be
+    sloppy
+- Metaphors help you understand the software development process by
+    relating it to other activities you alread know about
+- Some metaphors are better than others
+- Treating software construction as similar to building construction
+    suggests that careful preparation in needed and illuminates the
+    difference between large and small projects
+- Thinking of software-development practices as tools in an intellectual
+    toolbox suggests further that every programmer has many tools and
+    that no single tool is right for every job. Choosing the right tool
+    for each problem is one key to being an effective programmer
+- Metaphors are not mutually exclusive. Use the combinations of
+    metaphors that works best for you.
+
