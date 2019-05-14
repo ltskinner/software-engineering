@@ -4,5 +4,8 @@
 # Log files
 *.log
 
+# Word doc files
+*.docx
+
 # VS Code data
 /.vscode
