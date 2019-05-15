@@ -54,3 +54,17 @@ Other Implementation Issues
 Language Specific Issues
 - Have you investigated the language specific issues for classes in your
     specific programming language?
+
+------------------------------------------------------------------------
+Key Points
+
+- Class interfaces should provide a consistent abstraction. Many 
+    problems arise from violating this single principle.
+- A class interface should hide something - a system interface, a design
+    decision, or an implementation detail.
+- Containment is usually preferable to inheritance unless youre modeling
+    an "is a" relationship
+- Inheritance is a useful tool, but it adds complexity, which is counter
+    to Softwares Primary Technical Imperative of managing complexity
+- Classes are your primary tool for managing complexity. Give their
+    design as much attention as needed to accomplish that objective
