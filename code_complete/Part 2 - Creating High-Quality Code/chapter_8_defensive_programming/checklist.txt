@@ -47,3 +47,24 @@ Security Issues
 - Are all exceptions caught?
 - Do error messages avoid providing information that would help an
     attacker break into the system?
+
+------------------------------------------------------------------------
+Key Points
+
+- Production code should handle errors in a more sophisticated way than
+    "garbage in, garbage out"
+- Defensive programming techniques make errors easier to find, easier to
+    fix, and less damaging to production code
+- Assertions can help detect errors early, especially in large systems,
+    high-reliability systems, and fast changing code bases
+- The decision about how to handle bad inputs is a key error-handling
+    decision and a key high-level design decision
+- Exceptions provide a means of handling errors that operates in a
+    different dimension from the normal flow of the code. They are a
+    valuable addition to the programmers intellectual toolbox when
+    used with care, and they should be weighed against other error
+    processing techniques
+- Constraints that apply to the production system do not neccesarily
+    apply to the development version. You can use that to your 
+    advantage, adding code to the development version that helps to 
+    flush out errors quickly
