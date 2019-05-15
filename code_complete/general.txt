@@ -1,3 +1,9 @@
+
+Consumption Hierarchy
+    - Architects consume requirementsd
+    - Designer consume the architecture
+    - Coders consume the design
+
 coupling, abstraction and encapsulation go hand in hand
 coupling = how tight of a connection b/w two classes
 abstraction = obscuring underlying operations/removing detail

@@ -1,0 +1,42 @@
+
+Upstream Prerequisites
+- Have you identified the kind of software project youre working on and
+    tailored your approach appropriately?
+- Are the requirements sufficiently well defined and stable enough to
+    begin construction?
+    --> See the requirements checklist for details
+- Is the architecture sufficiently well defined to being construction?
+    --> See the architecture checklist for details
+- Have other risks unique to your particular project been addressed, 
+    such that construction is not exposed to more risks than necessary?
+
+------------------------------------------------------------------------
+Key Points
+- The overarching goal of preparing for construction is risk reduction.
+    Be sure your preparation activities are reducing risks, not 
+    increasing them.
+- If you want to develop high-quality software, attention to quality
+    must be part of the software-development process from beginning to
+    end. Attention to quality at the beginning has a greater influence
+    on product quality than attention at the end.
+- Part of a programmers job is to educate bosses and coworkers about the
+    software-development process, including the importance of adequate
+    preparation before programming begins
+- The kind of project you're working on significantly affects 
+    construction prerequisites - many projects should be highly 
+    iterative, and some should be more sequential.
+- If a good problem definition hasnt been specified, you might be
+    solving the wrong problem during construction
+- If good requirements work hasnt been done, you might have missed
+    important details of the problem. Requirements changes cost 20 - 100
+    times as much in the stages following construction as they do 
+    earlier, so be sure the requirements are right before you start
+    programming.
+- If a good architectural design hasnt been done, you might be solving
+    the right problem the wrong way during construction. The cost of
+    architectural changes increase as more code is written for the
+    wrong architecture, so be sure the architecture is right, too.
+- Understand what approach has been taken to the construction
+    prerequisites on your project, and choose your construction approach
+    accordingly.
+
