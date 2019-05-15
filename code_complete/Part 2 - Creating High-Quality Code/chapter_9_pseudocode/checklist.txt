@@ -25,3 +25,22 @@ The Pseudocode Programming Process
     stopping after your first iteration?
 - Do you thoroughly understand your code? Is it easy to understand?
 
+------------------------------------------------------------------------
+Key Points
+
+- Constructing classes and constructing routines tends to be an 
+    iterative process. Insight gained while constructing specific 
+    routines tend to ripple back through the class's design
+- Writing good pseudocode calls for understandable english, avoiding
+    feature specific to a single programming language, and writing at
+    the level of intent (describing what the design does rather than
+    how it will do it)
+- The Pseudocode Programming Process is a useful tool for detailed 
+    design and makes coding easy. Pseudocode translates directly into
+    comments, ensuring that the comments are accurate and useful.
+- Dont settle for the first design you think of. Iterate through
+    multiple appriaches in pseudocode and pick the best approach before
+    you begin writing code
+- Check your work at each step, and encourage others to check it too.
+    That way, youll catch mistakes at the least expensive level, when
+    youve invested the least amount of effort
