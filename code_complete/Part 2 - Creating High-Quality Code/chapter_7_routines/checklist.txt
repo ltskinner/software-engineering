@@ -28,3 +28,24 @@ Parameter-Passing Issues
 - Does the routine avoid using input parameters as working variables?
 - If the routine is a function, does it return a valid value under all
     possible circumstances?
+
+------------------------------------------------------------------------
+Key Points
+
+- The most important reason for creating a routine is to improve the
+    intellectual manageability of a program, and you can create a
+    routine for many other good reasons. Saving space is a minor reason;
+    improved readability, reliability and modifiability are better
+    reasons.
+- Sometimes the operation that most benefits from being put into a 
+    routine of its own is a simple one
+- You can classify routines into various kinds of cohesion, but you can
+    make most routines functionally cohesive, which is best
+- The name of a routine is an indication of its quality. If the name is
+    bad and its accurate, the routine might be poorly designed. If the 
+    name is bad and its inaccurate, its not telling you what the program
+    does. Either way, a bad name means that the program needs to be
+    changed.
+- Functions should be used only when the primary purpose of the function
+    is to return the specific value described by the functions name
+
