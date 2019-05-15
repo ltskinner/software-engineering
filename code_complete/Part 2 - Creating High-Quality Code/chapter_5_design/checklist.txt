@@ -35,3 +35,22 @@ Design Goals
     understand elements?
 - Overall, does the design help minimize both accidential and essential
     complexity?
+
+------------------------------------------------------------------------
+Key Points
+
+- Softwares Primary Technical Imperative is MANAGING COMPLEXITY. This is
+    greatly aided by a design focus on simplicity
+- Simplicity is achieved in two general ways: minimizing the amount of
+    essential complexity that anyones brain has to deal with at any one
+    time, and keeping accidential complexity from proliferating
+    needlessly.
+- Design is heuristic. Dogmatic adherence to any single methodology
+    hurts creativity and hurts your programs
+- Good design is iterative; the more design possibilities you try, the
+    better your final design will be
+- Information hiding is a particularly valuable concept. Asking "What
+    should I hide?" settles many difficult design issues.
+- Lots of useful, interesting information on design is available outside
+    this book
+
