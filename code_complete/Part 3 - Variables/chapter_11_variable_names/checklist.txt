@@ -1,0 +1,76 @@
+Naming Variables
+
+General Naming Considerations
+- Does the name fully and accurately describe what the variable 
+    represents?
+- Does the name refer to the real world problem rather than to the 
+    programming language solution?
+- Is the name long enough that you dont have to puzzle it out?
+- Are computed-value qualifiers, if any, at the end of the name?
+- Does the name use Count or Index instead of Num?
+
+Naming Specific Kinds of Data
+- Are loop index names meaningful (something other than i, j, k if the
+    loop is more than one or two lines long or is nested)?
+- Have all "temporary" variables been renamed to something more 
+    meaningful?
+- Are boolean variables named so that their meanings when theyre true
+    are clear?
+- Do enumerated-type names include a prefix or suffix that indicates
+    the category? Color_, Planet_
+- Are named constants named for the abstract entities they represent
+    rather than the numbers they refer to?
+
+Naming Conventions
+- Does the convention distinguish among local, class and global data?
+- Does the convention distinguish among type names, named constants, 
+    enumerated types, and variables?
+- Does the convention identify input-only parameters to routines in
+    languages that dont enforce them?
+- Is the convention as compatable as possible with standard convetions
+    for the language?
+- Are names formatted for readability?
+
+Short Names
+- Does the code use long names (unless its necessary to use short ones)?
+- Does the code avoid abbreviations that save only one character?
+- Are all words abbreviated consistently?
+- Are the names pronounceable?
+- Are names that could be misread or mispronounced avoided?
+- Are short names documented in translation tables?
+
+Common Naming Problems: Have You Avoided...
+... names that are misleading?
+... names with similar meanings?
+... names that are different by only one or two characters?
+... names that sound familiar?
+... names that use numerals?
+... names intentionally misspelled to make them shorted?
+... names that are commonly misspelled in English?
+... names that conflict with standard library routines names or with
+    predefined variable names?
+... totally arbitrary names?
+... hard to read characters?
+
+------------------------------------------------------------------------
+Key Points
+
+- Good variable names are a key element of program readability. Specific
+    kinds of variable ssuch as loop indexes and status variables 
+    require specific considerations
+- Names should be as specific as possible. Names that are vague enough 
+    or general enough to be used for more than one purpose are usually
+    bad names
+- Naming conventions distinguish among local, class and global data. 
+    They distinguish among type names, named constants, enumerated types
+    and variables
+- Regardless of the kind of project youre working on, you should adopt
+    a variable naming convention. The kind of convention you adopt
+    depends on the size of your program and the number of people working
+    on it
+- Abbreviatsions are rarely needed with modern programming languages. If
+    you do use abbreviations, keep track of abbreviations in a project
+    dictionary or use the standardized prefixes approach
+- Code is read far more times than it is written. Be sure that the names
+    you choose favor read-time convenience over write time convenience
+
