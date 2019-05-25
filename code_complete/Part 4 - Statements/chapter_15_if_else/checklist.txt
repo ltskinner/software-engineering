@@ -1,0 +1,39 @@
+Using Conditionals if-then Statements
+
+- Is the nominal code through the path clear?
+- Do if-then (elif) test branch correctly on equality?
+- Is the else clause present and documented?
+- Is the else clause correct?
+- Are if and else clauses used correctly - not reversed?
+- Does the normal case follow the if rather than the else?
+
+if-then-else-if Chains
+- Are complicated tests encapsulated in boolean function calls?
+- Are the most common cases tested first?
+- Are all cases covered?
+- Is the if-then-else-if chain the best implementation - better than a
+    case statement?
+
+case Statements
+- Are cases ordered meaningfully?
+- Are the actions for each case simple - calling other routines if
+    necessary?
+- Does the case statement test a real variable, not a phony one thats
+    made up solely to use and abuse the case statement?
+- Is the use of the default clause legitimate?
+- Is the default clause (else) used to detect and report unexpected 
+    cases?
+
+------------------------------------------------------------------------
+Key Points
+
+- For simple if-else statements, pay attention to the order of the if 
+    and else clauses, especially if they process a lot of errors. 
+    Make sure the nominal case is clear
+- For if-then-else chains and cases statements, choose and order that
+    maximizes readability
+- To trap errors, use the default clause in a case statement or at 
+    last else in a chain of if-then-else statements
+- All control constructs are not created equal. Choose the control
+    construct thats most appropriate for each section of code
+
