@@ -1,0 +1,81 @@
+Testing Records Data to Collect
+
+- Administrative description of the defect(date reported, person who
+    reported it, title or description, build number, date fixed)
+- Full description of problem
+- Steps to take to repeat the problem
+- Suggested workarounds for the problem
+- Related defects
+- Severity of the problem - fatal, bothersome, or cosmetic
+- Origin of the defect: requirements, design, coding, testing
+- Subclassification of a coding defect: off-by-one, bad assignment, bad
+    array index, bad routine call, so on
+- Classes and routines changed by the fix
+- Number of lines of code affected by the defect
+- Hours to find the defect
+- Hours to fix the defect
+
+Once data has been collected, can determine if getting healthier or not
+- Number of defect in each class, sorted from worst class to best, 
+    possibly normalized by class size
+- Number of defects in each routine, sorted from worst routine to best, 
+    possibly normalized by routine size
+- Average number of testing hours per defect found
+- Average number of defects found per test case
+- Average number of programming hours per defect fixed
+- Percentage of code covered by test cases
+- Number of outstanding defects in each severity classification
+
+------------------------------------------------------------------------
+Test Cases
+
+- Does each requirement that applies to the class or routine have its
+    own test case?
+- Does each element from the design that applies to the class or routine
+    have its own test case?
+- Has each line of code been tested with at least one test case? Has
+    this been verified by computing the minimum number of tests
+    necessary to exercise each line of code?
+- Have all defined-used data-flow paths been tested with at least one
+    test case?
+- Has the code been rechecked for data-flow patterns that are unlikely
+    to be correct, such as defined-defined, defined-exited, and 
+    defined-killed?
+- Has a list of common errors been used to write test cases to detect
+    errors that have occurred frequently in the past?
+- Have all simple boundaries been tested: max, min, and off by one?
+- Have compound boundaries been tested - that is, combinations of input
+    data that might result in a computed variable thats too small or
+    too large?
+- Do test cases check for the wrong kinds of data - for example, a 
+    negative number of employees in a payroll program?
+- Are representative, middle-of-the-road values tested?
+- Is the minimum normal configuration tested?
+- Is the maximum normal configuration tested?
+- Is compatability with the old data tested? And are old hardware, old
+    versions of the operating system, and interfaces with old versions 
+    of other software tested?
+- Do the test cases make ahnd checks easy?
+
+------------------------------------------------------------------------
+Key Points
+
+- Testing by the developer is a key part of a full testing strategy.
+- Writing test cases before the code takes the same amount of time as
+    writing the test cases after the code, but it shortens the
+    defect/detection/debug/correction cycles
+- Testing is only one part of a good software quality program
+- You can generate many test cases deterministically by using basis
+    testing, dataflow analysis, boundary analysis, classes of bad data,
+    and classes of good data. You can generate additional test cases 
+    with error guessing
+- Errors tend to cluster in a few error-prone classes and routines.
+    Find error prone code, redesign it, and rewrite it
+- Test data tends to have higher error density than the code being
+    tested. Avoid test code erros by developing tests as carefully as 
+    your code.
+- Automated testing is useful in general and is essential for 
+    regression (re-testing) testing
+- In the long run, the best way to improve your testing progress is to
+    make it regular, measure it, and use what you learn to improve it.
+

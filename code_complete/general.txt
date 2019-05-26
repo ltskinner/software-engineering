@@ -129,5 +129,13 @@ REALLY IMPORTANT TO HAVE MULTIPLE PEOPLE REVIEW CODE
 10-50 lines of delivered code per day
     --> THATS how much planning you should be doing
 
+------------------------------------------------------------------------
+Testing
+
+Control flow testing
+    - test case for each
+        - if, while, repeat, for, and, or
+
+Data flow testing
 
 
