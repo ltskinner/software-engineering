@@ -112,4 +112,22 @@ Good control flow practices are critical to reducing complexity
     - Use good boolean names
     - Turn comparisons into routines
 
+------------------------------------------------------------------------
+Quality Assurance
+- Formal inspections of
+    - Requirements
+    - Architecture
+    - Designs
+- Modeling or Prototyping
+- Code reading or inspections
+- Execution testing
+
+REALLY IMPORTANT TO HAVE MULTIPLE PEOPLE REVIEW CODE
+--> IT IS NOT A WASTE OF TIME
+--> MUCH MORE EFFICIENT THAN WRITING TESTS
+
+10-50 lines of delivered code per day
+    --> THATS how much planning you should be doing
+
+
 
