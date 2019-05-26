@@ -1,0 +1,52 @@
+Loops
+
+Loop Selection and Creation
+- Is a while loop used instead of a for loop, if appropriate?
+- Was the loop created from the inside out?
+
+Entering the Loop
+- Is the loop entered from the top?
+- Is the initialization code directly before the loop?
+- If the loop is an infinite loop or an event loop, is it constructed
+    cleanly rather than using a "kludge" such as ofr i = 1 to 9999?
+
+Inside the Loop
+- Does the loop use means of enclosing the loop body and prevent 
+    problems arising from improper modifications
+- Does the loop body have something in it? Is it nonempty?
+- Are housekeeping chores grouped, at either the beginning or the end of
+    the loop?
+- Does the loop perfom one and only one function, as a well defined 
+    routine does?
+- Is the loop short enough to view all at once?
+- Is the loop nested to three levels or less?
+- Have long loop contentds been moved to their own routine?
+- If the loop is long, is it especially clear?
+
+Loop Indexes
+- If the loop is a for loop, does the code inside it avoid monkeying
+    with the loop index?
+- Is a variable used to save importatn loop-index values rather than
+    using the loop index outside the loop?
+- Is the loop index and ordinal type or an enumerated type - not float?
+- Does the loop index have a meaningful name?
+- Does the loop avoid index cross-talk?
+
+Exiting the Loop
+- Does the loop end under all possible conditions?
+- Does the loop use safety counters - if youve instituted a safety
+    counter standard?
+- Is the loops termination condition obvious?
+- If break or continue are used, are they correct?
+
+------------------------------------------------------------------------
+Key Points
+
+- Loops are complicated. Keeping them simple helps readers of your code
+- Techniques for keeping loops simple include avoiding exotic kinds of
+    loops, minimizing nesting, making entries and exits clear, and
+    keeping housekeeping code in one place
+- Loop indexes are subjected to a great deal of abuse. Name them clearly
+    and use them for only one purpose
+- Think throught he loop carefully to verify that it operates normally
+    under each case and terminates under all possible conditions
