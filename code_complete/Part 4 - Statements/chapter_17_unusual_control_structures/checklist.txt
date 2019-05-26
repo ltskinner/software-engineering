@@ -1,0 +1,26 @@
+Unusual Control Structures
+
+return
+- Does each routine use return only when necessary?
+- Do returns enhance readability
+
+Recursion
+- Does the recursive routine include code to stop the recursion?
+- Does the routine use a safety counter to guarantee that the routine
+    stops?
+- Is recursion limited to one routine?
+- Is the routines depth of recursion within the limits imposed by the
+    size of the programming stack?
+- Is recursion the best way to implement the routine? Is it better than
+    simple iteration?
+
+------------------------------------------------------------------------
+Key Points
+
+- Multiple returns can enhance a routines readability and 
+    maintainability, and they help prevent deeply nested logic. They
+    should, nevertheless, be used carefully
+- Recursion provides elegant solutions to a small set of problems. Use 
+    it carefully, too
+
+
