@@ -1,4 +1,7 @@
+REDUCE COMPLEXITY
+MAKE EVERYTHING AS SIMPLE AS POSSIBLE - but no more
 
+------------------------------------------------------------------------
 Consumption Hierarchy
     - Architects consume requirementsd
     - Designer consume the architecture
@@ -103,5 +106,10 @@ Clean up Leftowvers
 
 Repeat all as needed haha
 ------------------------------------------------------------------------
+
+Good control flow practices are critical to reducing complexity
+    - Make things simple
+    - Use good boolean names
+    - Turn comparisons into routines
 
 
