@@ -1,0 +1,46 @@
+Effective Inspections
+
+- Do you have chacklists that focus reviewer attention on areas that 
+    have been problems in the past?
+- Have you focused the inspection on defect detection rather than
+    correction?
+- Have you considered assigning perspectives or scenarios to help
+    reviewers focus their preparation work?
+- Are reviewers given enough time to prepare before the inspection
+    meeting, and is each one prepared?
+- Does each participant have a distinct role to play - moderator, 
+    reviewer, scribe and so on?
+- Does the meeting move at a productive rate?
+- Is the meeting limited to two hours?
+- Have all inspection participants received specific training in
+    conducting inspections, and has the moderator received special
+    training in moderation skills?
+- Is data about error types collected at each inspection so that you can
+    tailor future checklists to your organization?
+- Is data about preparation and inspection rates collected so that you
+    can optimize future preparation and inspections?
+- Are the action items assigned at each inspection followed up, either
+    personally by the moderator or with a reinspection?
+- Does management understand that it should not attend inspection
+    meetings?
+- Is there a follow-up plan to assure that fixes are made correctly?
+
+------------------------------------------------------------------------
+Key Points
+
+- Collaborative development practices tend to find a higher percentage 
+    of defects than testing and to find them more efficiently.
+- Collaborative development practices tend to find different kinds of
+    errors than testing does, implying that you need to use both
+    reviews and testing to ensure the quality of your software
+- Formal inspections use checklists, preparation, well-defined roles, 
+    and continual process improvement to maximize error detection
+    efficiency. They find more errors than casual walk thoughs
+- Pair programming typically costs about the same as inspections and
+    produces similar quality code. Pair programming is especially
+    valuable when schedule reduction is desired. Some developers 
+    prefer working in pairs to working solo
+- Formal inspections can be used on work products such as requirements, 
+    designs, and test cases, as well as on code.
+
+
