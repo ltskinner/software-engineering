@@ -138,4 +138,7 @@ Control flow testing
 
 Data flow testing
 
+------------------------------------------------------------------------
+In commenting
 
+Focus on the why, not the how
