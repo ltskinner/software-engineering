@@ -1,0 +1,21 @@
+Key Points
+
+- One of the primary goals of programming is managing complexity
+- The programming process significantly affects the final product
+- Team programming is more an exercise in communicating with people 
+    than in communicating with a computer. Individual programming is
+    more an exercise in communicating with yourself than a computer
+- When abused, a programming convention can be a cure thats worse than
+    the disease. Used thoughtfully, a convention adds valuable structure
+    to the development environment and helps with managing complexity
+    and communication
+- Programming in terms of the problem rather than the solution helps to
+    manage complexity
+- Paying attention to intellectual warning signs like the "irritation
+    of doubt" is especially important in programming because 
+    programming is almost purely a mental activity
+- The more you iterate in each development activity, the better the
+    product of that activity will be
+- Dogmatic methodologies and high-quality software development dont mix.
+    Fill your intellectual toolbox with programming alternatives and
+    improve your skill at chosing the right tool for the job

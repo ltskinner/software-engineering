@@ -142,3 +142,5 @@ Data flow testing
 In commenting
 
 Focus on the why, not the how
+------------------------------------------------------------------------
+Name variables for the "what" not the "how"
