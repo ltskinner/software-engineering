@@ -1,0 +1,76 @@
+Debugging Reminders
+
+Techniques for Finding Defects
+- Use all data available to make your hypothesis
+- Refine the test cases that produce the error
+- Exercise the code in your unit test suite
+- Use available tools
+- Reproduce the error several different ways
+- Generate more data to generate more hypothesis
+- Use the results of negative tests
+- Brainstorm for possible hypothesis
+- Keep a notepad by your desk and make a list of things to try
+- Narrow the suspicious region of the code
+- Be suspicious of classes and routines that have had defects before
+- Check code thats been changed recently
+- Expand the suspicious region of the code
+- Integrate imcrementally
+- Check for common defects
+- Talk to someone else about the problem
+- Take a break from the problem
+- Set a maximum time for quick and dirty debugging
+- Make a list of brute force techniques and use them
+
+Techniques for Syntax Errors
+- Dont trust line numbers in compiler messages
+- Dont trust compiler messages
+- Dont trust the compilers second message
+- Divide and conquer
+- Use a syntax directed editor to find misplaced comments and quotation
+    marks
+
+Techniques for Fixing Defects
+- Understand the problem before you fix it
+- Understand the progrm, not just the problem
+- Confirm the defect diagnosis
+- Relax
+- Save the original source code
+- Fix the problem, not the symptom
+- Change the code only for a good reason
+- Make one change at a time
+- Check your fix
+- Add a unit test that exposes the defect
+- Look for similar defects
+
+General Approach to Debugging
+- Do you use debugging as an opportunity to learn more about your 
+    program, mistakes, code quality, and problem solving approach/
+- Do you avoid the trial and error, superstitious aproach to debugging?
+- Do you assume that errors are your fault?
+- Do you use the scientific method to stabilize intermittent errors?
+- Rather than using the same approach every time, do you use several
+    different techniques to find defects?
+- Do you verify that the fix is correct?
+- Do you use compiler warning messages, execution profiling, a test
+    framework, scaffolding, and interactive debugging?
+
+------------------------------------------------------------------------
+Key Points
+
+- Debugging is a make or break aspect of software development. The best
+    approach is to use other techniques described in this book to avoid
+    defects in the first place. Its still worth your time to improve
+    your debugging skills, however, as the difference between good and
+    poor debugging performance is at least 10 to 1
+- A systematic approach to finding and fixing errors is critical to
+    success. Focus your debugging so that each test moves you a step
+    forward. Use the scientific method of debugging
+- Understand the rood problem beforer you fix the program. Random 
+    guesses about the source of errors and random corrections will leave
+    the program in worse condition than when you started.
+- Set your compiler warning to the pickiest level possible, and fix the
+    errors it reports. Its hard to fix subtle errors if you ignore the
+    obvious ones.
+- Debugging tools are powerful aids to software development. Find them
+    and use them, and remember to use your brain at the same time
+
