@@ -1,0 +1,17 @@
+Key Points
+
+- The first priority of visual layout is to illuminate the logical
+    organization of the code. Criteria used to asses whether that
+    priority is achieved include accuracy, consistency, readability
+    and maintainability
+- Looking good is secondary to the other criteris - a distant second.
+    If the other criteria are met and the underlying code is good, 
+    however, the layout will look fine
+- Structuring code is important for its own sake. The specific
+    convention you follow is less important than the fact that you 
+    follow some convention consistently. A layout convention thats
+    followed inconsistently can actually hurt readability
+- Many aspects of layout are religious issues. Try to separate 
+    objective preferences from subjective one. Use explicit criteria to
+    help ground your discussions about style preferences
+
