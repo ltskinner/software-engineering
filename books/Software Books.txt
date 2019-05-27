@@ -1,0 +1,24 @@
+
+Introductory Level
+	Conceptual Blockbusting: A Guide to Better Ideas (James L Adams)
+	Programming Pearls (Jon Bently)
+	Facts and Fallacies of Software Engineering (Robert L Glass)
+	Software Project Survival Guide (Steve McConnell)
+	Code Complete (Steve McConnell)
+
+Practitioner Level
+	Software Configuration Management Patterns: Effective Teamwork, Practical Integration (Stephen P Berczuk)
+	UML Distilled: A Brief Guide to the Standard Object Modeling Language (Martin Fowler)
+	Testing Computer Software (Kaner, Cem, Jack Falk)
+	Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and the Unified Process (Craig Larman)
+	Rapid Development (Steve McConnell)
+	Software Requirements (Karl Wiegers)
+
+Professional Level
+	Software Architecture in Practice (Bass, Len, Paul Clements)
+	Refactoring: Improving the Design of Existing Code (Martin Fowler)
+	Design Patterns (Erich Gamma)
+	Principles of Software Engineering Management (Tom Gilb)
+	Writing Solid Code (Steve Maguire)
+	Object-Oriented Software Construction (Bertrant Meyer)
+	"Software Measurement Guidebook" by NASA
