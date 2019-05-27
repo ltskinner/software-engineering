@@ -1,0 +1,37 @@
+Refactoring Safely
+
+- Is each change part of a systematic change strategy?
+- Did you save the code you started with before beginning to refactor?
+- Are you keeping each refactoring small?
+- Are you doing refactorings one at a time?
+- Have you made a list of steps you intend to take during your 
+    refactoring?
+- Do you have a  "parking lot" so you can remember ideas that occur 
+    mid refactor?
+- Have you retested after each refactoring?
+- Have changes been reviewed if they are complicated or if they affect
+    mission-critical code?
+- Have you cinsidered the riskiness of the specific refactoring and
+    adjusted your approach accordingly?
+- Does the change enhance the programs internal quality rather than
+    degrade it?
+- Have you avoided using refactoring as a cover for code and fix or
+    as an excuse for not rewriting bad code?
+
+------------------------------------------------------------------------
+Key Points
+
+- Program changes are a fact of life both during initial development
+    and after initial release
+- Software can either improve or degrade as its changed. The cardinal
+    rule of software evolution is that internal quality should
+    improve with code evolution
+- One key to success in refactorign is learning to pay attention to
+    numerous warning signs or smells that indicate a need to refactor
+- Another key to refactoring success is learning numerous specific
+    refactorings
+- A final key to success is having a strategy for refactoring safely.
+    Some refactoring approaches are better than others
+- Refactoring during development is the best chance youll get to improve
+    your program, to make all the changes youll wish youd made the first
+    time. Take advantage of these opportunities during development!
