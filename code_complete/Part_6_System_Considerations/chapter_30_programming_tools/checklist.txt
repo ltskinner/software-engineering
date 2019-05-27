@@ -1,0 +1,37 @@
+Programming Tools
+
+- Do you have an effective IDE?
+- Does your IDE support integration with source-code control; build, 
+    test, and debugging tools; and other useful functions??
+- Do you have tools that automate common refactorings?
+- Are you using version control to manage source code, content, 
+    requirements, designs, project plans, and other project artifacts?
+- If youre working on a very large project, are you using a data
+    dictionary or some other central repository that contains
+    authoritative descriptions of each class used in the system?
+- Have you considered code libraries as alternatives to writing custom
+    code, where available?
+- Are you making use of an interactive debugger?
+- Do you use make or other dependency control software to build 
+    programs efficiently and reliably? 
+- Does your test environment include an automated test framework, 
+    automated test generators, coverage monitors, system pertubers, 
+    diff tools, and defect tracking software?
+- Have you created any custom tools that would help support your 
+    specific projects needs, especially tools that automate repetitive
+    tasks?
+- Overall, does your environment benefit from adequate tool support?
+
+------------------------------------------------------------------------
+Key Points
+
+- Programmers sometimes overlook some of the most powerful tools for
+    years before discovering them
+- Good tools can make your life a lot easier
+- Tools are readily available for editing, analyzing code quality,
+    refactoring, version control, debugging, testing and code tuning
+- You can make many of the special purpose tools you need
+- Good tools can reduce the more tedious aspects of software development
+    but they cant eliminate the need for programming, although they will
+    continue to reshape what we mean by "programming"
+
