@@ -35,6 +35,14 @@ $ git branch -d <branch_name>
 # Remote
 $ git push origin --delete <branch_name>
 
+# Undo last commit 
+# Changes are saved locally
+$ git reset --soft HEAD~1
+
+# Changes are nuked
+$ git reset --hard HEAD~1
+
+
 
 #------------------------------------------------------------
 # Exit log or diff
