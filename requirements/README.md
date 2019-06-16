@@ -11,6 +11,6 @@
 * Managing customer change requests is easier to handle with a documentation trail and words like **schedule** and **cost** can be utilized effectively
   * "Since its not in the requirements document, let me pull together a revised 'schedule' and 'cost' estimate so you can decide if you want to do it now or later"
 
-
 ## Checklists
+
 * [Code Complete Checklist](./CC_CHECKLIST.md)
