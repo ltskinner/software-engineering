@@ -9,12 +9,13 @@ Trying to get good enough to be able to contribute to open source projects
 
 * **Requirements are a detailed description of what the software system is supposed to do**
 * "Requirements are like water. They're easier to build on when they're frozen"
-* [Requirements Checklist](../master/requirements/CC_CHECKLIST.md)
+* [Requirements checklist](../master/requirements/CC_CHECKLIST.md)
 
 ### [**Architecture**](../master/architecture/README.md)
 
 * **Architecture is the design of constraints that apply system wide**
 * "When you look at the architecture, you should be pleased by how natural and easayy the solution seems."
+* [Architecture checklist](../master/architecture/CC_CHECKLIST.md)
 
 ## [Coding](../idk.yet)
 
