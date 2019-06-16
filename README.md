@@ -13,3 +13,16 @@ Trying to get good enough to be able to contribute to open source projects
 ### [**Design**](../master/design/design.md)
 * **Design sentence**
 * "Once you understand that all other technical goals in software are secondary to managing complexity, many design considerations become straightforward"
+
+### [**Programming**](../master/programming/programming.md)
+* **Programming sentence**
+* "Programming quote"
+
+### [**Quality Assurance**](../master/quality_assurance/quality_assurance.md)
+* **Quality assurance sentence**
+* "Quality assurance quote"
+
+### [**Maintanence**](../master/maintanence/maintancence.md)
+* **Maintanence sentence**
+* "Maintanence quote"
+
