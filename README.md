@@ -2,7 +2,7 @@
 
 Trying to get good enough to be able to contribute to open source projects
 
-## [**Prerequisites**](../master/PREREQUISITES.md)
+## [**Prerequisites**](./PREREQUISITES.md)
 
 * **Overall, the prerequisites should turn over every stone in creating a simple explanation(architecture) to describe the system solution.**
 
