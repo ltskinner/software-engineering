@@ -2,7 +2,8 @@
 
 Trying to get good enough to be able to contribute to open source projects
 
-## Sections
+## [**Prerequisites**](../master/PREREQUISITES.md)
+* **Overall, the prerequisites should turn over every stone in creating a simple explanation(architecture) to describe the system solution.**
 
 ### [**Requirements**](../master/requirements/README.md)
 
@@ -15,6 +16,8 @@ Trying to get good enough to be able to contribute to open source projects
 * **Architecture is the design of constraints that apply system wide**
 * "When you look at the architecture, you should be pleased by how natural and easayy the solution seems."
 
+## [Coding](../idk.yet)
+
 ### [**Design**](../master/design/README.md)
 
 * **Design sentence**
@@ -24,6 +27,8 @@ Trying to get good enough to be able to contribute to open source projects
 
 * **Programming sentence**
 * "Programming quote"
+
+## [**Postrequisites**](../idk.yet)
 
 ### [**Quality Assurance**](../master/quality_assurance/README.md)
 
