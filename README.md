@@ -8,6 +8,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 * **Requirements are a detailed description of what the software system is supposed to do**
 * "Requirements are like water. They're easier to build on when they're frozen"
+* [**Checklist**](../master/requirements/CC_CHECKLIST.md)
 
 ### [**Architecture**](../master/architecture/README.md)
 
