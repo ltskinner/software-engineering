@@ -12,4 +12,4 @@
 
 
 ## Checklists
-* [Code Complete Checklist](./cc_checklist.md)
+* [Code Complete Checklist](./CC_CHECKLIST.md)
