@@ -8,7 +8,7 @@
 
 * Without good requirements, you can have the right general problem, but miss the mark on specific aspects of the problem
 * The deeper into the project life cycle, the cost to fix continues to grow
-* Managing customer change requests is easier to handle with a documentation trail and words like "schedule" and “cost” can be utilized effectively
+* Managing customer change requests is easier to handle with a documentation trail and words like **schedule** and **cost** can be utilized effectively
   * "Since its not in the requirements document, let me pull together a revised 'schedule' and 'cost' estimate so you can decide if you want to do it now or later"
 
 
