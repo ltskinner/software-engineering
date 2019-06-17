@@ -22,7 +22,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 ### [**2 - Design**](./design/README.md)
 
-* **Design sentence**
+* **Design is the process of compartmentalizing the system into packages/subsystems, classes, and routines while keeping complexity to an absolute minimum**
 * "Once you understand that all other technical goals in software are secondary to managing complexity, many design considerations become straightforward"
 
 ### [**3 - Programming**](./programming/README.md)

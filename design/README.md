@@ -56,7 +56,7 @@
 
 * Abstract, Encapsulate and Hide Information effectively
 
-### [Identify likely Change Areas](./CHANGE_AREAS.md)
+### [Identify areas likely to Change](./CHANGE_AREAS.md)
 
 * Protecting frozen functionality from changes
 
