@@ -8,7 +8,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 ### [**0 - Requirements**](./requirements/README.md)
 
-**Requirements are a detailed description of what the software system is supposed to do**
+#### Requirements are a detailed description of what the software system is supposed to do
 
 "Requirements are like water. They're easier to build on when they're frozen"
 
@@ -16,7 +16,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 ### [**1 - Architecture**](./architecture/README.md)
 
-**Architecture is the design of constraints that apply system wide**
+#### Architecture is the design of constraints that apply system wide
 
 "When you look at the architecture, you should be pleased by how natural and easayy the solution seems."
 
@@ -26,7 +26,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 ### [**2 - Design**](./design/README.md)
 
-**Design is the process of compartmentalizing the system into packages/subsystems, classes, and routines while keeping complexity to an absolute minimum**
+#### Design is the process of compartmentalizing the system into packages/subsystems, classes, and routines while keeping complexity to an absolute minimum
 
 "Once you understand that all other technical goals in software are secondary to managing complexity, many design considerations become straightforward"
 
