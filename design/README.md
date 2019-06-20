@@ -142,3 +142,7 @@ These are steps that can be taken to help produce a desirable design
 | Project is large | medium | medium |
 | Software is expected to have a short lifetime (weeks or months) | low | low |
 | Software is expected to have a long lifetime (months or years) | medium | medium |
+
+## Checklist
+
+* [Code Complete Checklist](./CC_CHECKLIST.md)
