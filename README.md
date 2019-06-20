@@ -34,8 +34,11 @@ Trying to get good enough to be able to contribute to open source projects
 
 ### [**3 - Programming**](./programming/README.md)
 
-**Programming sentence**
-"Programming quote"
+### [**Classes**](./programming/classes/README.md)
+
+"Classes are your primary tool for managing complexity"
+
+* [Classes checklist](./programming/classes/CC_CHECKLIST.md)
 
 ## [**Postrequisites**](../idk.yet)
 
