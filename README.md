@@ -40,6 +40,12 @@ Trying to get good enough to be able to contribute to open source projects
 
 * [Classes checklist](./programming/classes/CC_CHECKLIST.md)
 
+### [**Routines**](./programming/routines/README.md)
+
+Methods and procedures with a single purpose
+
+* [Routines checklist](./programming/routines/CC_CHECKLIST.md)
+
 ## [**Postrequisites**](../idk.yet)
 
 ### [**4 - Quality Assurance**](./quality_assurance/README.md)
