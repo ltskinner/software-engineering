@@ -46,6 +46,14 @@ Methods and procedures with a single purpose
 
 * [Routines checklist](./programming/routines/CC_CHECKLIST.md)
 
+### [Defensive Programming](./programming/defensive_programming/README.md)
+
+"Defensive programming is about adopting the mindset that you have no idea what other drivers are going to do."
+
+#### Take responsability for protecting yourself even when its the other drivers fault
+
+* [Defensive Programming checklist](./programming/defensive_programming/CC_CHECKLIST.md)
+
 ## [**Postrequisites**](../idk.yet)
 
 ### [**4 - Quality Assurance**](./quality_assurance/README.md)
