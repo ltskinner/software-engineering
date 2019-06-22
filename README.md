@@ -22,7 +22,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 * [Architecture checklist](./architecture/CC_CHECKLIST.md)
 
-## [Coding](../idk.yet)
+## Coding
 
 ### [**2 - Design**](./design/README.md)
 
