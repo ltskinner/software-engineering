@@ -22,7 +22,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 * [Architecture checklist](./architecture/CC_CHECKLIST.md)
 
-## Coding
+## Construction
 
 ### [**2 - Design**](./design/README.md)
 
@@ -34,42 +34,37 @@ Trying to get good enough to be able to contribute to open source projects
 
 ### [**3 - Programming**](./programming/README.md)
 
-### [**Classes**](./programming/classes/README.md)
+#### Outlining and Setup
 
-"Classes are your primary tool for managing complexity"
+* #### [Pseudocode Programming Process](./programming/pseudocode/README.md)
 
-* [Classes checklist](./programming/classes/CC_CHECKLIST.md)
+* #### [Program Organization](./programming/organization/README.md)
 
-### [**Routines**](./programming/routines/README.md)
+#### Code Blocks
 
-Methods and procedures with a single purpose
+* #### [**Classes**](./programming/classes/README.md)
 
-* [Routines checklist](./programming/routines/CC_CHECKLIST.md)
+* #### [**Routines**](./programming/routines/README.md)
 
-### [Defensive Programming](./programming/defensive_programming/README.md)
+#### Control Structures
 
-#### Take responsability for protecting yourself even when its the other drivers fault
+* #### [If-Else Conditionals](./programming/if_else/README.md)
 
-"Defensive programming is about adopting the mindset that you have no idea what other drivers are going to do."
+* #### [Loops](./programming/loops/README.md)
 
-* [Defensive Programming checklist](./programming/defensive_programming/CC_CHECKLIST.md)
+#### Safety
 
-### [Pseudocode Programming Process](./programming/pseudocode/README.md)
+* #### [Defensive Programming](./programming/defensive_programming/README.md)
 
-#### The point is to rise above the cycle of hacking something together and running to see if it works
-
-"Compiling something before you're sure your program works is often a symptom of the hacker mindset"
-
-* [Pseudocode Checklist](./programming/pseudocode/CC_CHECKLIST.md)
-
-## [**Postrequisites**](../idk.yet)
+## System Testing
 
 ### [**4 - Quality Assurance**](./quality_assurance/README.md)
 
-**Quality assurance sentence**
-"Quality assurance quote"
+"If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization"
 
-### [**5 - Maintanence**](./maintanence/README.md)
+* [Code Complete checklist](./quality_assurance/CC_CHECKLIST.md)
+
+### [**5 - Code Reviews**](./maintanence/README.md)
 
 **Maintanence sentence**
 "Maintanence quote"
