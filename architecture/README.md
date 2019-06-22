@@ -1,6 +1,6 @@
 # Architecture
 
-**Architecture is the design of constraints that apply system wide**
+#### Architecture is the design of constraints that apply system wide
 
 "When you look at the architecture, you should be pleased by how natural and easayy the solution seems."
 

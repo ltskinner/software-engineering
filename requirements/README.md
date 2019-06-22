@@ -1,6 +1,6 @@
 # Requirements
 
-**Requirements are a detailed description of what the software system is supposed to do**
+#### Requirements are a detailed description of what the software system is supposed to do
 
 "Requirements are like water. They're easier to build on when they're frozen"
 

@@ -1,8 +1,8 @@
 # Defensive Programming
 
-"Defensive programming is about adopting the mindset that you have no idea what other drivers are going to do."
+#### Take responsability for protecting yourself even when its the other drivers fault
 
-**Take responsability for protecting yourself even when its the other drivers fault**
+"Defensive programming is about adopting the mindset that you have no idea what other drivers are going to do."
 
 * Use error-handling for conditions you **expect** to occur
 * Use assertions for conditions that should **never** occur - originating inside the program

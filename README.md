@@ -48,11 +48,19 @@ Methods and procedures with a single purpose
 
 ### [Defensive Programming](./programming/defensive_programming/README.md)
 
-"Defensive programming is about adopting the mindset that you have no idea what other drivers are going to do."
-
 #### Take responsability for protecting yourself even when its the other drivers fault
 
+"Defensive programming is about adopting the mindset that you have no idea what other drivers are going to do."
+
 * [Defensive Programming checklist](./programming/defensive_programming/CC_CHECKLIST.md)
+
+### [Pseudocode Programming Process](./programming/pseudocode/README.md)
+
+#### The point is to rise above the cycle of hacking something together and running to see if it works
+
+"Compiling something before you're sure your program works is often a symptom of the hacker mindset"
+
+* [Pseudocode Checklist](./programming/pseudocode/CC_CHECKLIST.md)
 
 ## [**Postrequisites**](../idk.yet)
 
