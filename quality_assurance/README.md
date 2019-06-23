@@ -4,11 +4,11 @@
 
 ## [Characteristics of Software Quality](./CHARACTERISTICS.md)
 
-## Techniques for Improving Software Quality
+## [Techniques for Improving Software Quality](./TECHNIQUES.md)
 
 ## Defect Detection Techniques
 
-### Reviews
+### [Reviews](./Code_Review.pdf)
 
 * Design reviews
   * Informal

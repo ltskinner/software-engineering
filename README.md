@@ -56,7 +56,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 * #### [Defensive Programming](./programming/defensive_programming/README.md)
 
-## System Testing
+## System Quality
 
 ### [**4 - Quality Assurance**](./quality_assurance/README.md)
 
@@ -64,7 +64,15 @@ Trying to get good enough to be able to contribute to open source projects
 
 * [Code Complete checklist](./quality_assurance/CC_CHECKLIST.md)
 
-### [**5 - Code Reviews**](./maintanence/README.md)
+### [5 - Testing](./quality_assurance/Code_Testing.pdf)
 
-**Maintanence sentence**
-"Maintanence quote"
+### [6 - Effective Debugging](./quality_assurance/Debugging.pdf)
+
+## Maintanence
+
+### [7 - Refactoring](./maintanence/Refactoring.pdf)
+
+### 8 - Code Tuning
+
+* [Why code tune?](./maintanence/tuning/Code_Tuning.pdf)
+* [Tuning techniques](./maintanence/tuning/Code_Tuning_Techniques.pdf)
