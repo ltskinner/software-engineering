@@ -52,7 +52,9 @@ Ensure a class only has one instance, and provide a global point of access to it
 
 ## Structural Patterns
 
-### Adapter
+Structural patterns are concerned with how classes and objects are composed to form larger structures. Mostly focused on inheritance to compose interfaces or implementations.
+
+### [Adapter](./structural/adapter)
 
 Convert the interface of a class into another interface that clients expect. Adapter lets classes work together that couldnt otherwise because of incompatible interfaces
 
