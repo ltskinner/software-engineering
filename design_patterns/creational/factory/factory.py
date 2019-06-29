@@ -4,6 +4,7 @@
 
 
 class Button(object):
+    """Product"""
     def __init__(self):
         self.html = ""
 
@@ -12,21 +13,25 @@ class Button(object):
 
 
 class Image(Button):
+    """ConcreteProduct"""
     def __init__(self):
         self.html = "<img></img>"
 
 
 class Input(Button):
+    """ConcreteProduct"""
     def __init__(self):
         self.html = "<input></input>"
 
 
 class Flash(Button):
+    """ConcreteProduct"""
     def __init__(self):
         self.html = "<obj></obj>"
 
 
 class ButtonFactory(object):
+    """The FactoryMethod"""
     def create_button(self, b_type):
         if b_type.upper() == 'IMAGE':
             button = Image()
