@@ -7,7 +7,7 @@ Define an interface for creating an object, but let subclasses decide which clas
 ### When to Use
 
 * A class cant anticipate the class of objects it must create
-* A class wants its subclasses to specify the objecct it creates
+* A class wants its subclasses to specify the object it creates
 * Classes delegates responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate
 
 ### Participants
