@@ -30,7 +30,7 @@ Trying to get good enough to be able to contribute to open source projects
 
 "Once you understand that all other technical goals in software are secondary to managing complexity, many design considerations become straightforward"
 
-* ### [Design Patterns](./design_patterns/README.md)
+* ### [Design Patterns](./design_patterns)
 
 * [Design checklist](./design/CC_CHECKLIST.md)
 
