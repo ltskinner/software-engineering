@@ -12,27 +12,29 @@ class AbstractBurgerFactory():
     """
     def get_cheeseburger(self):
         pass
-    
+
     def get_drink(self):
         pass
 
     def process_payment(self):
         pass
 
+
 class BurgerKingFactory(AbstractBurgerFactory):
     def get_cheeseburger(self):
         return DoubleBacon()
-    
+
     def get_drink(self):
         return MTNDew()
 
     def process_payment(self):
         return CashOnly()
 
+
 class MacDonaldsFactory(AbstractBurgerFactory):
     def get_cheeseburger(self):
         return BigMac()
-    
+
     def get_drink(self):
         return Coke()
 
