@@ -58,11 +58,11 @@ Structural patterns are concerned with how classes and objects are composed to f
 
 Convert the interface of a class into another interface that clients expect. Adapter lets classes work together that couldnt otherwise because of incompatible interfaces
 
-### Bridge
+### [Bridge](./structural/bridge)
 
 Decouple an abstraction from its implementation so that the two can vary independently
 
-### Composite
+### [Composite](./structural/composite)
 
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects formally.
 
