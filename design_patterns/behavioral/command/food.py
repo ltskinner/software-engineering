@@ -74,5 +74,3 @@ if __name__ == "__main__":
     meal.add_command_to_list(command_sandwich)
     meal.add_command_to_list(command_burrito)
     meal.execute_commands()
-
-    
