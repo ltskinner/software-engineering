@@ -58,3 +58,4 @@ aka. **Action** or **Transaction**
 ### Related Patterns
 
 * A Memento can keep states that the command requires to undo its effect
+* Commands that must be copied before being placed in the history list act as a prototype
