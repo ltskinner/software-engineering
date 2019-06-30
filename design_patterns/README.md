@@ -84,11 +84,13 @@ Provide a surrogate or placeholder for another object to control access to it
 
 ## Behavioral Patterns
 
-### Chain of Responsibility
+Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. They are focused with control flow and communication.
+
+### [Chain of Responsibility](./behavioral/chain_of_responsibility)
 
 Avoid coupling the sender of a request to its receiver by giving more than one object a change to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 
-### Command
+### [Command](./behavioral/command)
 
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
@@ -96,11 +98,11 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 
 Given a language, define a represenation for its grammer, along with an interpreter that uses the representation to interpret sentences in the language
 
-### Iterator
+### [Iterator](./behavioral/iterator)
 
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation
 
-### Mediator
+### [Mediator](./behavioral/mediator)
 
 Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently
 
