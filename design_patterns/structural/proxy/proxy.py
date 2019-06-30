@@ -25,7 +25,7 @@ class ProxyImage(Proxy):
         if self._proxy_state is None:
             self._subject.load_image_from_disk()
             self._proxy_state = 1
-
+    
         self._subject.display_image()
 
 if __name__ == "__main__":
