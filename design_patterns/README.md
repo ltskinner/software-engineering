@@ -70,15 +70,15 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 
 Attach additional responsabilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extended functionality.
 
-### Facade
+### [Facade](./structural/facade)
 
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that makes the subsystem easier to use
 
-### Flyweight
+### [Flyweight](./structural/flyweight)
 
 Use sharing to support large number of fine-grained objects efficiently
 
-### Proxy
+### [Proxy](./structural/proxy)
 
 Provide a surrogate or placeholder for another object to control access to it
 
