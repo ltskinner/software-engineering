@@ -66,7 +66,7 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects formally.
 
-### Decorator
+### [Decorator](./structural/decorator)
 
 Attach additional responsabilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extended functionality.
 
