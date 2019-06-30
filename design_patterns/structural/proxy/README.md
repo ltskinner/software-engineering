@@ -43,3 +43,8 @@ This is good for deferring the full cost of creation and initialization until it
 
 * Proxies dont *always* need to know info about the concrete class
   * Sometimes they do but like not really
+
+### Related Patterns
+
+* Adapters provide a different interface tot he object it adapts Proxies provide the same interface, and is used for protection
+* Decorators add one or more responsibilities to an object, while proxies may or may not add responsibilities.

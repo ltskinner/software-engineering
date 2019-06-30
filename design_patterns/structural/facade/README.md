@@ -6,6 +6,8 @@ This is about reducing complexity and minimizing communications
 
 These are pretty general too
 
+Can think of these as an adapter to multiple objects
+
 ### Intent
 
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystems easier to use
