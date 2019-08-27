@@ -33,7 +33,7 @@
 
 * [x] [Scrum Guide](https://www.scrumguides.org/scrum-guide.html)
 
-* [ ] [Agile Project Management with Scrum](https://www.amazon.com/Agile-Project-Management-Developer-Practices-ebook/dp/B00JDMPOZW/ref=sr_1_4?crid=3QX2AA90DNJR9&keywords=agile+project+management+with+scrum&qid=1566610680&s=books&sprefix=agile%2Cstripbooks%2C173&sr=1-4)
+* [x] [Agile Project Management with Scrum](https://www.amazon.com/Agile-Project-Management-Developer-Practices-ebook/dp/B00JDMPOZW/ref=sr_1_4?crid=3QX2AA90DNJR9&keywords=agile+project+management+with+scrum&qid=1566610680&s=books&sprefix=agile%2Cstripbooks%2C173&sr=1-4)
 
 ## Software Estimation
 
