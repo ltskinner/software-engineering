@@ -7,6 +7,8 @@
 
 * [ ] [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?crid=T7E399EAU80T&keywords=mythical+man+month&qid=1566614581&s=books&sprefix=mythical%2Cstripbooks%2C173&sr=1-1)
 
+* [ ] [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
+
 * [ ] [Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_14?keywords=software+design&qid=1566614960&s=digital-text&sr=1-14)
 
 ## Software Architecture
