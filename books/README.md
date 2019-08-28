@@ -7,6 +7,8 @@
 
 * [ ] [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?crid=T7E399EAU80T&keywords=mythical+man+month&qid=1566614581&s=books&sprefix=mythical%2Cstripbooks%2C173&sr=1-1)
 
+* [ ] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=3GLEQ7UWPCEV6&keywords=the+pragmatic+programmer&qid=1566668213&s=books&sprefix=the+pragmati%2Cstripbooks%2C174&sr=1-1)
+
 * [ ] [Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_14?keywords=software+design&qid=1566614960&s=digital-text&sr=1-14)
 
 ## Software Architecture
@@ -34,6 +36,10 @@
 * [x] [Scrum Guide](https://www.scrumguides.org/scrum-guide.html)
 
 * [ ] [Agile Project Management with Scrum](https://www.amazon.com/Agile-Project-Management-Developer-Practices-ebook/dp/B00JDMPOZW/ref=sr_1_4?crid=3QX2AA90DNJR9&keywords=agile+project+management+with+scrum&qid=1566610680&s=books&sprefix=agile%2Cstripbooks%2C173&sr=1-4)
+
+### Extreme Programming
+
+* [ ] [Extreme Programming Explained: Ebrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change-ebook/dp/B00N1ZN6C0/ref=sr_1_1?keywords=extreme+programming&qid=1566680887&s=gateway&sr=8-1)
 
 ## Software Estimation
 
