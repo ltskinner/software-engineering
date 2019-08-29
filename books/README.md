@@ -7,7 +7,7 @@
 
 * [ ] [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?crid=T7E399EAU80T&keywords=mythical+man+month&qid=1566614581&s=books&sprefix=mythical%2Cstripbooks%2C173&sr=1-1)
 
-* [ ] [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
+* [x] [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 
 * [ ] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=3GLEQ7UWPCEV6&keywords=the+pragmatic+programmer&qid=1566668213&s=books&sprefix=the+pragmati%2Cstripbooks%2C174&sr=1-1)
 
