@@ -5,7 +5,7 @@
 
 * [x] [Code Complete](https://www.amazon.com/Code-Complete-Developer-Best-Practices-ebook/dp/B00JDMPOSY/ref=sr_1_1?keywords=code+complete&qid=1566614521&s=books&sr=1-1)
 
-* [ ] [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?crid=T7E399EAU80T&keywords=mythical+man+month&qid=1566614581&s=books&sprefix=mythical%2Cstripbooks%2C173&sr=1-1)
+* [x] [The Mythical Man-Month](https://www.amazon.com/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?crid=T7E399EAU80T&keywords=mythical+man+month&qid=1566614581&s=books&sprefix=mythical%2Cstripbooks%2C173&sr=1-1)
 
 * [x] [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 

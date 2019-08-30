@@ -86,7 +86,7 @@ SPOILER: everyone speaking different languages
 
 "What we do not understnad we do not possess"
 
-## [Chapter 16: No Silver Bullet - Essence and Accident in Software Engineering]
+## [Chapter 16: No Silver Bullet - Essence and Accident in Software Engineering](./CHAPTER_16.md)
 
 "There is no single development, in either technology or management technique, which by itself promises even one order-of-magnitude improvement within a decade in productivity, in reliability, in simplicity"
 
@@ -95,3 +95,22 @@ SPOILER: everyone speaking different languages
   * Use rapid prototyping as part of a planned iteration in establishing software requirements
   * Grow software organically, adding more and more function to systems as they are run, used, and tested
   * Identify and develop the great conceptual designers of the rising generation
+
+## Chapter 17: "No Silver Bullet" Refined
+
+* Rebutall to NSB, interesting but nothing to write home about
+
+## Chapter 18: Propositions of *The Magical Man-Month*: True or False
+
+* Basically just a summary of the book
+
+## Chapter 19: The Mythical Man-Month after 20 years
+
+* Build one to throw away is wrong lmao
+  * The waterfall model is also not great haha
+* Incremental building is better than progressive refinement
+* Information hiding is apex
+* Brooks's laW
+  * Adding people doesnt always make it late, but it does make it more costly
+  * New people have immediate negative effects and take time to even out
+* People are the single biggest factor
