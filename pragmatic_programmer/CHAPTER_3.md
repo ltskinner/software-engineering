@@ -57,7 +57,7 @@ Spend time to learn your tools
 
 ## 18) Debugging
 
-"It is a painful thing, To look at your own trouble and know, That you yourself and no one else has made it"
+"It is a painful thing \n To look at your own trouble and know \n That you yourself and no one else has made it"
 
 "When you see hoofprints, think horses - not zebras"
 
