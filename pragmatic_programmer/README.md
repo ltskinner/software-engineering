@@ -33,3 +33,17 @@
 ### Want to cultivate a culture of testing
 
 ## [Chapter 7: Before the Project](./CHAPTER_7.md)
+
+* Many **project failures** are blamed on an increase in scope - also known as **feature bloat**
+  * Track feature requirements
+    * Just like code source control
+* Maintain a **Project Glossary**
+* **Program specification** is the process of taking a requirement and reducing it down to the point where a programmers skill can take over
+
+## [Chapter 8: Pragmatic Projects](./CHAPTER_8.md)
+
+"Civilization advances by extending the number of important operations we can perform without thinking"
+
+* Automate for the sake of repeatability and consistency
+
+"The palest ink is better than the best memory"
