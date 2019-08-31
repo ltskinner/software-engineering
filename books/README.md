@@ -23,6 +23,8 @@
 
 * [ ] [Documenting Software Architectures: Views and Beyond](https://www.amazon.com/Documenting-Software-Architectures-Beyond-Engineering-ebook/dp/B0046XS3RO/ref=sr_1_1?crid=3KZPKLTMCL6EM&keywords=designing+software+architectures+a+practical+approach&qid=1566614871&s=digital-text&sprefix=designing+software+architectures+a%2Cdigital-text%2C175&sr=1-1)
 
+* [ ] [Pattern-Oriented Software Architecture](./https://www.amazon.com/Pattern-Oriented-Software-Architecture-Distributed-Computing/dp/0470059028/ref=sr_1_3?keywords=Pattern-Oriented+Software+Architecture&qid=1567261247&s=books&sr=1-3)
+
 * [ ] [Clean Architecture*](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure-ebook/dp/B075LRM681/ref=sr_1_6?keywords=software+design&qid=1566614960&s=digital-text&sr=1-6)
 
 ## Software Design
