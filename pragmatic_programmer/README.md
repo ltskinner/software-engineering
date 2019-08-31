@@ -47,3 +47,9 @@
 * Automate for the sake of repeatability and consistency
 
 "The palest ink is better than the best memory"
+
+* Anonymity, especially on large projects, provides a breeding ground for:
+  * Sloppiness
+  * Mistakes
+  * Sloth
+  * Bad code
