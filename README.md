@@ -2,6 +2,27 @@
 
 Notes on best practices, design patterns and useful tools
 
+## [Books](./books)
+
+### Software Engineering
+
+* [Code Complete](./books/code_complete)
+* [The Mythical Man-Month](./books/mythical_man_month)
+
+### Software Architecture
+
+### Software Design
+
+* [Design Patterns](./books/design_patterns)
+
+### Project Management
+
+* [Agile Project Management with Scrum](./books/agile_project_management_with_scrum)
+
+### Software Metrics
+
+### Software Estimation
+
 ## [**Prerequisites**](./PREREQUISITES.md)
 
 **The prerequisites should turn over every stone in creating a simple explanation(architecture) to describe the system solution.**
