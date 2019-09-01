@@ -40,7 +40,7 @@ Crack down on small stuff in order to keep out the big stuff.
 
 * Just because a portion of the code is on fire does not mean its ok to write crap code on the way to fixing it
 
-## 5) Stone Soup and Boilded Frogs
+## 5) Stone Soup and Boiled Frogs
 
 * Get people excited and give them opportunities to contribute
 * Figure out what you can ask from people

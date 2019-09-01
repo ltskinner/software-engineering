@@ -89,7 +89,7 @@
   * Prototypes are meant to be thrown away
   * Think of prototyping as the recon and intel gathering that goes in before a single tracer is fired
 
-### *Tip 15:* USe tracer bullets to find the target
+### *Tip 15:* Use tracer bullets to find the target
 
 ### Advantages
 

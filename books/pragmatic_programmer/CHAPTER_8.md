@@ -41,7 +41,7 @@
 * Little distractions like email, paperwork, approval stuff needs to be as automated as possible
 * Websites and other stuff should be automatic too
 
-## 43: Rutheless Testing
+## 43: Ruthless Testing
 
 * Strive to find bugs *now* instead of having to endure the shame of someone else finding our bugs later
 * Think of it as fishing
