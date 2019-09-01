@@ -9,7 +9,7 @@
 
 * [x] [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 
-* [ ] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=3GLEQ7UWPCEV6&keywords=the+pragmatic+programmer&qid=1566668213&s=books&sprefix=the+pragmati%2Cstripbooks%2C174&sr=1-1)
+* [x] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=3GLEQ7UWPCEV6&keywords=the+pragmatic+programmer&qid=1566668213&s=books&sprefix=the+pragmati%2Cstripbooks%2C174&sr=1-1)
 
 * [ ] [Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_14?keywords=software+design&qid=1566614960&s=digital-text&sr=1-14)
 
@@ -43,15 +43,7 @@
 
 ### Extreme Programming
 
-* [ ] [Extreme Programming Explained: Ebrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change-ebook/dp/B00N1ZN6C0/ref=sr_1_1?keywords=extreme+programming&qid=1566680887&s=gateway&sr=8-1)
-
-## Software Estimation
-
-* [ ] [Software Estimation: Demystifying the Black Art](https://www.amazon.com/Software-Estimation-Demystifying-Developer-Practices-ebook/dp/B00JDMPOVQ/ref=sr_1_1?keywords=software+estimation&qid=1566614757&s=digital-text&sr=1-1)
-
-### Agile
-
-* [ ] [Agile Estimating and Planning*](https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415)
+* [ ] [Extreme Programming Explained: Embrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change-ebook/dp/B00N1ZN6C0/ref=sr_1_1?keywords=extreme+programming&qid=1566680887&s=gateway&sr=8-1)
 
 ## Software Metrics
 
@@ -60,3 +52,11 @@
 * [ ] [Software Developement Metrics](https://www.amazon.com/Software-Development-Metrics-Dave-Nicolette/dp/1617291358/ref=sr_1_1?keywords=software+development+metrics&qid=1566615684&s=gateway&sr=8-1)
 
 * [ ] [Agile Metrics in Action: Measuring and Enhancing the Performance of Agile Teams](https://www.amazon.com/Agile-Metrics-Action-Measuring-Performance/dp/1617292486/ref=sr_1_1?keywords=Agile+Metrics+in+Action%3A+Measuring+and+Enhancing+the+Performance+of+Agile+Teams&qid=1566615671&s=gateway&sr=8-1)
+
+## Software Estimation
+
+* [ ] [Software Estimation: Demystifying the Black Art](https://www.amazon.com/Software-Estimation-Demystifying-Developer-Practices-ebook/dp/B00JDMPOVQ/ref=sr_1_1?keywords=software+estimation&qid=1566614757&s=digital-text&sr=1-1)
+
+### Agile
+
+* [ ] [Agile Estimating and Planning*](https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415)
