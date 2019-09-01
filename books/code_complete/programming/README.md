@@ -28,6 +28,10 @@ Programming encompasses implementing the designed solution via code
 
   * [Routines checklist](./routines/CC_CHECKLIST.md)
 
+* ### [Variables](./variables)
+
+  * [Variables checklist](./variables/CC_CHECKLIST.md)
+
 ## Control Structures
 
 * ### [If-Else Conditionals](./if_else/README.md)
