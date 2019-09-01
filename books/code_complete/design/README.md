@@ -52,7 +52,7 @@
 
 * Modeling an OOP system effectively
 
-### [Compartmentalize](../COMPARTMENTALIZATION.md)
+### [Compartmentalize](./COMPARTMENTALIZATION.md)
 
 * Abstract, Encapsulate and Hide Information effectively
 
@@ -65,7 +65,7 @@
 * The more easily the other modules can call a module, the more loosely coupled it is
   * `sin()` vs `initVar(var1, var2, var3, var4)`
 
-### Use [Design Patterns](../design_patterns/README.md) when applicable
+### Use [Design Patterns](./CC_DESIGN_PATTERNS.md) when applicable
 
 * Code level patterns
 
