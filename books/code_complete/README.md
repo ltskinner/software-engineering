@@ -2,6 +2,13 @@
 
 ## [Prerequisites](./prereqs)
 
-### Requirements
+* Requirements
+* Architecture
 
-* Requirements Checklist
+## [Design](./design)
+
+## [Programming](./programming)
+
+## [Quality Assurance](./quality_assurance)
+
+## [Maintenance](./maintenance)
