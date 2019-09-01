@@ -20,13 +20,15 @@
 
 ### Modeling or prototyping
 
-### Testing
+### [Testing](./Code_Testing.pdf)
 
 * Unit tests
 * New component testing
 * Integration testing
 * Regression testing
 * System testing
+
+### [Debugging](./Debugging.pdf)
 
 ### USE ALL OF THESE, DONE BY MULTIPLE PEOPLE
 
