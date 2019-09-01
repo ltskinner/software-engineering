@@ -6,7 +6,7 @@ Notes on best practices, design patterns and useful tools
 
 "Requirements are like water. They're easier to build on when they're frozen"
 
-* Code Complete Requirements
+* [Code Complete Requirements](./books/code_complete/prereqs/requirements)
 
 ## Architecture
 
@@ -14,7 +14,7 @@ Notes on best practices, design patterns and useful tools
 
 "When you look at the architecture, you should be pleased by how natural and easayy the solution seems."
 
-* Code Complete Architecture
+* [Code Complete Architecture](./books/code_complete/prereqs/architecture)
 
 ## Design
 
@@ -22,23 +22,24 @@ Notes on best practices, design patterns and useful tools
 
 "Once you understand that all other technical goals in software are secondary to managing complexity, many design considerations become straightforward"
 
-* Code Complete Design
-* Design Patterns
+* [Code Complete Design Patterns](./books/code_complete/design)
+* [Design Patterns](./books/design_patterns)
 
 ## Programming
 
-* Code Complete Programming
-* The Pragmatic Programmer
+* [Code Complete Programming](./books/code_complete/programming)
+* [The Pragmatic Programmer](./books/pragmatic_programmer)
 
 ## Quality Assurance
 
 "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization"
 
-* Code Complete Quality Assurance
+* [Code Complete Quality Assurance](./books/code_complete_quality_assurance)
+* [Python Unit Testing](./python/unit_testing)
 
 ## Maintenance
 
-* Code Complete Maintenance
+* [Code Complete Maintenance](./books/code_complete/maintenance)
 
 ## Software Metrics
 
@@ -48,4 +49,4 @@ Notes on best practices, design patterns and useful tools
 
 ## Project Management
 
-* Agile Project Management
+* [Agile Project Management](./books/agile_project_management_with_scrum)
