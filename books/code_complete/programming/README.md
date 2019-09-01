@@ -4,7 +4,7 @@ Programming encompasses implementing the designed solution via code
 
 ## Outlining and Setup
 
-* ### [Pseudocode Programming Process](./pseudocode/readme.md)
+* ### [Pseudocode Programming Process](./pseudocode)
 
    **The point is to rise above the cycle of hacking something together and running to see if it works**
 
@@ -12,17 +12,17 @@ Programming encompasses implementing the designed solution via code
 
   * [Pseudocode Checklist](./pseudocode/CC_CHECKLIST.md)
 
-* ### [Program Organization](./organization/README.md)
+* ### [Program Organization](./organization)
 
 ## Code Blocks
 
-* ### [Classes](./classes/README.md)
+* ### [Classes](./classes)
 
   "Classes are your primary tool for managing complexity"
 
   * [Classes checklist](./classes/CC_CHECKLIST.md)
 
-* ### [Routines](./routines/README.md)
+* ### [Routines](./routines)
 
    Methods and procedures with a single purpose
 
@@ -34,13 +34,13 @@ Programming encompasses implementing the designed solution via code
 
 ## Control Structures
 
-* ### [If-Else Conditionals](./if_else/README.md)
+* ### [If-Else Conditionals](./if_else)
 
-* ### [Loops](./loops/README.md)
+* ### [Loops](./loops)
 
 ## Safety
 
-* ### [Defensive Programming](./defensive_programming/README.md)
+* ### [Defensive Programming](./defensive_programming)
 
   **Take responsability for protecting yourself even when its the other drivers fault**
 
