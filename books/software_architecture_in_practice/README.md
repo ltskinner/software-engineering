@@ -4,4 +4,4 @@
 
 ### Chapter 1: What Is Software Architecture
 
-* [Architecture Structures Table](./CHAPTER_1.md###-Useful-Architecture-Structures)
+* [Architecture Structures Table](./CHAPTER_1.md###Useful-Architecture-Structures)
