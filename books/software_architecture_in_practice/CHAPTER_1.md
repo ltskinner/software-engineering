@@ -102,3 +102,51 @@ In short, a view is a representation of a structure
 * Work assignment structure
   * Assigns repsonsibility for implementing and integrating the modules to the teams who will carry it out
   * Also determines major communication pathways among teams
+
+### Which Structures to Choose?
+
+* Pick whatever fits the 80% functionality component
+  * Choose a structure that will best deliver desired attributes
+
+## 1.3 Architectural Patterns
+
+Patterns are strategies for solving problems that have been seen before
+
+### 1) Module Type Patterns
+
+#### Layered Pattern
+
+* A layer is a coherent set of related functionality
+* When the *uses* relation among software is **strictly unidirectional**
+* Strictly, when a layer only uses the services in the layer immediately below it
+
+### 2) C&C Patterns
+
+#### Shared-data (or repository) pattern
+
+* Create, store, and access persistent data
+* Typically, this takes the form of a commercial database
+* Connectors are protocols for managing the data
+  * Like SQL
+
+#### Client-Server Pattern
+
+* Components are the clients and servers
+* Connectors are the protocols and messages they share to carry out work
+
+### 3) Allocation Patterns
+
+#### Multi-Tier Pattern
+
+* How to distribute and allocate the components of a system in distinct **subsets of hardware and software**
+* Specializes in generic deployment
+
+#### Competence Center and Platform
+
+* Patterns that specialize a software systems work assignment structure
+* In **Competence Center**, work is allocated to sites depending on technical or domain expertise located at a site
+* In **Platform**, one site is tasked with developing reusable core assets of a software product line, and other sites develop applications that use the core assets
+
+## 1.4 What Makes a "Good" Architecture
+
+### [Rules of Thumb](./RULES_OF_THUMB,md)

@@ -1,5 +1,10 @@
 # Useful Architecture Structures
 
+## Which Structures to Choose?
+
+* Pick whatever fits the 80% functionality component
+  * Choose a structure that will best deliver desired attributes
+  
 | | **Software Structure** | **Element Types** | **Relations** | **Useful For** | **Quality Attributes Affected** |
 | - | - | - | - | - | - |
 | **Module Structures** | Decomposition | Module | Is a submodule of | Resource allocation and project structuring and planning; imformation hiding; encapsulation; configuration control | Modifiability |
