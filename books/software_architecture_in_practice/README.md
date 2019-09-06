@@ -57,3 +57,7 @@ Interoperability is the degree to which two or more systems can usefull exchange
 ### [Chapter 7: Modifiability](./CHAPTER_7.md)
 
 "Study after study shows that most of the cost of a typical software system occurs after it has been initially released"
+
+### [Chapter 8: Performance](./CHAPTER_8.md)
+
+### [Chapter 9: Security](./CHAPTER_9.md)
