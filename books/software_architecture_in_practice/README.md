@@ -23,3 +23,15 @@
 ### See [Quality Attributes](./QUALITY_ATTRIBUTES.md)
 
 "Functionality is not a driver of the architecture as much as it is a consequence of it"
+
+## Part Two: Quality Attributes
+
+### [Chapter 4: Understanding Quality Attributes](./CHAPTER_4.md)
+
+"Functionality often takes the front seat in the development scheme. This preference is often shortsighted, howver. Systems are frequently redesigned not because they are functionally deficient - the replacements are often functionally identical - but because they are difficult to maintina, port, or scale; or are too slow; or they have been compromised by hackers"
+
+* A Quality Attribute is a measurable or testable property of a system used to indicate how well the system satisfies the needs of its stakeholders
+
+#### [Expressing Quality Attributes](./QUALITY_EXPRESSION.md)
+
+#### [Categories of Design Decisions](./DESIGN_DECISIONS.md)
