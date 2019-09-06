@@ -35,3 +35,17 @@
 #### [Expressing Quality Attributes](./QUALITY_EXPRESSION.md)
 
 #### [Categories of Design Decisions](./DESIGN_DECISIONS.md)
+
+### [Chapter 5: Availability](./CHAPTER_5.md)
+
+"Its tempting to say that failure is not an option. Its a catchy phrase, but its a lousy design philosophy"
+
+#### [See Availability Table](./AVAILABILITY.md)
+
+#### Availability Tactics
+
+1. [Fault Detection](./FAULT_DETECTION.md)
+2. [Fault Recovery](./FAULT_RECOVERY.md)
+3. [Fault Prevention](./FAULT_PREVENTION.md)
+
+#### [Avilability Checklist](./AVAILABILITY_CHECKLIST.md)
