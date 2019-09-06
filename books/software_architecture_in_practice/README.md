@@ -18,7 +18,7 @@
 * Archtiecture and associated metrics for patterns are huge in helping managers allocate resources
   * A consensus between top-down estimates (from architects and PMs) and bottom-up estimates (created by developers) is great
 
-## [Chapter 3: The Many Contexts of Software Architecture](./CHAPTER_3.md)
+### [Chapter 3: The Many Contexts of Software Architecture](./CHAPTER_3.md)
 
 ### See [Quality Attributes](./QUALITY_ATTRIBUTES.md)
 
@@ -49,3 +49,11 @@
 3. [Fault Prevention](./FAULT_PREVENTION.md)
 
 #### [Avilability Checklist](./AVAILABILITY_CHECKLIST.md)
+
+### [Chapter 6: Interoperability](./CHAPTER_6.md)
+
+Interoperability is the degree to which two or more systems can usefull exchange meaningful information via interfaces in a particular context
+
+* Basically, use SOAP or REST and WS* for interface boundaries
+
+[Interoperability Checklist](./INTEROPERABILITY_CHECKLIST.md)
