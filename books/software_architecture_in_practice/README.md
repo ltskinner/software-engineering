@@ -48,12 +48,12 @@
 2. [Fault Recovery](./FAULT_RECOVERY.md)
 3. [Fault Prevention](./FAULT_PREVENTION.md)
 
-#### [Avilability Checklist](./AVAILABILITY_CHECKLIST.md)
-
 ### [Chapter 6: Interoperability](./CHAPTER_6.md)
 
 Interoperability is the degree to which two or more systems can usefull exchange meaningful information via interfaces in a particular context
 
 * Basically, use SOAP or REST and WS* for interface boundaries
 
-[Interoperability Checklist](./INTEROPERABILITY_CHECKLIST.md)
+### [Chapter 7: Modifiability](./CHAPTER_7.md)
+
+"Study after study shows that most of the cost of a typical software system occurs after it has been initially released"
