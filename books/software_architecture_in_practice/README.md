@@ -61,3 +61,15 @@ Interoperability is the degree to which two or more systems can usefull exchange
 ### [Chapter 8: Performance](./part_2_quality/CHAPTER_8.md)
 
 ### [Chapter 9: Security](./part_2_quality/CHAPTER_9.md)
+
+### [Chapter 10: Testability](./part_2_quality/CHAPTER_10.md)
+
+"Testing leads to failure, and failure leads to understanding" - the leading to failure is why its so hard to rally to test, and why its so critical
+
+### [Chapter 11: Usability](./part_2_quality/CHAPTER_11.md)
+
+"Any darn fool can make something complex; it takes a genius to make something simple" - Einstein
+
+### [Chapter 12: Other Quality Attributes](./part_2_quality/CHAPTER_12.md)
+
+### [Chapter 13: Architectural Tactics and Patterns](./architecture_patterns)
