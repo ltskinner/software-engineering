@@ -73,3 +73,10 @@ Interoperability is the degree to which two or more systems can usefull exchange
 ### [Chapter 12: Other Quality Attributes](./part_2_quality/CHAPTER_12.md)
 
 ### [Chapter 13: Architectural Tactics and Patterns](./architecture_patterns)
+
+### [Chapter 14: Quality Attribute Modeling and Analysis](./part_2_quality/CHAPTER_14.md)
+
+* Architectural patterns let you predict quality attributes
+* Many times, this can be done with general equations for latency, queueing and availability
+
+#### [Analytics Models](./part_1_quality/ANALYTICS_MODELS.md)
