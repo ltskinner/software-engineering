@@ -10,8 +10,6 @@
 * You can predict many aspects of a systems qualities by studying its architecture
 * An architecture makes it easier for you to reason about and manage change
 
-#### See [Quality Attributes](../part_2_quality/QUALITY_ATTRIBUTES.md)
-
 ## 3.2 Architecture in a Project Life-Cycle Context
 
 ### Activities Common Across All Software Life-Cycles

@@ -20,8 +20,6 @@
 
 ## 2.1 Inhibiting or Enabling a Systems Quality Attributes
 
-#### See [Quality Attributes](./QUALITY_ATTRIBUTES.md)
-
 ## 2.2 Reasoning About and Managing Change
 
 Modifiability - the ease with which changes can be made to a system
