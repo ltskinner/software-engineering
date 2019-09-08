@@ -149,4 +149,4 @@ Patterns are strategies for solving problems that have been seen before
 
 ## 1.4 What Makes a "Good" Architecture
 
-### [Rules of Thumb](./RULES_OF_THUMB,md)
+### [Rules of Thumb](./RULES_OF_THUMB.md)

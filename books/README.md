@@ -17,7 +17,7 @@
 
 ### [Useful Roadmap](https://medium.com/@nvashanin/the-path-to-becoming-a-software-architect-de53f1cb310a)
 
-* [ ] [Software Architecture in Practice](https://www.amazon.com/Software-Architecture-Practice-Practice_c3-Engineering-ebook/dp/B009GMUL84/ref=sr_1_2?crid=JUHUTHEMTND9&keywords=software+architecture+in+practice&qid=1566614807&s=digital-text&sprefix=software+archite%2Cdigital-text%2C176&sr=1-2)
+* [x] [Software Architecture in Practice](https://www.amazon.com/Software-Architecture-Practice-Practice_c3-Engineering-ebook/dp/B009GMUL84/ref=sr_1_2?crid=JUHUTHEMTND9&keywords=software+architecture+in+practice&qid=1566614807&s=digital-text&sprefix=software+archite%2Cdigital-text%2C176&sr=1-2)
 
 * [ ] [Designing Software Architectures: A Practical Approach](https://www.amazon.com/Designing-Software-Architectures-Practical-Engineering/dp/0134390784/ref=sr_1_1?crid=3KZPKLTMCL6EM&keywords=designing+software+architectures+a+practical+approach&qid=1566614871&s=digital-text&sprefix=designing+software+architectures+a%2Cdigital-text%2C175&sr=1-1-catcorr)
 
