@@ -15,6 +15,7 @@ Notes on best practices, design patterns and useful tools
 
 "When you look at the architecture, you should be pleased by how natural and easayy the solution seems."
 
+* [Software Architecture in Practice](./books/software_architecture_in_practice)
 * [Code Complete Architecture](./books/code_complete/prereqs/architecture)
 
 ## Design
