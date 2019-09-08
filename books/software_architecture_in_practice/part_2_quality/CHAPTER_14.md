@@ -1,6 +1,6 @@
 # Chapter 14: Quality Attribute Modeling and Analysis
 
-## 14.1 Modling Architectures to Enable Quality Attribute Analysis
+## 14.1 Modeling Architectures to Enable Quality Attribute Analysis
 
 * Like knowing the type of service and how you architect the solution lets you use general equations to predict quality
 * MVC architecture for determining latency, queueing

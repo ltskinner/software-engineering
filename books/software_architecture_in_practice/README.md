@@ -4,13 +4,14 @@
 
 * [Rules of Thumb](./part_1_intro/RULES_OF_THUMB.md) are soo good
 * [Architecture Structures Table](./part_1_intro/ARCHITECTURE_STRUCTURES_TABLE.md)
-* [Introduction to Quality Attributes](./part_2_quality/QUALITY_ATTRIBUTES.md)
 
 ## [Part 2: Quality Attributes](./part_2_quality)
 
 ### [Architecture Design Patterns](./part_2_quality/architecture_patterns)
 
 Quality Attributes are a huge component in the architectural decision making process
+
+#### [Introduction to Quality Attributes](./part_2_quality/QUALITY_ATTRIBUTES.md)
 
 * [Availability](./part_2_quality/CHAPTER_5.md)
 * [Interoperability](./part_2_quality/CHAPTER_6.md)
