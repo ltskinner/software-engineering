@@ -123,9 +123,6 @@ Interoperability is the degree to which two or more systems can usefull exchange
 
 "How does a project get to be a year behind schedule? One dat at a time"
 
-
-Revisit this book in 2 years to refresh on the last two sections regarding large scale architectures and business level decisions.
-
 ## Part 4: Architecture and Business
 
 ### Chapter 23: Economic Analysis of Architectures
