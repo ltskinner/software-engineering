@@ -2,6 +2,11 @@
 
 Notes on best practices, design patterns and useful tools
 
+## Best Practices
+
+* [Programming Best Practices](./best_practices/PROGRAMMING.md)
+* [IDE Best Practices](./best_practices/IDEs.md)
+
 ## Requirements
 
 "Requirements are like water. They're easier to build on when they're frozen"
