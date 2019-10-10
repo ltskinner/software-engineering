@@ -26,6 +26,9 @@
 * Thoughtfully ordered
 * Spacing is used to group libraries by functionality
 * Non-standard abbreviations `import xxx as reeee` are never entertained
+* NEVER `from module import *`
+* Prefer `import module` over `from module import (x, y, z, a, c, b, d)`
+  * The `module.function()` convention is easier than tracing to an import
 
 ```python
 import math
@@ -34,6 +37,7 @@ import pandas as pd
 
 import tensorflow as tf
 
+import module_with_lots_of_functions
 from my_module import my_function
 ```
 
