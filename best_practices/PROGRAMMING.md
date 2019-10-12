@@ -84,8 +84,11 @@ Individual procedure with a *single purpose*
 
 ### Don't
 
-* Use vague terms to name
+* Dont use vague terms in the name
   * `handle_data()` or `process_input()`
+* Dont use chained function/method calls
+  * `result = object.first_op().clean().transform()`
+  * High defect rates in these lines
 
 ## Classes
 
@@ -94,8 +97,8 @@ Individual procedure with a *single purpose*
 ### Do
 
 * Use classes to work in the problem domain (instead of the implementation domain)
-  * Light:
-    * `light.on(), light.off()`
+  * Light: `light.on(), light.off()`
+  * Not: `bool: light_on = False`
 * Have well defined class interfaces
 * Hide as many implementation details as possible
 * Have a low number of methods
