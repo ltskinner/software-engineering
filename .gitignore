@@ -9,3 +9,6 @@
 
 # VS Code data
 /.vscode
+
+# mypy cache
+/.mypy_cache
