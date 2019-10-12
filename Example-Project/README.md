@@ -2,26 +2,26 @@
 
 ```
 /data
-  /raw
-  /enriched
+    /raw
+    /enriched
 /docs
-  /requirements
-  /architecture
-  /design
-  BACKLOG.md        --> use Issues + Projects
-  RELEASE_NOTES.md  --> use Releases
+    /requirements
+    /architecture
+    /design
+    BACKLOG.md        --> use Issues + Projects
+    RELEASE_NOTES.md  --> use Releases
 /models
-  model_weights.h5  --> consider grouping w2v, deep
+    model_weights.h5  --> consider grouping w2v, deep
 /project
-  /lib
-    banner.txt
-  /tests
-    unittest + mock?
-  /subpackage
+    /lib
+        banner.txt
+    /tests
+        unittest + mock?
+    /subpackage
+        __init__.py
+        submodule.py
     __init__.py
-    submodule.py
-  __init__.py
-  module.py
+    module.py
 
 setup.py
 README.md
