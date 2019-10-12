@@ -16,7 +16,9 @@
     /lib
         banner.txt
     /tests
-        unittest + mock?
+        __init__.py
+        test_module.py
+        test_submodule.py
     /subpackage
         __init__.py
         submodule.py
