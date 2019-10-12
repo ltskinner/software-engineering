@@ -1,2 +1,2 @@
 #
-from submodule import (sub_module_function)
+from .submodule import (sub_module_function)

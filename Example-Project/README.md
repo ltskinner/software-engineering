@@ -61,3 +61,19 @@ tox.ini
 
 * version_models_v1.h5
 * use_dates_too_YYYY_MM_DD.h5
+
+## Testing
+
+```bash
+python -m unittest discover
+```
+
+## Building
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+### Distributing via PyPi
+
+[pypi distribution notes](../python/PYPI.md)
