@@ -6,4 +6,4 @@
 
 * VSCode settings.json
 
-## [Project File Structure](../Example-Project)
+## [Project File Structure](./Example-Project)
