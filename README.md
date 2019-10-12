@@ -6,6 +6,7 @@ Notes on best practices, design patterns and useful tools
 
 * [Programming Best Practices](./best_practices/PROGRAMMING.md)
 * [IDE Best Practices](./best_practices/IDEs.md)
+* [Project File Structure](./Example-Project)
 
 ## Requirements
 

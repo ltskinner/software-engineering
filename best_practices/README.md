@@ -5,3 +5,5 @@
 ## [IDE Best Practices](./IDEs.md)
 
 * VSCode settings.json
+
+## [Project File Structure](../Example-Project)
