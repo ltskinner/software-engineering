@@ -1,6 +1,6 @@
 # software-engineering
 
-Notes on best practices, design patterns and useful tools
+Notes on programming + best practices, design patterns, architectural patterns, and project management
 
 ## Best Practices
 
