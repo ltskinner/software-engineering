@@ -1,6 +1,0 @@
-
-$ mkdir example-repo
-$ cd example-repo
-$ git init
-
-# This initializes an empty repo
