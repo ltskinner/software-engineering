@@ -41,15 +41,15 @@ import pandas as pd
 import requests                        # Grouped by functionality (data collection)
 from bs4 import BeautifulSoup          # Uses libraries from previous group
 
-import sqlalchemy                      # Grouped by data storage
+import sqlalchemy                      # Grouped by (data storage)
 import psycopg2                        # Uses libraries from previous group
 import boto3
 
-import nltk                            # Grouped by data processing
+import nltk                            # Grouped by (data processing)
 import sklearn                         # Uses libraries from previous group
 import tensorflow as tf
 
-import module_with_lots_of_functions   # Grouped by udef, order these by functionality + complexity as well
+import module_with_lots_of_functions   # Grouped by (udef), order these by functionality + complexity as well
 from my_module import my_function      # Uses libraries from previous group
 ```
 
