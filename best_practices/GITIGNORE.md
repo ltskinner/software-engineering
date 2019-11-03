@@ -1,5 +1,8 @@
 # .gitignore
 
+* Primary goal is to minimize clutter from reaching source control
+* Additionally, want to protect source control from generated files
+
 ```
 # ~~~ Folders ~~~
 # VS Code data
