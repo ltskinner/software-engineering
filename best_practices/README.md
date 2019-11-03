@@ -7,3 +7,5 @@
 * VSCode settings.json
 
 ## [Project File Structure](./Example-Project)
+
+[.gitignore settings](./GITIGNORE.MD
