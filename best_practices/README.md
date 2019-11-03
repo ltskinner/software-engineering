@@ -8,4 +8,4 @@
 
 ## [Project File Structure](./Example-Project)
 
-[.gitignore settings](./GITIGNORE.MD
+[.gitignore settings](./GITIGNORE.md)
