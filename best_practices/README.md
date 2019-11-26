@@ -1,6 +1,6 @@
 # Best Practices
 
-## [Programming Best Practices](./PROGRAMMING.md)
+## [Iteration](./ITERATION.md)
 
 ## [IDE Best Practices](./IDEs.md)
 
@@ -9,3 +9,5 @@
 ## [Project File Structure](./Example-Project)
 
 [.gitignore settings](./GITIGNORE.md)
+
+## [Programming Best Practices](./PROGRAMMING.md)
