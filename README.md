@@ -4,9 +4,10 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 ## Best Practices
 
-* [Programming Best Practices](./best_practices/PROGRAMMING.md)
-* [IDE Best Practices](./best_practices/IDEs.md)
+* [Project Lifecycle](./best_practices/project_lifecycle)
 * [Project File Structure](./best_practices/Example-Project)
+* [IDE Best Practices](./best_practices/IDEs.md)
+* [Programming Best Practices](./best_practices/PROGRAMMING.md)
 
 ## Requirements
 
@@ -44,6 +45,10 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 * [Code Complete Quality Assurance](./books/code_complete_quality_assurance)
 * [Python Unit Test Example](./python/unit_testing)
+
+### [Peer Reviews](./quality_assurance/peer_reviews)
+
+### [Testing](./quality_assurance/testing)
 
 ## Maintenance
 
