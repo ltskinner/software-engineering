@@ -4,7 +4,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 ## Best Practices
 
-* [Project Lifecycle](./best_practices/project_lifecycle)
+* [Iteration Sequence](./best_practices/ITERATION.md)
 * [Project File Structure](./best_practices/Example-Project)
 * [IDE Best Practices](./best_practices/IDEs.md)
 * [Programming Best Practices](./best_practices/PROGRAMMING.md)
