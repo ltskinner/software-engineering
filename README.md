@@ -43,7 +43,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization"
 
-* [Code Complete Quality Assurance](./books/code_complete_quality_assurance)
+* [Code Complete Quality Assurance](./books/code_complete/quality_assurance)
 * [Python Unit Test Example](./python/unit_testing)
 
 ### [Peer Reviews](./quality_assurance/peer_reviews)
