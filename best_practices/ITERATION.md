@@ -1,4 +1,9 @@
-# Project Lifecycle Cheat Sheet
+# Single Iteration Cheat Sheet
+
+To be performed at:
+
+* Entire project level
+* Individual sprint level
 
 ## Problem Framing
 

@@ -23,7 +23,9 @@
   * [ ] Developers know what the limits of spending are
   * [ ] Developer needs and client expected costs are in line
 
-## Step 1 - What 
+## Step 1 - What
+
+* [ ] You're sure nobody else has solved this problem, right?
 
 ### 0.1 - Problem Framing
 
@@ -79,6 +81,85 @@
 
 ### 1.1 - Requirements
 
+#### Functional Requirements
+
+* [ ] Are system boundary conditions specified?
+  * [ ] Inputs?
+  * [ ] Outputs?
+  * [ ] Results formats?
+* [ ] Are software needs specified?
+  * [ ] Is there any reason any OS MUST or CANNOT be used?
+  * [ ] Rough idea of what open source software will be used?
+  * [ ] COTS software has been profiled and is within budget?
+* [ ] Are compute needs are properly specified?
+  * [ ] Using cloud? On-prem? Personal Compute?
+  * [ ] Need GPUs? Special RAM loads?
+* [ ] Do you have a detailed enough description to build the system?
+
+#### Quality Attribute Requirements
+
+* [ ] Do you have definitions of:
+  * [ ] Success?
+  * [ ] Failure?
+
+* [ ] Are tradeoffs between attributes documented?
+
+##### Quality Attributes: Tier One
+
+* [ ] Are **availability** requirements specified?
+  * [ ] Uptime needs?
+  * [ ] What types of events will lead to the system being down?
+  * [ ] Are **error** handling requirements specified?
+    * [ ] Consequences of software failure are noted?
+    * [ ] Vital system information is documented?
+    * [ ] Vital system components are documented?
+    * [ ] Error detection strategy is documented?
+    * [ ] Error recovery strategy is documented?
+* [ ] Are **interoperability** requirements specified?
+  * [ ] Are all interfaces to external systems specified?
+  * [ ] Are all protocols to communicate with external system specified?
+  * [ ] Are all auth considerations for external communication specified?
+* [ ] Are **modifiability** requirments specified?
+  * [ ] Have things that are NOT likely to change been noted?
+  * [ ] Have things that are likely to be changed noted?
+  * [ ] Have the likelihoods and conditions of change been noted?
+  * [ ] If a change needs to be made, who will need to make it?
+  * [ ] What kind of cost will a change incur?
+* [ ] Are **performance** requirements specified?
+  * [ ] Have all classes of events been catalogued with their expected responses?
+    * [ ] Periodic events - predictable and on regular interval?
+    * [ ] Stochastic events - can arrive on some probabilistic distribution?
+    * [ ] Sporatic events - circumstantial or otherwise non-pattern events?
+  * [ ] Are **timing** requiremnts specified?
+    * [ ] Response times? (latency)
+    * [ ] Jitter - variations in latency?
+    * [ ] Processing time?
+    * [ ] System trhoughput?
+    * [ ] Data transfer rates?
+    * [ ] Number of events not processed (due to system being bogged down)?
+* [ ] Security
+* [ ] Testability
+* [ ] Usability
+
+##### Quality Attributes: Tier Two
+
+#### Constraints
+
+#### Recap
+
+* [ ] If every requirement is satisfied, will the product be complete?
+* [ ] Aggreed upon reqs are reasonable:
+  * [ ] Nothing is impossible to implement
+  * [ ] **No reqs that only serve to appease a customer or boss**
+* [ ] Each requirement is testable:
+  * [ ] Can see how developing tests will be easy?
+  * [ ] Requirements are able to be tested by a third party?
+* [ ] Have you made the requirements easy to navigate in the future?
+  * [ ] Properly indexed?
+  * [ ] Stored with proper visibility?
+  * [ ] Easy to revisit and mobilize for ass coverage?
+
+
 ### 1.2 - Estimation
 
 (I dont know squat about estimation yet - where does this land priority wise?)
@@ -99,11 +180,11 @@
 
 ### 3.3 - Quality Assurance
 
+(bundling these in b/c retrofitting is ass and this needs to be baked in from the gitgo)
+
 * [ ] Performed peer reviews of the system
 * [ ] Automated tests
 * [ ] Performed non automated required tests
-
-(bundling these in b/c retrofitting is ass and this needs to be baked in from the gitgo)
 
 ### 3.4 - Maintenance
 
