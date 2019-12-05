@@ -1,30 +1,5 @@
 # Python
 
-What is good code?
-
-* Not code that uses every single feature
-* Not even code that uses that many features of python
-* Certain clarity to where and when a feature should be used
-* Its code that doesnt waste the time of the person whos writing it
-
-Leverage tools correctly:
-
-* I have this pattern
-  * Python has this mechanism
-    * And everything very smoothly works
-
-The language itself provides the core pieces you need and doesnt require you to create a new framework to make something happen
-
-Python is a language oriented around some protocol
-
-* There is some behavior
-  * some syntax
-    * some byte code
-      * or some top level function
-        * to do what you need
-
-**Remember what the features are for, not their syntax**
-
 ## General Artifacts
 
 * [Classes](./CLASSES.md)
@@ -32,7 +7,8 @@ Python is a language oriented around some protocol
   * [Inheritance](./CLASSES.md#Inheritance) (Single, Multiple)
 
 ```python
-super().__init__(length=length, width=length, **kwargs)
+super().__init__(length=length, width=length,
+                 *args, **kwargs)
 ```
 
 ## Tools
@@ -40,7 +16,46 @@ super().__init__(length=length, width=length, **kwargs)
 ### [Loggers](./logging)
 
 ```python
-# Instantiate your own logger
+import logging
+from logging.config import dictConfig
+
+def get_logger(output_path, logging_level=logging.DEBUG):
+    """
+    logging.CRITICAL --> only critical
+    logging.DEBUG --> all
+    """
+    logging_config = dict(
+        version = 1,
+        formatters = {
+            'row_format': {
+                'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+            }
+        },
+        handlers = {
+            'console_logger': {
+                'class': 'logging.StreamHandler',
+                'formatter': 'row_format',
+                'level': logging_level
+            },
+            'file_logger': {
+              'class': 'logging.FileHandler',
+              'formatter': 'row_format',
+              'level': logging_level,
+              'filename': output_path,
+            }
+        },
+        root = {
+            'handlers': ['console_logger'],
+            'level': logging_level,
+        },
+    )
+
+    dictConfig(logging_config)
+    logger = logging.getLogger()
+    return logger
+
+logger = get_logger('./project.log')
+logger.debug('often makes a very good meal of %s', 'visiting tourists')
 ```
 
 ### [Dates](./DATES.md)
@@ -104,9 +119,10 @@ if __name__ == "__main__":
 $ python -m unittest discover
 ```
 
-### Building whls
+## Packaging
 
-#### [setup.py](./SETUP.md)
+* [setup.py example](./SETUP.md)
+* [pypi distribution](./PYPI.md)
 
 ```bash
 $ python setup.py sdist bdist_wheel
@@ -131,7 +147,28 @@ def decorator(func):
 
 ### [Context Managers](./CONTEXT.py) (`with ...`)
 
-## [PyPi Distribution Sequence](./PYPI.md)
+## What is good code?
 
+* Not code that uses every single feature
+* Not even code that uses that many features of python
+* Certain clarity to where and when a feature should be used
+* Its code that doesnt waste the time of the person whos writing it
 
+Leverage tools correctly:
+
+* I have this pattern
+  * Python has this mechanism
+    * And everything very smoothly works
+
+The language itself provides the core pieces you need and doesnt require you to create a new framework to make something happen
+
+Python is a language oriented around some protocol
+
+* There is some behavior
+  * some syntax
+    * some byte code
+      * or some top level function
+        * to do what you need
+
+**Remember what the features are for, not their syntax**
 
