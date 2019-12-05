@@ -112,7 +112,7 @@ raise Exception(f'x should not exceed 5. The value was: {x}')
 # udef Exceptions
 class ValueTooSmallError(Exception):
     """Raised when input is too small
-    
+
     Attributes:
         expression -- input expression that caused the error
         message -- explanation of the error
