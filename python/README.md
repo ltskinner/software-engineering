@@ -172,4 +172,3 @@ Python is a language oriented around some protocol
         * to do what you need
 
 **Remember what the features are for, not their syntax**
-
