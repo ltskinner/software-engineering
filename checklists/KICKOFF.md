@@ -98,10 +98,12 @@
 
 #### Quality Attribute Requirements
 
+* [ ] Do you have enough information to design the simplest system possible?
+* [ ] Have you ensured there are no requirements that add unneccesary complexity?
+* [ ] Have you eliminated erroneous requirements that only serve to appease egos or unrealistic expectations?
 * [ ] Do you have definitions of:
   * [ ] Success?
   * [ ] Failure?
-
 * [ ] Are tradeoffs between attributes documented?
 
 ##### Quality Attributes: Tier One
@@ -137,11 +139,45 @@
     * [ ] System trhoughput?
     * [ ] Data transfer rates?
     * [ ] Number of events not processed (due to system being bogged down)?
-* [ ] Security
-* [ ] Testability
-* [ ] Usability
+* [ ] Are **Security** requirements specified?
+  * CIA Triangle (Confidentiality, Integrity, Availability)
+    * [ ] Do data/services need to be protected from unauthorized access?
+    * [ ] Do we need to ensure that data/services are not manipulated improperly?
+    * [ ] Have system availability needs been characterized?
+  * Others:
+    * [ ] Will users need to authenicate?
+    * [ ] Will actions need to be tracked for nonrepuditation?
+    * [ ] Will there be different levels of authorization?
+* [ ] **Testability**
+  * [ ] Have budgeted 30-50% of the project timeline to be used for testing?
+  * What do you know and what can you expect at the requirements level?
+* [ ] **Usability**
+  * [ ] Things that will make the system easy to use have been noted?
+  * [ ] What things could change to make the system easier to use?
+  * [ ] Things that could make the user more efficient with the system?
+  * [ ] Have things that will instill confidence in the user been noted?
+* [ ] Does the system need to be **monitored** while live?
+  * [ ] Transaction time?
+  * [ ] Health of components
+  * [ ] Queue lengths
+  * [ ] What will be monitoring it?
+  * [ ] How will data be viewed by the monitor?
 
 ##### Quality Attributes: Tier Two
+
+* [ ] Will it be neccessary to make slight **variations** to the final product?
+  * [ ] Have the areas that vary been explicitly designated for change?
+* [ ] Will this product need to be **portable** to different platforms?
+* [ ] Will this product need to be **developed** by remote teams?
+  * [ ] Have proper collaboration tools been prepared?
+* [ ] **Scalability** has been considered?
+  * [ ] Will the system scale horizontally with more logical units/clusters?
+  * [ ] Will the system scale vertically with more resources to one unit?
+* [ ] Have the **deployment** needs been reviewed?
+  * [ ] Porting code to site?
+  * [ ] Integrating with existing systems?
+* [ ] Is **mobility** a requirement?
+  * [ ] Will the size, display, input, bandwidth need to be adjusted for different deployment environments?
 
 #### Constraints
 
