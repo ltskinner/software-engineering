@@ -68,6 +68,38 @@ str_time = now_time.strftime('%Y-%m-%d %H:%M:%S')
 dt_obj = datetime.strptime(str_time, '%Y-%m-%d %H:%M:%S')
 ```
 
+### [Unit Testing](./unit_testing)
+
+```python
+import unittest
+
+def fun(x):
+    return x + 1
+
+class MyTest(unittest.TestCase):
+    def test(self):
+        self.assertEqual(fun(3), 4)
+
+
+if __name__ == "__main__":
+    unittest.main()
+```
+
+#### Run all tests
+
+```bash
+$ python -m unittest discover
+```
+
+### Packaging
+
+* [setup.py example](./SETUP.md)
+* [pypi distribution](./PYPI.md)
+
+```bash
+$ python setup.py sdist bdist_wheel
+```
+
 ### [Exceptions](./exceptions)
 
 ```python
@@ -96,37 +128,6 @@ if i_num < number:
     raise ValueTooSmallError(i_num < number, "value is too small")
 ```
 
-### [Unit Testing](./unit_testing)
-
-```python
-import unittest
-
-def fun(x):
-    return x + 1
-
-class MyTest(unittest.TestCase):
-    def test(self):
-        self.assertEqual(fun(3), 4)
-
-
-if __name__ == "__main__":
-    unittest.main()
-```
-
-#### Run all tests
-
-```bash
-$ python -m unittest discover
-```
-
-## Packaging
-
-* [setup.py example](./SETUP.md)
-* [pypi distribution](./PYPI.md)
-
-```bash
-$ python setup.py sdist bdist_wheel
-```
 
 ## Random Artifacts
 
