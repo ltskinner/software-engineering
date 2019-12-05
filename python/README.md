@@ -128,7 +128,6 @@ if i_num < number:
     raise ValueTooSmallError(i_num < number, "value is too small")
 ```
 
-
 ## Random Artifacts
 
 ### [Generators](./GENERATORS.py)
