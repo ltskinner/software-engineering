@@ -8,6 +8,7 @@
     /requirements
     /architecture
     /design
+    /branding
     BACKLOG.md        --> use Issues + Projects
     RELEASE_NOTES.md  --> use Releases
 /models
