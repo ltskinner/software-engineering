@@ -8,6 +8,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * [Project File Structure](./best_practices/Example-Project)
 * [IDE Best Practices](./best_practices/IDEs.md)
 * [Programming Best Practices](./best_practices/PROGRAMMING.md)
+* [.gitignore](./best_practices/GITIGNORE.md)
 
 ## Requirements
 
