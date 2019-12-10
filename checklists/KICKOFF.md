@@ -22,6 +22,9 @@
   * [ ] Source of funding is secure
   * [ ] Developers know what the limits of spending are
   * [ ] Developer needs and client expected costs are in line
+  * [ ] Fund start dates are advertized
+  * [ ] Fund end dates are advertized
+  * [ ] Appropriate uses of funds are stated (or not stated) as well
 
 ## Step 1 - What
 
@@ -195,8 +198,15 @@
   * [ ] Stored with proper visibility?
   * [ ] Easy to revisit and mobilize for ass coverage?
 
+### 1.2 Failure
 
-### 1.2 - Estimation
+| Success Scenarios | Failure Scenarios |
+| - | - |
+|  |  |
+|  |  |
+|  |  |
+
+### 1.3 - Estimation
 
 (I dont know squat about estimation yet - where does this land priority wise?)
 

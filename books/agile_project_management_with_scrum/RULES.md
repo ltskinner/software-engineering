@@ -59,6 +59,11 @@
 * Sprint review starts with a Team member presenting the Sprint goal, the Product Backlog committed to, and the Product Backlog completed
   * Team members will then talk about what went well and what didnt in the Sprint
 * The majority of the Sprint review is spent with the Team members presenting functionality, answering stakeholder questions and noting changes
+  * **Be sure to lead with the easiest to grasp concepts**
+  * Diagrams
+  * Visual interfaces
+  * CLI
+  * Code (last resort)
 * At the end, stakeholders are polled for impressions, changes, and priority of changes
 * The PO discusses with stakeholders the best way to rearrange the Product Backlog
 

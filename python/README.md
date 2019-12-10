@@ -68,6 +68,11 @@ str_time = now_time.strftime('%Y-%m-%d %H:%M:%S')
 dt_obj = datetime.strptime(str_time, '%Y-%m-%d %H:%M:%S')
 ```
 
+## [Networking](./networking)
+
+* UDP
+* TCP
+
 ### [Unit Testing](./unit_testing)
 
 ```python
