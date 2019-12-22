@@ -2,6 +2,11 @@
 
 ## VSCode
 
+/project
+    /.vscode
+        settings.json
+    /project_code
+
 ### settings.json
 
 ```json
