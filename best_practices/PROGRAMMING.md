@@ -41,8 +41,8 @@ import pandas as pd
 import requests                        # Grouped by functionality (data collection)
 from bs4 import BeautifulSoup          # Uses libraries from previous group
 
-import sqlalchemy                      # Grouped by (data storage)
-import psycopg2                        # Uses libraries from previous group
+import psycopg2                        # Grouped by (data storage)
+import sqlalchemy                      # Uses libraries from previous group
 import boto3
 
 import nltk                            # Grouped by (data processing)
