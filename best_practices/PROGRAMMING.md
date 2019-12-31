@@ -73,6 +73,8 @@ from my_module import my_function      # Uses libraries from previous group
 * Dont use numbers in names
   * `file1`, `file2`
 * Dont use commonly misspelled words
+* Dont use `temp` under any circumstance
+ * There is always a better way to express the variable
 
 ## Routines
 
