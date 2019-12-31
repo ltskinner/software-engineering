@@ -27,7 +27,7 @@ setup(name='spongebob',
       license='MIT',
       install_requires=required,
       packages=['spongebob'],
-      
+
       # Keep /lib/ inside the package dir
       package_data={'': ['lib/spongebob.jpg', 'lib/banner.txt']},
       zip_safe=False)
