@@ -1,6 +1,8 @@
 # Example-Project
 
 ```
+/.vscode
+    settings.json
 /data
     /raw
     /enriched

@@ -37,12 +37,13 @@ import os                              # Basic libraries first, increasing in co
 import math
 import numpy as np
 import pandas as pd
+from datetime import datetime
 
 import requests                        # Grouped by functionality (data collection)
 from bs4 import BeautifulSoup          # Uses libraries from previous group
 
-import sqlalchemy                      # Grouped by (data storage)
-import psycopg2                        # Uses libraries from previous group
+import psycopg2                        # Grouped by (data storage)
+import sqlalchemy                      # Uses libraries from previous group
 import boto3
 
 import nltk                            # Grouped by (data processing)
@@ -73,6 +74,8 @@ from my_module import my_function      # Uses libraries from previous group
 * Dont use numbers in names
   * `file1`, `file2`
 * Dont use commonly misspelled words
+* Dont use `temp` under any circumstance
+ * There is always a better way to express the variable
 
 ## Routines
 
