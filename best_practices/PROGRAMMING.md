@@ -138,7 +138,7 @@ Individual procedure with a *single purpose*
 * For conditions that should never occur
 * Things originating from inside the program
 
-## Exceptions
+### Exceptions
 
 * For conditions that should never occur
 * Things originating externally

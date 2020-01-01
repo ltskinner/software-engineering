@@ -68,6 +68,20 @@ str_time = now_time.strftime('%Y-%m-%d %H:%M:%S')
 dt_obj = datetime.strptime(str_time, '%Y-%m-%d %H:%M:%S')
 ```
 
+### [argparse](./ARGPARSE.md)
+
+```python
+import argparse
+
+my_parser = argparse.ArgumentParser()
+my_parser.add_argument('--some_int', action='store',
+                        type=int,
+                        required=True,
+                        default=42)
+args = my_parser.parse_args()
+print(args.some_int)
+```
+
 ## [Networking](./networking)
 
 * UDP
@@ -105,7 +119,7 @@ $ python -m unittest discover
 $ python setup.py sdist bdist_wheel
 ```
 
-### [Exceptions](./exceptions)
+### [Program Protection](./exceptions)
 
 ```python
 # Assertions
