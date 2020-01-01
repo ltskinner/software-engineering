@@ -50,4 +50,31 @@ assert (word_0_vec[0] > -1 and word_0_vec[0] < 1), "Sample value is out of range
   * network (requests, boto3)
   * hardware (gpu grabbing)
 
-[reference this](https://github.com/ltskinner/software-engineering/blob/master/python/exceptions/else_finally.py#L37)
+```python
+try:
+    print('in try')
+    # int(2.0)
+    int('string')
+except ValueError as e:
+    print('in except')
+    print('    -->', e)
+else:
+    print("in else")
+    print('    --> continues operations after the try statement')
+    print('        this is done to localize the single excepted line')
+    print('        to be the only thing inside the `try`')
+finally:
+    print('in finally')
+    print('    --> always executes')
+
+
+# Network example
+import requests
+
+try:
+    r = requests.get('http://www.google.com/nothere')
+    r.raise_for_status()
+except requests.exceptions.HTTPError as e:
+    print(e)
+    sys.exit(1)
+```
