@@ -216,6 +216,16 @@
 
 ### 2.2 - Design
 
+#### Control Flow Design
+
+#### Data Design
+
+#### Model Design
+
+#### UX Design
+
+* [ ] Have you showed the client as many different options as possible?
+
 ## Step 3 - Implementation
 
 ### 3.1 - Programming
