@@ -115,6 +115,33 @@ $ python -m unittest discover
 * [setup.py example](./SETUP.md)
 * [pypi distribution](./PYPI.md)
 
+#### __init__.py
+
+```python
+# Option 1
+from . import first_module
+
+# Option 2
+from .second_module import second_function
+```
+
+#### Usage
+
+```python
+# Option 1
+import package
+
+package.first_module.first_function()
+package.second_function()
+
+# Option 2
+from package.first_module import first_function
+from package import second_function
+
+first_function()
+second_function()
+```
+
 ```bash
 $ python setup.py sdist bdist_wheel
 ```
