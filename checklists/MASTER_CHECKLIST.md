@@ -8,7 +8,7 @@
 
 * [ ] You're sure nobody else has already solved this problem, right?
 
-### [0.1 - Problem Framing](./PROBLEM_FRAME.md)
+### [0.1 - Problem Framing](./0_0_PROBLEM_FRAME.md)
 
 ### [1.1 - Requirements](./1_1_REQUIREMENTS.md)
 
