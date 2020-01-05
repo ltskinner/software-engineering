@@ -1,4 +1,4 @@
-# 0.1 - Problem Framing
+# 1.0 - Problem Framing
 
 * [ ] What type of problem is this?
   * [ ] Traditional software engineering?
