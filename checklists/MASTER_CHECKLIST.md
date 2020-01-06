@@ -50,6 +50,9 @@
 
 ### 3.3 - Quality Assurance
 
+* Peer reviews ensure code is inspected so people (hopefully) will write better code from the beginning
+* As opposed to hiding hacked together lines deep in the code base
+
 (bundling these in b/c retrofitting is ass and this needs to be baked in from the gitgo)
 
 * [ ] Performed peer reviews of the system
