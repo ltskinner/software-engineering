@@ -7,6 +7,8 @@
 
 ## Naming Conventions
 
+* [Full list of naming conventions](./NAMING_CONVENTIONS.md)
+
 **If a name sounds dumb, change the functionality not the name**
 
 * Constants
