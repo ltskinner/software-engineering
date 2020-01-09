@@ -2,13 +2,12 @@
 
 Notes on programming + best practices, design patterns, architectural patterns, and project management
 
-## Best Practices
+## Quick Reference
 
-* [Iteration Sequence](./best_practices/ITERATION.md)
-* [Project File Structure](./best_practices/Example-Project)
-* [IDE Best Practices](./best_practices/IDEs.md)
-* [Programming Best Practices](./best_practices/PROGRAMMING.md)
-* [.gitignore](./best_practices/GITIGNORE.md)
+* [Programming Best Practices](./quick_reference/PROGRAMMING.md)
+* [Standard File Structure](./quick_reference/Example-Project)
+* VSCode [settings.json](./quick_reference/IDEs.md)
+* [.gitignore settings](./quick_reference/GITIGNORE.md)
 
 ## Requirements
 
