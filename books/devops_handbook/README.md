@@ -15,3 +15,18 @@
   * Reducing work in progress (WIP)
   * Preventing the need for rework
   * Dont pass defects downstream
+
+### Chapter 2:
+
+"Stop starting. Start finishing"
+
+#### Codify and enforce WIP limits
+
+* **NO MORE THAN A CERTAIN NUMBER OF CARDS PER PERSON PER COLUMN**
+* Must ensure that no work can be performed unless its on a card
+  * Pattern sections like reqs, design, arch, testing dont need their own cards - just swimlanes
+* Keep pace of development as steady as possible
+  * Bottlenecks at any point need to be ironed out at any cost
+  * There is no reason to optimize before or after a bottleneck so long as the bottleneck exists
+* **Reliance on anything that cant be automated is a liability**
+* If anyone has to do anything unreasonable to bring it to production, thats a big problem
