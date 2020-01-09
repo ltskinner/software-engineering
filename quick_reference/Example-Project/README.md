@@ -81,4 +81,4 @@ python setup.py sdist bdist_wheel
 
 ### Distributing via PyPi
 
-[pypi distribution notes](../python/PYPI.md)
+[pypi distribution notes](../../python/PYPI.md)
