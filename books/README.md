@@ -60,3 +60,9 @@
 ### Agile
 
 * [ ] [Agile Estimating and Planning*](https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415)
+
+## Devops
+
+* [ ] [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)
+* [ ] [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://www.amazon.com/gp/product/1942788290/)
+* [ ] [The Unicorn Project: A Novel about Developers, Digital Distruption, and Thriving in the Age of Data](https://www.amazon.com/gp/product/1942788762)
