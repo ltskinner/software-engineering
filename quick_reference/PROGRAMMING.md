@@ -5,23 +5,16 @@
 * Don't write "clever" code
 * Remember that code is read far more times than its written
 
-## Naming Conventions
+## PEP8
 
-* [Full list of naming conventions](./NAMING_CONVENTIONS.md)
-
-**If a name sounds dumb, change the functionality not the name**
-
-* Constants
-  * UPPERCASE_NAMES
-  * MAGIC_NUMBERS, MAGIC_STRINGS
-* Variables, functions, methods
-  * lowercase, use_underscores
-* Classes
-  * UpperCamelCase
-* Modules
-  * module.py, module_name.py
-* Packages
-  * package, nounderscore
+* Focus on properly indenting code for readability
+  * Inline operators
+  * Function parameters
+* 80 char lines dont always need to be followed
+  * Although, lines over 80 char typically mean:
+    * 1) You have nested something too deep (BAD - abstract your loops and if/elses)
+    * 2) The line itself contains multiple operations (BAD - use intermediate variables to document process sequence)
+  * **Review ever line over 80 characters and ensure they truly are neccessary**
 
 ## Imports
 
@@ -55,6 +48,41 @@ import tensorflow as tf
 import module_with_lots_of_functions   # Grouped by (udef), order these by functionality + complexity as well
 from my_module import my_function      # Uses libraries from previous group
 ```
+
+## Commenting
+
+**If you catch yourself using `# -------- {SECTION_NAME} --------` to mark sections, consider moving into function or module**
+
+### Inline Comments
+
+* Minimize
+  * Use better artifact names to describe whats happening
+* Only explain the **why**
+  * Code should explain the **what** and the **how**
+
+### Docstring Comments
+
+* Elaborate on parameter and return types if not made clear by type hinting
+* Use to explain the why - useful for definition peeks
+* Use Google docstrings
+
+## Naming Conventions
+
+* [Full list of naming conventions](./NAMING_CONVENTIONS.md)
+
+**If a name sounds dumb, change the functionality not the name**
+
+* Constants
+  * UPPERCASE_NAMES
+  * MAGIC_NUMBERS, MAGIC_STRINGS
+* Variables, functions, methods
+  * lowercase, use_underscores
+* Classes
+  * UpperCamelCase
+* Modules
+  * module.py, module_name.py
+* Packages
+  * package, nounderscore
 
 ## Variables
 
@@ -151,28 +179,6 @@ Individual procedure with a *single purpose*
 * Minimize
 * **NEVER** leave uncaught
   * Exception or trace is invaluable
-
-## PEP8
-
-* Focus on properly indenting code for readability
-  * Inline operators
-  * Function parameters
-* 80 char lines dont always need to be followed
-
-## Commenting
-
-### Inline Comments
-
-* Minimize
-  * Use better artifact names to describe whats happening
-* Only explain the **why**
-  * Code should explain the **what** and the **how**
-
-### Docstring Comments
-
-* Elaborate on parameter and return types if not made clear by type hinting
-* Use to explain the why - useful for definition peeks
-* Use Google docstrings
 
 ## Type Hinting
 

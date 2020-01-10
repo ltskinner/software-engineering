@@ -8,7 +8,7 @@
 
 ## Code Review
 
-* (From best practices)
+* [Code Review Template Download](./Code_Review_Template.xlsx)
 
 ## Model Review
 

@@ -5,7 +5,10 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 ## Quick Reference
 
 * [Programming Best Practices](./quick_reference/PROGRAMMING.md)
+* [Naming Conventions](./quick_reference/NAMING_CONVENTIONS.md)
+* [Diagramming Best Practices](./quick_reference/DIGRAMMING.md)
 * [Standard File Structure](./quick_reference/Example-Project)
+* [Agile Manual](./quick_reference/AGILE_MANUAL.md)
 * VSCode [settings.json](./quick_reference/IDEs.md)
 * [.gitignore settings](./quick_reference/GITIGNORE.md)
 
