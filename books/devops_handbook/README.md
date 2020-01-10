@@ -16,7 +16,7 @@
   * Preventing the need for rework
   * Dont pass defects downstream
 
-### Chapter 2:
+### Chapter 2: The First Way: The Principles of Flow
 
 "Stop starting. Start finishing"
 
@@ -30,3 +30,10 @@
   * There is no reason to optimize before or after a bottleneck so long as the bottleneck exists
 * **Reliance on anything that cant be automated is a liability**
 * If anyone has to do anything unreasonable to bring it to production, thats a big problem
+
+### Chapter 3: The Second Way: The Principles of Feedback
+
+* Get feedback frequently and as soon as possible to make course corrections
+* See problems as they occur - use lots of testing and telemetry to monitor
+* Swarm everyone to problems so that they learn from the mistakes of others
+* **According to Lean, the most important customer is the next step downstream**
