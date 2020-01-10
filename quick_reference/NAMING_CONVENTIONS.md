@@ -40,3 +40,14 @@ If no {spec} is stated, assume its a combined set of elements
 * Type
   * `title`
   * `text`
+
+### Interactive Element Parameter Order
+
+```python
+dcc.Dropdown(
+  id='{}_{}_{}',  # 1
+  options=[],     # 2
+  value=''        # 3
+  # style={}  # NEVER style in Dash - ALWAYS use .css
+)
+```
