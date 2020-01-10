@@ -2,11 +2,11 @@
 
 * Be sure to look into infrastructure as code
 
-## (Introduction)(./INTRO.md)
+## [Introduction](./INTRO.md)
 
-## (Part 1: The Three Ways)(./part_1_the_three_ways)
+## [Part 1: The Three Ways](./part_1_the_three_ways)
 
-### (Chapter 1: The Manufacturing Value Stream)(./part_1_the_three_ways/CHAPTER_1.md)
+### [Chapter 1: The Manufacturing Value Stream](./part_1_the_three_ways/CHAPTER_1.md)
 
 * "Best indicator of value is the lead time"
 * How to minimize?
