@@ -26,7 +26,3 @@
 * Like Kaizen, always taking time in the day to figure out how to improve
 
 ### Infrastructure as Code
-
-
-## [Chapter 1: Agile, Continuous Delivery, and the Three Ways](./CHAPTER_1.md)
-
