@@ -52,3 +52,27 @@
     * In between sprints?
     * In between milestones?
 * **NEED CENTRAL KNOWLEDGE BASE THAT EVERYONE ADDS TO**
+
+## [Part II: Where to Start](./part_2_where_to_start/)
+
+### [Chapter 5: Selecting Which Value Stream to Start With](./part_2_where_to_start/CHAPTER_5.md)
+
+* Apply lots of pressure and attention on the areas (and groups) most likely to budge
+* **Not super fruitful to change the mind of people whose minds dont want to be changed**
+* Demonstrate early wins
+* Broadcast successes
+
+### [Chapter 6: Understanding the Work in Our Value Stream, Making it Visible, and Expanding it Across the Organization](./part_2_where_to_start/CHAPTER_6.md)
+
+* Create a value stream map - see chapter for more detail
+* Create a dedicated transformation team
+* Agree on shared goals (that can be measured)
+* Ensure horizons and intervals are short
+  * Short enough to ensure actionable data can be collected within weeks
+
+#### Use MINIMUM 20% of time to paydown technical debt
+
+* Documentation
+* Refactoring
+* Testing
+* Automation
