@@ -87,3 +87,6 @@
 * Generalists > specialists
 
 ### [Chapter 8: How to Get Great Outcomes by Integrating Operations into the Daily Work of Development]
+
+* Need self service tools with ZERO lag time between needing a service and getting it
+* On embedding: "Use the Ops engineers to lay the tracks and build the bridges, not just drive the train"
