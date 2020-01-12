@@ -76,3 +76,14 @@
 * Refactoring
 * Testing
 * Automation
+
+### [Chapter 7: How to Design Our Organization and Architecture with Conway's Law in Mind](./part_2_where_to_start/CHAPTER_7.md)
+
+`The organization of the software and the organization of the software team will be congruent; commonly states as 'if you have four groups working on a compiler, youll get a 4-pass compiler'`
+
+* Create loosely coupled architectures that have *bounded contexts*
+* Keep teams small - "Two-Pizza Teams"
+* Make sure everyone understands how they contribute to the value stream
+* Generalists > specialists
+
+### [Chapter 8: How to Get Great Outcomes by Integrating Operations into the Daily Work of Development]
