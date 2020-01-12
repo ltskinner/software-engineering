@@ -90,3 +90,23 @@
 
 * Need self service tools with ZERO lag time between needing a service and getting it
 * On embedding: "Use the Ops engineers to lay the tracks and build the bridges, not just drive the train"
+
+## [Part III: The First Way: The Technical Practices of Flow](./part_3_first_way_flow)
+
+### [Chapter 9: Create the Foundations of Our Deployment Pipeline](./part_3_first_way/CHAPTER_9.md)
+
+* Need self service environment creation
+* Whether Ops uses version control is a higher predictor of IT and organizational performance than whether Dev uses is
+* Used to treat servers like pets "You name them and when they get sick, you nurse them back to health. Now, servers are treated like cattle. You number them and when they get sick, you shoot them"
+* The ONLY way to change a production environment is to completely rebuild from scratch
+* At the end of each development interval, we have:
+  * Integrated
+  * Tested
+  * Working
+  * Potentially shippable code
+  * **Demonstrated in a production-like environment**
+
+### [Chapter 10: Enable Fast and Reliable Automated Testing](./part_3_first_way_flow/CHAPTER_10.md)
+
+* Use an automated deployment pipeline to ensure that after every change the code successfully integrates into a production-like environment
+
