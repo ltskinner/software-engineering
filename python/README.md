@@ -115,6 +115,35 @@ $ python -m unittest discover
 * [setup.py example](./SETUP.md)
 * [pypi distribution](./PYPI.md)
 
+#### Anaconda
+
+```
+# ---- Creating new env ----
+$ conda create -n {new_env} python=3.6
+
+# ---- Exporting ----
+$ pip freeze > requirements.txt
+
+$ conda env export > environment.yml
+
+
+# ---- Deleting ----
+## First deactivate
+$ conda deactivate
+$ deactivate
+
+$ conda remove --name {new_env} --all
+
+
+# ---- Rebuilding env ----
+## Build with whatever name is in .yml
+# conda env create -f environment.yml
+
+## -U = upgrade
+$ pip install -r requirements.txt -U
+
+```
+
 #### __init__.py
 
 ```python
