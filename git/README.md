@@ -1,6 +1,6 @@
 # Git Usage
 
-[Version control overview](./OVERVIEW/md)
+[Version control overview](./OVERVIEW.md)
 
 ## Basic Usage
 
@@ -9,6 +9,7 @@ $ git status
 $ git add folder/*
 $ git add folder/file.md
 $ git commit -m "commit message"
+$ git pull
 $ git push
 ```
 
