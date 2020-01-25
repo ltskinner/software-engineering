@@ -1,5 +1,10 @@
 # Peer Reviews
 
+## Peer Review Goals:
+
+* Improve quality of the code base
+* Collect data points on an individual to help focus improvements in the future
+
 ## Pre-Construction Review
 
 * Requirements

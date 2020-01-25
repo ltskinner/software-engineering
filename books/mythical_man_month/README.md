@@ -33,7 +33,7 @@ Basically, separating the architects from the implementors works as a good mecha
 
 "Add little to little and there will be a big pile"
 
-"The second system is the most dangerous system a man ever designs"
+"The second system is the most dangerous system a man ever designs" - have actually witnessed this firsthand in the wake of ADAT
 
 ## [Chapter 6: Passing the Word](./CHAPTER_6.md)
 
