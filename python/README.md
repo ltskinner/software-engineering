@@ -13,6 +13,8 @@ super().__init__(length=length, width=length,
 
 ## Tools
 
+### [Dash](./dash)
+
 ### [Loggers](./logging)
 
 ```python
