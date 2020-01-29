@@ -2,6 +2,20 @@
 
 [Version control overview](./OVERVIEW.md)
 
+## Better Usage
+
+```bash
+$ git checkout branch_name
+*make edits*
+$ git add *fname*
+$ git commit -m "edited file"
+$ git push
+*merge in browser*
+$ git checkout master
+$ git fetch
+$ git merge branch_name
+```
+
 ## Basic Usage
 
 ```bash

@@ -98,6 +98,16 @@ def fun(x):
     return x + 1
 
 class MyTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(self):
+        pass
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
     def test(self):
         self.assertEqual(fun(3), 4)
 
