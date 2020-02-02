@@ -2,15 +2,37 @@
 
 Notes on programming + best practices, design patterns, architectural patterns, and project management
 
+* For actual implementations, see: [ltskinner/cicd](https://github.com/ltskinner/cicd)
+* Includes:
+  * 🏛️ Standard File Structure
+  * 🐍 Python examples
+    * [`setup.py`](https://github.com/ltskinner/cicd/blob/master/setup.py)
+    * [`module.py` examples](https://github.com/ltskinner/cicd/blob/master/boneless/module.py)
+    * subpackage examples
+      * relative imports
+      * [package `__init__.py` example](https://github.com/ltskinner/cicd/blob/master/boneless/__init__.py)
+      * [subpackage `__init__.py` example](https://github.com/ltskinner/cicd/blob/master/boneless/subpackage/__init__.py)
+      * [subpackage usage](https://github.com/ltskinner/cicd/blob/master/boneless/module.py)
+    * [testing examples](https://github.com/ltskinner/cicd/tree/master/boneless/tests)
+      * [executing tests](https://github.com/ltskinner/cicd#executing-tests)
+    * [packaging example](https://github.com/ltskinner/cicd#bulding-package)
+  * ⚙️ Config file examples
+    * [.coveragerc](https://github.com/ltskinner/cicd/blob/master/.coveragerc)
+    * [.gitignore](https://github.com/ltskinner/cicd/blob/master/.gitignore)
+    * [MANIFEST.in](https://github.com/ltskinner/cicd/blob/master/MANIFEST.in)
+    * [buildspec.yml](https://github.com/ltskinner/cicd/blob/master/buildspec.yml)
+    * [logging.conf](https://github.com/ltskinner/cicd/blob/master/logging.conf)
+    * [requirements.txt](https://github.com/ltskinner/cicd/blob/master/requirements.txt)
+    * [tox.ini](https://github.com/ltskinner/cicd/blob/master/tox.ini)
+
 ## Quick Reference
 
-* [Programming Best Practices](./quick_reference/PROGRAMMING.md)
-* [Naming Conventions](./quick_reference/NAMING_CONVENTIONS.md)
-* [Diagramming Best Practices](./quick_reference/DIGRAMMING.md)
-* [Standard File Structure](./quick_reference/Example-Project)
-* [Agile Manual](./quick_reference/AGILE_MANUAL.md)
-* VSCode [settings.json](./quick_reference/IDEs.md)
-* [.gitignore settings](./quick_reference/GITIGNORE.md)
+| **Best Practices** | | |
+| - | - | - |
+| [Programming](./best_practices/PROGRAMMING.md) |  [Naming Conventions](./best_practices/NAMING_CONVENTIONS.md) | [Diagramming](./best_practices/DIGRAMMING.md) |
+| | | |
+| **Agile** | | |
+| [Agile Rules](https://github.com/ltskinner/software-engineering/blob/master/books/agile_project_management_with_scrum/RULES.md) | |
 
 ## Requirements
 
@@ -18,6 +40,8 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 * [Code Complete Requirements](./books/code_complete/prereqs/requirements)
 * [The Pragmatic Programmer Requirements](./books/pragmatic_programmer/CHAPTER_7.md)
+
+### [Requirements Peer Reviews](./reviews/REQUIREMENTS.md)
 
 ## Architecture
 
@@ -62,7 +86,3 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * Agile Metrics
 
 ## Software Estimating
-
-## Project Management
-
-* [Agile Project Management](./books/agile_project_management_with_scrum)

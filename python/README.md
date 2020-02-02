@@ -18,46 +18,28 @@ super().__init__(length=length, width=length,
 ### [Loggers](./logging)
 
 ```python
+# example.py
+
+import my_module
+
+if __name__ == '__main__':
+    import logging
+    import logging.config
+
+    logging.config.fileConfig(fname="./logging.conf")
+
+    my_module.funct_with_logger()
+```
+
+```python
+# my_module.py
+
 import logging
-from logging.config import dictConfig
+logger = logging.getLogger()  # if no __name__, gets root logger
 
-def get_logger(output_path, logging_level=logging.DEBUG):
-    """
-    logging.CRITICAL --> only critical
-    logging.DEBUG --> all
-    """
-    logging_config = dict(
-        version = 1,
-        formatters = {
-            'row_format': {
-                'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
-            }
-        },
-        handlers = {
-            'console_logger': {
-                'class': 'logging.StreamHandler',
-                'formatter': 'row_format',
-                'level': logging_level
-            },
-            'file_logger': {
-              'class': 'logging.FileHandler',
-              'formatter': 'row_format',
-              'level': logging_level,
-              'filename': output_path,
-            }
-        },
-        root = {
-            'handlers': ['console_logger'],
-            'level': logging_level,
-        },
-    )
 
-    dictConfig(logging_config)
-    logger = logging.getLogger()
-    return logger
-
-logger = get_logger('./project.log')
-logger.debug('often makes a very good meal of %s', 'visiting tourists')
+def funct_with_logger():
+    logger.info("logging from submodule to logger defined in main")
 ```
 
 ### [Dates](./DATES.md)
@@ -106,6 +88,10 @@ class MyTest(unittest.TestCase):
         pass
 
     def tearDown(self):
+        pass
+
+    @classmethod
+    def tearDownClass(self):
         pass
 
     def test(self):

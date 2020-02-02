@@ -6,14 +6,21 @@
 
 ```bash
 $ git checkout branch_name
-*make edits*
+  *make edits*
 $ git add *fname*
 $ git commit -m "edited file"
 $ git push
-*merge in browser*
-$ git checkout master
-$ git fetch
-$ git merge branch_name
+```
+
+## After Pull Request
+
+```bash
+git checkout master (you are switching your branch to master)
+git pull
+git checkout branch_name (switch back to your branch)
+git merge master (merges _local copy with what you just pulled down)
+
+git push (CRITICAL - push your _local copy of branch to the origin)
 ```
 
 ## Basic Usage
