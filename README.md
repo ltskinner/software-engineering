@@ -32,18 +32,23 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 | [Programming](./best_practices/PROGRAMMING.md) |  [Naming Conventions](./best_practices/NAMING_CONVENTIONS.md) | [Diagramming](./best_practices/DIGRAMMING.md) |
 | | | |
 | **Agile** | | |
-| [Agile Rules](https://github.com/ltskinner/software-engineering/blob/master/books/agile_project_management_with_scrum/RULES.md) | |
+| [Agile Rules](https://github.com/ltskinner/software-engineering/blob/master/books/agile_project_management_with_scrum/RULES.md) | [Sprint Planning](./checklists/SPRINT_PLANNING.md) | [Sprint Review](./checklists/SPRINT_REVIEW.md) |
 
-## Requirements
+## Step 1 - What
+
+### Requirements
 
 "Requirements are like water. They're easier to build on when they're frozen"
 
 * [Code Complete Requirements](./books/code_complete/prereqs/requirements)
 * [The Pragmatic Programmer Requirements](./books/pragmatic_programmer/CHAPTER_7.md)
+* [Requirements **Peer Reviews**](./reviews/REQUIREMENTS.md)
 
-### [Requirements Peer Reviews](./reviews/REQUIREMENTS.md)
+### Software Estimating
 
-## Architecture
+## Step 2 - How
+
+### Architecture
 
 **Architecture is the design of constraints that apply system wide**
 
@@ -52,7 +57,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * [Software Architecture in Practice](./books/software_architecture_in_practice)
 * [Code Complete Architecture](./books/code_complete/prereqs/architecture)
 
-## Design
+### Design
 
 **Design is the process of compartmentalizing the system into packages/subsystems, classes, and routines while keeping complexity to an absolute minimum**
 
@@ -61,28 +66,32 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * [Code Complete Design](./books/code_complete/design)
 * [Design Patterns](./books/design_patterns)
 
-## Programming
+## Step 3 - Implement
+
+### Programming
 
 * [Code Complete Programming](./books/code_complete/programming)
 * [The Pragmatic Programmer](./books/pragmatic_programmer)
 
-## Quality Assurance
+### Quality Assurance
 
 "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization"
 
 * [Code Complete Quality Assurance](./books/code_complete/quality_assurance)
 * [Python Unit Test Example](./python/unit_testing)
 
-### [Peer Reviews](./quality_assurance/peer_reviews)
+#### [-> Peer Reviews](./quality_assurance/peer_reviews)
 
-### [Testing](./quality_assurance/testing)
+#### [-> Testing](./quality_assurance/testing)
 
-## Maintenance
-
-* [Code Complete Maintenance](./books/code_complete/maintenance)
-
-## Software Metrics
+### Software Metrics
 
 * Agile Metrics
 
-## Software Estimating
+## Step 4 - Project Teardown + Debrief
+
+### Maintenance
+
+* [Code Complete Maintenance](./books/code_complete/maintenance)
+
+### Administrative Project Teardown + Debrief

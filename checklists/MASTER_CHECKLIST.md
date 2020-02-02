@@ -44,11 +44,7 @@
 
 ### 3.1 - Programming
 
-### 3.2 - Software Metrics
-
-(Read the books, bum)
-
-### 3.3 - Quality Assurance
+### 3.2 - Quality Assurance
 
 * Peer reviews ensure code is inspected so people (hopefully) will write better code from the beginning
 * As opposed to hiding hacked together lines deep in the code base
@@ -59,7 +55,13 @@
 * [ ] Automated tests
 * [ ] Performed non automated required tests
 
-### 3.4 - Maintenance
+### 3.3 - Software Metrics
+
+(Read the books, bum)
+
+## Step 4 - Project Teardown + Debrief
+
+### 4.1 - Maintenance
 
 * [ ] Code is written in a readable way
   * [ ] Review programming standards + best practices - focus on decoupling + naming conventionss

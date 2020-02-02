@@ -100,6 +100,13 @@
 
 ## Constraints
 
+* [ ] Is there any compute hardware we are bound to?
+* [ ] Is there any cloud or on-prem compute we are bound to?
+* [ ] Is there any OS we are bound to?
+* [ ] Is there any implementation language we are bound to?
+* [ ] Is there a source control we are bound to?
+* [ ] Is there any software we are forbidden from using?
+
 ## Recap
 
 * [ ] If every requirement is satisfied, will the product be complete?

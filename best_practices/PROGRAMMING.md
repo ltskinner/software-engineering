@@ -105,7 +105,7 @@ from my_module import my_function      # Uses libraries from previous group
   * `file1`, `file2`
 * Dont use commonly misspelled words
 * Dont use `temp` under any circumstance
- * There is always a better way to express the variable
+  * There is always a better way to express the variable
 
 ## Routines
 
