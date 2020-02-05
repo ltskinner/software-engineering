@@ -108,5 +108,11 @@
 
 ### [Chapter 10: Enable Fast and Reliable Automated Testing](./part_3_first_way_flow/CHAPTER_10.md)
 
-* Use an automated deployment pipeline to ensure that after every change the code successfully integrates into a production-like environment
+"Although testing can be automated, creating quality cannot. To have humans executing tests that should be automated is a waste of human potential."
 
+* Use an automated deployment pipeline to ensure that after every change the code successfully integrates into a production-like environment
+* Primary goal is to know when something is break as soon as possible after the change was introduced so its easy to remove
+  * Single worst thing this incurrs: `devs know the build is always broken, so changes arent checked in until big banged the night before the product is due`
+* Focus on tests that validate the business goals
+  * Prefer a small number of great tests, over a large number of FP tests
+  * Macys had 10 tests they deved with for years, then slowly built out
