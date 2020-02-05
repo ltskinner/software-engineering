@@ -20,6 +20,7 @@
 ## Formatters
 
 * Specify the format of each individual record
+* Make sure to use *unique* filenames as modules
 
 ### [Network logging](https://docs.python.org/3/howto/logging-cookbook.html)
 
