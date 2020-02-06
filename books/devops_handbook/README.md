@@ -86,7 +86,7 @@
 * Make sure everyone understands how they contribute to the value stream
 * Generalists > specialists
 
-### [Chapter 8: How to Get Great Outcomes by Integrating Operations into the Daily Work of Development]
+### [Chapter 8: How to Get Great Outcomes by Integrating Operations into the Daily Work of Development](./part_2_where_to_start/CHAPTER_8.md)
 
 * Need self service tools with ZERO lag time between needing a service and getting it
 * On embedding: "Use the Ops engineers to lay the tracks and build the bridges, not just drive the train"
@@ -116,3 +116,12 @@
 * Focus on tests that validate the business goals
   * Prefer a small number of great tests, over a large number of FP tests
   * Macys had 10 tests they deved with for years, then slowly built out
+
+### [Chapter 11: Enable and Practice Continouous Integration](./part_3_first_way_flow/CHAPTER_11.md)
+
+"Without automated testing, CI is the fastest way to get a big pile of junk that never compiles or runs correctly"
+
+* When merging is difficult, we become less able and less motivated to improve and refactor code
+  * this is because refactors are more likely to cause rework for everyone else
+
+"When we do not aggressively refactor our codebase, it becomes more difficult to make changes and to maintain over time, slowing down the rate at which we can add new features"

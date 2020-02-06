@@ -21,7 +21,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
     * [.gitignore](https://github.com/ltskinner/cicd/blob/master/.gitignore)
     * [MANIFEST.in](https://github.com/ltskinner/cicd/blob/master/MANIFEST.in)
     * [buildspec.yml](https://github.com/ltskinner/cicd/blob/master/buildspec.yml)
-    * [logging.conf](https://github.com/ltskinner/cicd/blob/master/logging.conf)
+    * [logging.conf](https://github.com/ltskinner/cicd/blob/master/logging_dev.conf)
     * [requirements.txt](https://github.com/ltskinner/cicd/blob/master/requirements.txt)
     * [tox.ini](https://github.com/ltskinner/cicd/blob/master/tox.ini)
 
