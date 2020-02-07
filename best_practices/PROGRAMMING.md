@@ -14,7 +14,7 @@
   * Although, lines over 80 char typically mean:
     * 1) You have nested something too deep (BAD - abstract your loops and if/elses)
     * 2) The line itself contains multiple operations (BAD - use intermediate variables to document process sequence)
-  * **Review ever line over 80 characters and ensure they truly are neccessary**
+  * **Review every line over 80 characters and ensure they truly are neccessary**
 
 ## Imports
 

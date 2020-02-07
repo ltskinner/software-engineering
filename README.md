@@ -32,7 +32,10 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 | [Programming](./best_practices/PROGRAMMING.md) |  [Naming Conventions](./best_practices/NAMING_CONVENTIONS.md) | [Diagramming](./best_practices/DIGRAMMING.md) |
 | | | |
 | **Agile** | | |
-| [Agile Rules](https://github.com/ltskinner/software-engineering/blob/master/books/agile_project_management_with_scrum/RULES.md) | [Sprint Planning](./checklists/SPRINT_PLANNING.md) | [Sprint Review](./checklists/SPRINT_REVIEW.md) |
+| [Agile Rules](https://github.com/ltskinner/software-engineering/blob/master/books/agile_project_management_with_scrum/RULES.md) | [Sprint Planning](./qa_checklists/SPRINT_PLANNING.md) | [Sprint Review](./qa_checklists/SPRINT_REVIEW.md) |
+| | | |
+| **Quality Assurance** |
+| [QA Checklists - **USE THESE**](./qa_checklists) |
 
 ## Step 1 - What
 
@@ -42,7 +45,6 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 * [Code Complete Requirements](./books/code_complete/prereqs/requirements)
 * [The Pragmatic Programmer Requirements](./books/pragmatic_programmer/CHAPTER_7.md)
-* [Requirements **Peer Reviews**](./reviews/REQUIREMENTS.md)
 
 ### Software Estimating
 

@@ -27,7 +27,7 @@
 * [ ] Project has a champion
 * [ ] Data required for the project is accessable (and its sharing is strongly supported)
 * [ ] Access (or lack therof) to the data will not impede the project
-* [ ] There actually exists a problem that can be solved technologically
+* [ ] There **actually exists** a problem that can be solved technologically
   * [ ] aka, we arent trying to solve a process problem with technology
 * [ ] The determined project frame is actually feasible to solve
 * [ ] There is actually a market for the problem being solved
