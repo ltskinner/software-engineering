@@ -125,3 +125,5 @@
   * this is because refactors are more likely to cause rework for everyone else
 
 "When we do not aggressively refactor our codebase, it becomes more difficult to make changes and to maintain over time, slowing down the rate at which we can add new features"
+
+### [Chapter 12: Automate and Enable Low-Risk Releases](./part_3_first_way_flow/CHAPTER_12.md)
