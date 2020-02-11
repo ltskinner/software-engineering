@@ -60,3 +60,57 @@ Decoupling these two makes for
 
 * Developers repsonsible for code working
 * POs responsible for making clients happy
+
+### Broad categories of releases:
+
+* Environment Based release patterns
+  * Have two or more environments that get deployed too
+  * Only one env gets live customer traffic
+  * New code is deployed in non-live environment
+    * Then traffic is diverted over
+  * aka **blue-green deployments**, **canary releases**, **cluster immune systems**
+* Application-based release patterns:
+  * Modify application so that selected features and functionality can be released by `small config changes`
+
+### Environment-Based Release Patterns
+
+* Easy to retrofit on existing systems
+* Benefits
+  * Enables team to work normal business hours
+  * Can easily conduct simply changeovers
+
+#### Dealing with Database Changes
+
+* Create blue and green database
+  * Put blue on read only
+  * perform backup of it
+  * restore on green DB
+  switch reaffic to green
+* OOOR
+  * only make **additive** changes to the DB
+  * never **mutate** an existing database object
+  * no assumptions about which database version will be used in prod
+  * duplicates the crap out of data, but works super well
+
+### Canary and Cluster Immune System Pattern
+
+* A1 group
+  * Production servers that only serve internal employees
+* A2 group
+  * Production servers that only serve a small percentage of customers
+  * Are deployed to when acceptance critera is met (manual or automated)
+* A3 group
+  * Rest of production servers
+  * Deployed to after A2 group meets criteria
+
+### Application-Based Patterns to Enable Safer Releases
+
+#### Implement Feature toggles
+
+* Easily select which features are live
+  * Typically controlled code-wise by if statements
+  * Configured by external configs
+* Enable
+  * Easy rollback
+  * Gracefully degrade performance
+  * Increase resilience through **service oriented architecture**
