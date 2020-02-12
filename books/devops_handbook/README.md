@@ -135,3 +135,12 @@
   * Leverage external configs
 
 "Deployments should be low-risk, push-button events we can perform on demand"
+
+### [Chapter 13: Architect for Low-Risk Releases](./part_3_first_way_flow/CHAPTER_13.md)
+
+"Both eBay and Google are each on their fifth entire rewrite of their architecture from top to bottom"
+
+* bruh, thats how i feel
+
+BAD SYMPTOM OF BAD ARCHITECTURE: "My developers spend only 15% of their time coding - the rest of their time is spent in meetings"
+
