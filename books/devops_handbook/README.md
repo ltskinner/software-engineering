@@ -195,3 +195,53 @@ Before we build a feature, we should rigorously ask ourselves, "Should we build 
   * Going up the food chain to people that dont know shit usually ends poorly
 
 "Ask a programmer to review ten lines of code, he'll find ten issues. Ask him to do 500 lines, and he'll say it looks good" HAHA
+
+## [Part V: The Third Way The Technical Practices of Countinual Learning and Experimentation](./part_5_third_way_learning_experiments)
+
+### [Chapter 19: Enable and Inject Learning into Daily Work](./part_5_third_way_learning_experiments/CHAPTER_19.md)
+
+"The only sustainable competitive advantage is an organizations ability to learn faster than the competititon"
+
+"Responding to crises is not idiosyncratic work. It is something that is done all the time. It is this responsiveness that is their source of reliability"
+
+#### Blameless Post-Mortems
+
+Explicitly disallow the phrases 'would have' or 'could have'
+
+* "Were trying to prepare for a future where were **as stupid as we are today**"
+  * Countermeasures like "be more careful" or "be less stupid" arent actual solutions
+  * Need real procedural changes
+
+#### Get used to things failing and fixing them
+
+* **Design crumble zones like in cars**
+* "A system is not really tested until we break it in production"
+
+#### Practice Outage Gamedays
+
+* You just never know the weird stuff that will come up
+  * Technically
+  * People with hold music on conference calls
+  * Not being able to access a supplier
+
+### [Chapter 20: Convert Local Discoveries into Global Improvements](./part_5_third_way_learning_experiments/CHAPTER_20.md)
+
+* Use chatbots to report on status of:  
+  * Builds
+  * Commits
+  * Tests
+  * etc
+
+### [Chapter 21: Reserve Time to Create Organizational Learning and Improvement](./part_5_third_way_learning_experiments/CHAPTER_21.md)
+
+Bro! Target does 2-day sprints in their DevOps Dojo - weeklong sprints are fine!
+
+* Schedule and conduce daylong or weeklong improvement blitzes where not new features can be added
+
+## [Part VI: The tehcnical Practices of Integrating Information, Security, Change Management and Compliance](./part_6_is_cm_compliance)
+
+### [Chapter 22: Information Security as Everyones Job, Every Day](./part_6_is_cm_compliance/CHAPTER_22.md)
+
+### [Chapter 23: Protecting the Deployment Pipeline](./part_6_is_cm_compliance/CHAPTER_23.md)
+
+"DevOps is all about bridging the gap between Dev and Ops. In some ways, the challenge of bridging the gap between DevOps and auditors and compliance officers is even larger."
