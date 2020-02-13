@@ -144,3 +144,54 @@
 
 BAD SYMPTOM OF BAD ARCHITECTURE: "My developers spend only 15% of their time coding - the rest of their time is spent in meetings"
 
+## [Part IV: The Second Way - The Technical Practices of Feedback](./part_4_second_way_feedback)
+
+* Create telemetry to enable seeing and solving problems
+* Use telemetry to better anticipate problems and achieve goals
+* Integrate user research and feedback into the work of product teams
+* Enable feedback so Dev and Ops can safely perform deployments
+* Enable feedback to increase the quality of our work through peer reviews and pair programming
+
+### [Chapter 14: Create Telemetry to Enable Seeing and Solving Problems](./part_4_second_way_feedback/CHAPTER_14.md)
+
+"If it moves, we track it"
+
+* Need libraries and infrastructure to make it dummy easy for people in both Dev and Ops to create telemetry for ANY functionality they build
+
+`information radiator`: "The generic term for any of a number of handwritten, drawn, printer, or electronic displays which a team places in a highly visible location, so that all team members as well as passers-by can see the latest information at a glance: count of automated tests, velocity, incident reports, CI status, and so on. This idea originated as part of the Toyota Production System"
+
+* Team has nothing to hide from its visitors (customers, stakeholders, etc)
+* Team has nothing to hide from itself: it acknowledges and confronts problems
+
+#### Only store actionable metrics
+
+### [Chapter 15: Analyze Telemetry to better Anticipate Problems and Achieve Goals](./part_4_second_way_feedback/CHAPTER_15.md)
+
+"Given a herd of cattle that all look and act the same, which cattle look different from the rest? Or more concretely, if we have a thousand-node stateless compute cluster, all running the same software and sibject to the same approximate traffic load, our challence is to find any nodes that dont look like the rest of the nodes"
+
+* Use Business Intelligence people to help interpret time series stuff
+
+### [Chapter 16: Enable Feedback So Development and Operations Can Safely Deploy Code](./part_4_second_way_feedback/CHAPTER_16.md)
+
+* Main goal is to ensure new features are operating as expected once deployed
+* Also want to ensure that another service has not been broken
+* Make sure everyone in the value stream shares downstream responsibilities of something breaking
+  * "We found that when we woke up developers at 2 a.m., defects were fixed faster than ever"
+* Create mechanism for Ops to `hand-back` deployed services back to the dev team so they arent burdened
+  * Leverage `Launch Readiness Reviews` and `Hand-Off Readiness Review`
+
+### [Chapter 17: Integrate Hypothesis-Driven Deployment and A/B Testing into Our Daily Work](./part_4_second_way_feedback/CHAPTER_17.md)
+
+Before we build a feature, we should rigorously ask ourselves, "Should we build it, and why?"
+
+"Research suggests that 2/3rds of feature 'enhancements' actually have no effect or are even detrimental"
+
+### [Chapter 18: Create Review and Coordination Processes to Increase Quality of Our Current Work](./part_4_second_way_feedback/CHAPTER_18.md)
+
+* Primary goal is to reduce risk of production changes before they are made
+
+* With respect to "Overly regulated change control management"
+  * "The people closest to a problem typically know the most about it"
+  * Going up the food chain to people that dont know shit usually ends poorly
+
+"Ask a programmer to review ten lines of code, he'll find ten issues. Ask him to do 500 lines, and he'll say it looks good" HAHA

@@ -11,9 +11,11 @@
 
 * [x] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary-ebook/dp/B07VRS84D1/ref=sr_1_1?crid=3GLEQ7UWPCEV6&keywords=the+pragmatic+programmer&qid=1566668213&s=books&sprefix=the+pragmati%2Cstripbooks%2C174&sr=1-1)
 
-* [ ] [Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_14?keywords=software+design&qid=1566614960&s=digital-text&sr=1-14)
+* [ ] [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/ref=sr_1_1?keywords=Refactoring%3A+Improving+the+Design+of+Existing+Code&qid=1581557927&sr=8-1)
 
 ## Software Architecture
+
+* [ ] [Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/ref=sr_1_2?keywords=Patterns+of+Enterprise+Application+Architecture&qid=1581557981&sr=8-2)
 
 ### [Useful Roadmap](https://medium.com/@nvashanin/the-path-to-becoming-a-software-architect-de53f1cb310a)
 
@@ -24,8 +26,6 @@
 * [ ] [Documenting Software Architectures: Views and Beyond](https://www.amazon.com/Documenting-Software-Architectures-Beyond-Engineering-ebook/dp/B0046XS3RO/ref=sr_1_1?crid=3KZPKLTMCL6EM&keywords=designing+software+architectures+a+practical+approach&qid=1566614871&s=digital-text&sprefix=designing+software+architectures+a%2Cdigital-text%2C175&sr=1-1)
 
 * [ ] [Pattern-Oriented Software Architecture](./https://www.amazon.com/Pattern-Oriented-Software-Architecture-Distributed-Computing/dp/0470059028/ref=sr_1_3?keywords=Pattern-Oriented+Software+Architecture&qid=1567261247&s=books&sr=1-3)
-
-* [ ] [Clean Architecture*](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure-ebook/dp/B075LRM681/ref=sr_1_6?keywords=software+design&qid=1566614960&s=digital-text&sr=1-6)
 
 ## Software Design
 
@@ -57,12 +57,12 @@
 
 * [ ] [Software Estimation: Demystifying the Black Art](https://www.amazon.com/Software-Estimation-Demystifying-Developer-Practices-ebook/dp/B00JDMPOVQ/ref=sr_1_1?keywords=software+estimation&qid=1566614757&s=digital-text&sr=1-1)
 
-### Agile
-
-* [ ] [Agile Estimating and Planning*](https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415)
-
 ## Devops
 
 * [ ] [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)
 * [ ] [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://www.amazon.com/gp/product/1942788290/)
 * [ ] [The Unicorn Project: A Novel about Developers, Digital Distruption, and Thriving in the Age of Data](https://www.amazon.com/gp/product/1942788762)
+
+## Telemetry
+
+* [ ] [The Art of Monitoring](https://www.amazon.com/Art-Monitoring-James-Turnbull-ebook/dp/B01GU387MS/ref=sr_1_1?keywords=the+art+of+monitoring&qid=1581560161&sr=8-1)
