@@ -4,7 +4,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 * For actual implementations, see: [ltskinner/cicd](https://github.com/ltskinner/cicd)
 * Includes:
-  * 🏛️ Standard File Structure
+  * 🏛️ [Standard File Structure](https://github.com/ltskinner/cicd)
   * 🐍 Python examples
     * [`setup.py`](https://github.com/ltskinner/cicd/blob/master/setup.py)
     * [`module.py` examples](https://github.com/ltskinner/cicd/blob/master/boneless/module.py)
