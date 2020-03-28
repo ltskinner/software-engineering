@@ -82,9 +82,9 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * [Code Complete Quality Assurance](./books/code_complete/quality_assurance)
 * [Python Unit Test Example](./python/unit_testing)
 
-#### [-> Peer Reviews](./quality_assurance/peer_reviews)
+#### -> Peer Reviews
 
-#### [-> Testing](./quality_assurance/testing)
+#### [-> Testing](./qa_checklists/3_3_TESTING.mc)
 
 ### Software Metrics
 
