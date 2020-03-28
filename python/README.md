@@ -22,6 +22,7 @@ super().__init__(length=length, width=length,
 
 import my_module
 
+
 if __name__ == '__main__':
     import logging
     import logging.config
