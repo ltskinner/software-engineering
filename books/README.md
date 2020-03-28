@@ -59,7 +59,7 @@
 
 ## Devops
 
-* [ ] [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)
+* [x] [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/)
 * [ ] [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](https://www.amazon.com/gp/product/1942788290/)
 * [ ] [The Unicorn Project: A Novel about Developers, Digital Distruption, and Thriving in the Age of Data](https://www.amazon.com/gp/product/1942788762)
 
