@@ -27,3 +27,17 @@ export SHELL_VAR
 ```bash
 export ENV_VAR='env_var'
 ```
+
+### PATH
+
+Add to rear
+
+```bash
+PATH=$PATH:~/opt/bin
+```
+
+Add to front
+
+```bash
+PATH=~/opt/bin:$PATH
+```
