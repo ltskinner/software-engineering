@@ -41,3 +41,22 @@ Add to front
 ```bash
 PATH=~/opt/bin:$PATH
 ```
+
+### Conda (lmao)
+
+To see env vars
+
+```bash
+conda env config vars list
+```
+
+To set new
+
+```bash
+conda activate env-name
+
+conda env config vars set my_var=value
+
+# be sure to reactivate it
+conda activate env-name
+```
