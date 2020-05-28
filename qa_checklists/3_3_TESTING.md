@@ -11,6 +11,7 @@
 
 * Function inputs
 * Subroutine outputs
+* Note, there is a school of thought that suggests `turning these off in prod`
 
 #### Pass 2: Exception handling
 
@@ -50,6 +51,8 @@
 * Critical:
   * Perform these tests on dummy data whose VALUES are VERY DIFFERENT from real data
   * Here, we are exclusively focusing on the raw operations
+  * Also, try not to use `static variables` in your testing - better to rely on operations
+    * (This is because if the program changes, so will the exepcted resulting static variables)
 * Test any transform of any data that occurs
   * Sorting
   * Addition
