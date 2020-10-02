@@ -12,6 +12,8 @@ printenv
 
 ```bash
 SHELL_VAR='shell_var'
+SHELL_VAR_NO_QUOTE=something_that_will_become_string
+RESULT_OF_COMMAND="$(command)"
 ```
 
 ### Environment
@@ -59,4 +61,26 @@ conda env config vars set my_var=value
 
 # be sure to reactivate it
 conda activate env-name
+```
+
+## Functions
+
+```bash
+functionName() {
+  echo "Echo from inside function!"
+}
+functionName  # call function
+```
+
+## Exit Code
+
+```bash
+python script.py
+
+exit_code=$?  # the `$?` is some kind of magic variable
+
+if [ "$exit_code" -eq "1" ]; then
+  # 0 = Success, 1 = Failed
+  echo "--> Failed fun, error caught"
+fi
 ```
