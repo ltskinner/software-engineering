@@ -97,3 +97,5 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * [Code Complete Maintenance](./books/code_complete/maintenance)
 
 ### Administrative Project Teardown + Debrief
+
+### Bottom
