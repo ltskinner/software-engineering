@@ -1,4 +1,4 @@
-# Chapter 5: Feature Engineering:
+# Chapter 5: Feature Engineering
 
 Facebook says having right features is most important thing in developing ML models
 
@@ -199,3 +199,15 @@ Coverage of a feature can differ wildly between difference slices of data, and e
 - but, bruh
 - train set values are monday to saturday
 - test set value is sunday only
+
+## Best Practices Summary
+
+- Split dat by time into train/valid/test splits instead of doing it randomly
+- If you oversample, do it after splitting
+- Scale and normalize data after splitting to avoid leakage
+- Use statistics ONLY from the train split, isntead of the entire data, to scale your features and handle missing values
+- Understand how the data is generated, collected, and processed. Involve domain experts if possible
+- Keep track of your datas lineage
+- Understand feature importance to your model
+- Use features that generalize well
+- Remove no longer useful features from your models

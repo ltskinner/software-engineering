@@ -102,3 +102,15 @@ Handling class imbalance:
 - algorithm-level methods
 
 ## [Chapter 5. Feature Engineering](./5_FEATURE_ENGINEERING.md)
+
+Best Practices Summary:
+
+- Split dat by time into train/valid/test splits instead of doing it randomly
+- If you oversample, do it after splitting
+- Scale and normalize data after splitting to avoid leakage
+- Use statistics ONLY from the train split, isntead of the entire data, to scale your features and handle missing values
+- Understand how the data is generated, collected, and processed. Involve domain experts if possible
+- Keep track of your datas lineage
+- Understand feature importance to your model
+- Use features that generalize well
+- Remove no longer useful features from your models
