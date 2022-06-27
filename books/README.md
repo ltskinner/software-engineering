@@ -66,3 +66,7 @@
 ## Telemetry
 
 * [ ] [The Art of Monitoring](https://www.amazon.com/Art-Monitoring-James-Turnbull-ebook/dp/B01GU387MS/ref=sr_1_1?keywords=the+art+of+monitoring&qid=1581560161&sr=8-1)
+
+## ML+MLOps - Holding Pen Until Make Decision on machine-learning repo
+
+- [ ] [Designing Machine Learning Systems](https://www.amazon.com/dp/B0B1LGL2SR/?coliid=I1WYIU1K9FKR5R)

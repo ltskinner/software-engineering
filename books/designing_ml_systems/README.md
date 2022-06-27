@@ -114,3 +114,164 @@ Best Practices Summary:
 - Understand feature importance to your model
 - Use features that generalize well
 - Remove no longer useful features from your models
+
+## [Chapter 6. Model Development and Offline Evaluation](./6_MODELS_EVAL.md)
+
+Tips for Model Selection:
+
+- Avoid state of the art
+- Start with the simplest models
+- Avoid Human biases in selecting models
+- Evaluate good performance now vs good performance later
+- Evaluate tradeoffs
+- Understand your models assumptions
+
+Ensembling approaches:
+
+- bagging
+- boosting
+- stacking
+
+Things to track when experimenting:
+
+- loss curve
+- model performance
+- corresponding sample, prediction, and ground truth
+- speed of model
+- system hardware performance
+- parameter and hyperparemeter values
+
+Primary reasons models fail:
+
+- Not meeting theoretical constraints
+- Poor implementation of model
+- Poor choice of hyperparameters
+- Data problems
+- Poor choice of features
+
+Debugging approach:
+
+- Start simple and gradually add more components
+- overfit a single batch
+- set a random seed
+
+### Model Offline Evaluation
+
+Baselines - evaluation metrics, by themselves, mean little. Must have baselines to compare against
+
+- Random baselines
+- Simple heuristic
+- Zero rule baseline
+- Human baseline
+- Existing solutions
+
+Evaluation Methods - want models to be robust, fair, calibrated, and make sense
+
+- Perturbation tests
+- Invariance tests
+- Directional expectation changes
+- Model calibration
+- Confidence measurement
+- Slice-based evaluation
+
+## [Chapter 7. Model Deployment and Prediction Service](./7_DEPLOYMENT_PREDS.md)
+
+Basically, dont count out model optimization and compression. Not easy but will improve thruput
+
+## [Chapter 8. Data Distribution Shifts and Monitoring](./8_DATA_DIST_SHIFT.md)
+
+"Deploying the model isnt the end of the process" - model performance WILL degrade
+
+Software System Failures
+
+- Dependency failure:
+- Deployment failure
+- Hardware failures
+- Downtime or crashing
+
+ML-Specific Failures
+
+- data collection and processing problems
+- poor hyperparameters
+- changes in training pipeline not replicated in the inference pipeline (and vice versa)
+- data distribution shifts, causing models performance to deteriorate over time
+- edge cases
+- degenerate feedback loops (primarily in naturally labeled data)
+
+Types of Data Distribution Shifts
+
+- Covariate shift
+- Label shift
+- Concept drift
+
+General Data Distribution Shifts
+
+- Feature change
+- Label schema change
+
+Addressing Data Distribution Shifts
+
+- train models using massive datasets
+- adapt a trained model to a target distribution without requiring new labels
+- retrain model using labeled data from the target distribution (most common)
+
+Monitoring and Observability
+
+`Monitoring`: tracking, measuring, logging different metrics to facilitate determining problems
+
+- ML-Specific Metrics
+  - accuracy-related metrics
+  - predictions
+  - features
+  - raw input
+
+`Observability`: setting up our system in a way that gives visibility into the system to help investigate issues. The process is known as *instrumentation*
+
+## [Chapter 9. Continual Learning and Test in Production](./9_CONTINUAL_LEARNING.md)
+
+Why Continual Learning
+
+- combat data distribution shifts
+- adapt to rare events
+- to overcome *continuous cold start* problem
+
+Continual Learning Challenges
+
+- Fresh data access
+- Evaluation
+- Algorithms
+
+How to improve evaluation - have explicit set of protocols for:
+
+- what test to run
+- order to run tests
+- thresholds that must be passed to be promoted to next state
+- should be automated too
+- process for reviewing results should be there as well
+
+## [Chapter 10. Infrastructure and Tooling for MLOps](./10_INFRASTRUCTURE_AND_TOOLING.md)
+
+- Storage and compute
+- Resource management
+- ML platform
+- Development environment
+
+## [Chapter 11. The Human Side of Machine Learning](./11_HUMANS_AND_ML.md)
+
+Full Stack Data Scientists:
+
+```txt
+Things id prioritize learning if I was to study to become a ML engineer again:
+
+1. Version control
+2. SQL+NoSQL
+3. Python
+4. Pandas/Dask
+5. Data structures
+6. Prob & stats
+7. ML algos
+8. Parallel computing
+9. REST API
+10. Kubernetes + Airflow
+11. Unit/integration tests
+```
