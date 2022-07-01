@@ -47,3 +47,52 @@ The description includes info like:
 - which ones need to be run co-located, and which dont
 - for each component, can specify how many copies (replicas) you want to run
 - which components provide a service to either internal or external clients and should be exposed through a single IP address tomake discoverable
+
+## [Chapter 2. First Steps With Docker and K8s](./1_2_DOCKER_K8_FIRST_STEPS.md)
+
+Docker commands:
+
+```
+$ docker run busybox echo "Hello world"
+$ docker run <image>
+$ docker run <image>:<tag>
+
+# build image named `kubia` from current dir
+$ docker built -t kubia .
+
+# list images
+$ docker images
+
+# run container image
+# tells Docker to run new container called `kubia-container`
+# the container will be detached from the console `-d`, aka will run in background
+# `-p` means port 8080 on the local will be mapped to port 8080 inside the container - acces thru http://localhost:8080
+$ docker run --name kubia-container -p 8080:8080 -d kubia
+
+# list all running containers
+$ docker ps
+
+# additional information about a specific container
+$ docker inspect <container-name>
+
+# run a command inside a running container
+# -i makes STDIN is open (interactive)
+# -t allocates a pseudo terminal (TTY) (terminal)
+# Entering a running container like this is useful when debugging an app running in a container
+$ docker exec -it <container-name> <command>
+
+
+# stop
+$ docker stop <container-name>
+
+# remove a container
+$ docker rm <container-name>
+
+
+# pushing to registry
+# before pushing, need to re-tag image according to docker-hubs rules
+# re-tag
+$ docker tag kubia <docker_hub_id>/<image>
+
+$ docker push docker_hub_id>/<image>
+```
