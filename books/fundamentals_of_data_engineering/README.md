@@ -14,7 +14,11 @@
 
 ### [Chapter 1. Data Engineering Described](./1_1_DATA_ENGINEERING.md)
 
-"Once a new technology roll sover you, if youre not part of the steamroller, youre part of the road"
+"Once a new technology rolls over you, if youre not part of the steamroller, youre part of the road"
+
+"Business never sleeps"
+
+"Companies dont hire engineers to simply hack code in isolation. To be worth of their title, engineers should develop a deep understanding of the problems theyre tasked with solving, the technology tools at their disposal, and the people they work with and serve"
 
 ### The Data Engineering Lifecycle
 
