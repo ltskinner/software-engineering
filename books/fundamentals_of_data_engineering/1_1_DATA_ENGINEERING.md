@@ -19,7 +19,8 @@ A data engineer manages the data engineering lifecycle, beginning with getting d
 - serving
 
 `generation` -> `ingestion` -> `transformation` -> `serving` -> (analytics, ml, reverse ETL)
-                |                 `storage`                 |
+
+`storage` lives underneath ingestion, transformation, and serving
 
 Underpinned by (at all stages):
 
