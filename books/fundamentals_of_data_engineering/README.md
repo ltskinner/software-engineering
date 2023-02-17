@@ -42,3 +42,7 @@ Underpinned by (at all stages):
 - 1. Starting with data
 - 2. Scaling with data
 - 3. Leading with data
+
+### [Chapter 2. The Data Engineering Lifecycle](./1_2_DE_LIFECYCLE.md)
+
+Use DAGs to document and orchustrate
