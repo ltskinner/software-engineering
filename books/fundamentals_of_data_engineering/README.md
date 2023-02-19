@@ -46,3 +46,27 @@
 Also, use DAGs to document and orchustrate
 
 ### [Chapter 3. Designing Good Data Architecture](./1_3_DESIGNING_GOOD_ARCH.md)
+
+- 1. Choose common components wisely
+- 2. Plan for failure
+- 3. Archiect for scalability
+- 4. Architecture is leadership
+- 5. Always be architecting
+- 6. Build loosely coupled systems
+- 7. Make reversible decisions
+- 8. Prioritize security
+- 9. Embrace FinOps
+
+#### Terms
+
+- `MPP system` - Massively Parallel Processing
+- `OLAP` - Online-Analytical Porcessing
+- `CDC process` - Change Data Capture (identifies and tracks changes to data in a db)
+
+#### On Addressing "Brownfield" Projects - aka Fixing Legacy
+
+- Require thorough understanding of legacy architecture
+  - Easy to criticize a teams previous decisions
+  - Hard to dig deep, ask questions, and understand why decisinos were made
+- **Remember: your job is to make reversible, high-roi decisions**
+  - NOT be right
