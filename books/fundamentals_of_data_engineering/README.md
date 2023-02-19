@@ -70,3 +70,24 @@ Also, use DAGs to document and orchustrate
   - Hard to dig deep, ask questions, and understand why decisinos were made
 - **Remember: your job is to make reversible, high-roi decisions**
   - NOT be right
+
+### [Chapter 4. Choosing Technologies Across the Data Engineering Lifecycyle](./1_4_CHOOSING_TECH.md)
+
+Architecture first, technology second:
+
+- Architecture is strategic - the what, why, and when
+- Tools are tactical - the how
+
+Considerations:
+
+- Team size and capabilities
+- Speed to market
+- Interoperability
+- Cost optimization and business value
+- Today versus the future: immutable vs transitory technologies
+- Location (cloud, on-prem, hybrid cloud, multicloud)
+- Build vs buy
+- Monolith vs modular
+- Serverless versus servers
+- Optimization, performance, and the benchmark wars
+- The undercurrents of the data engineering lifecycle
