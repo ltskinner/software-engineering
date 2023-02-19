@@ -20,24 +20,7 @@
 
 "Companies dont hire engineers to simply hack code in isolation. To be worth of their title, engineers should develop a deep understanding of the problems theyre tasked with solving, the technology tools at their disposal, and the people they work with and serve"
 
-### The Data Engineering Lifecycle
-
-- generation
-- storage
-- ingestion
-- transformation
-- serving
-
-Underpinned by (at all stages):
-
-- security
-- data management
-- dataOps
-- data architecture
-- orchestration
-- software engineering
-
-### Simplified Data Maturity Model
+#### Simplified Data Maturity Model
 
 - 1. Starting with data
 - 2. Scaling with data
@@ -45,4 +28,21 @@ Underpinned by (at all stages):
 
 ### [Chapter 2. The Data Engineering Lifecycle](./1_2_DE_LIFECYCLE.md)
 
-Use DAGs to document and orchustrate
+- Generation
+- Ttorage
+- Ingestion
+- Transformation
+- Serving
+
+#### Underpinned by (at all stages)
+
+- Security
+- Data management
+- DataOps
+- Data architecture
+- Orchestration
+- Software engineering
+
+Also, use DAGs to document and orchustrate
+
+### [Chapter 3. Designing Good Data Architecture](./1_3_DESIGNING_GOOD_ARCH.md)
