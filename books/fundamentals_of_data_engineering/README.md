@@ -99,3 +99,5 @@ Considerations:
 Event driven architectures are ideal because events can both trigger work inthe application and feed near real-time analytics
 
 Dont treat source systems as "someone elses problem" - not saying be nosy, but dont be a mouse
+
+### [Chapter 6. Storage](./2_6_STORAGE.md)
