@@ -101,3 +101,39 @@ Event driven architectures are ideal because events can both trigger work inthe 
 Dont treat source systems as "someone elses problem" - not saying be nosy, but dont be a mouse
 
 ### [Chapter 6. Storage](./2_6_STORAGE.md)
+
+### [Chapter 7. Ingestion](./2_7_STORAGE.md)
+
+"the bulk of software engineering is just plumbing"
+
+## Key Engineering Considerations for the Ingestion Phase
+
+- Whats the use case for the data im ingesting?
+- Can I reuse this data and avoid ingesting multiple versions of the same dataset?
+- Where is the data going? Whats the destination?
+- How often should the data be updated from the source?
+- What is the expected data volume?
+- What format is the data in? Can downstream storage and transformation accept this format?
+- Is the source data in good shape for immediate downstream use (aka good quality)?
+- What post-processing is required to serve it? What are data-quality risks?
+- Does the data require in-flight processing for downstream ingestion if the data is from a streaming source?
+
+Regardless of how often data is ingested, will need to consider these:
+
+- Bounded vs unbounded
+- Frequency
+- Synchronous vs asynchronous
+- Serialization and deserialization
+- Throughput and scalability
+- Reliability and durability
+- Payload
+- Push vs pull vs poll patterns
+
+Monitor data pipelines as you would the applications they support:
+
+- monitor
+  - uptime
+  - latency
+  - data volume
+  - various rates - things you can do statistical analysis on
+- perform data quality tests as well
