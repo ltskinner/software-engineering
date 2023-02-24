@@ -372,3 +372,37 @@ Anticipate changes in source data and keep a flexible schema
 ## Transformations
 
 The net result of transforming data si the ability to unify and integrate data. Once data is transformed, the data can be viewed as a single entity. But without transforming data, you cannot have a unified view of data across the organization
+
+A `query` retrieves the data from various sources based on filtering and join logic
+
+A `transformation` persists the results for consumption by additional transformations or queries (and can be stored ephemerally or permanently)
+
+Transformations rely on orchestration (which is a benefit)
+
+### Batch Transformations
+
+- Broadcast join
+  - generally asymmetric, with one large table distributed across nodes, and one small table that can easily fit on a single node
+  - the query engine "broadcasts" the small table to all nodes, where it gets joined in on the shard
+- Shuffle hash join
+  - if neither table is small enough to fit on single node, use a shuffle hash join
+  - basically shard both tables and do many to many join
+
+#### ETL, ELT, and data pipelines
+
+#### SQL and code-based transformation tools
+
+When determining whether to use native spark or pyspark code instead of spark sql or another sql engine:
+
+- How difficult is it to code the transform in sql?
+- How readable and maintainable will the resulting sql code be?
+- Should some of the transformation code be pushed into a custom library for future reuse across the organization?
+
+Notes for coding in native spark:
+
+- filter early and often
+- rely heavily on the core spark api and learn to understand the spark native way of doing things
+  - try to rely on well-maintained public libraries if the native spark api doesnt support your use case
+  - good spark code is substantially declarative
+- be careful with udfs
+- consider intermixing sql

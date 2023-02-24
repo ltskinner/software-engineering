@@ -140,6 +140,8 @@ Monitor data pipelines as you would the applications they support:
 
 ### [Chapter 8. Queries, Modeling, and Transformation](./2_8_TRANSFORMATION.md)
 
+"Ingesting data without a plan is a great recipe for a data swamp"
+
 #### Data Modeling
 
 When modeling data, critical to focus on translating the model to business outcomes
