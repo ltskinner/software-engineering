@@ -137,3 +137,25 @@ Monitor data pipelines as you would the applications they support:
   - data volume
   - various rates - things you can do statistical analysis on
 - perform data quality tests as well
+
+### [Chapter 8. Queries, Modeling, and Transformation](./2_8_TRANSFORMATION.md)
+
+#### Data Modeling
+
+When modeling data, critical to focus on translating the model to business outcomes
+
+##### Conceptual, Logical, Physical Data Models
+
+When modeling data, the idea is to move from abstract modeling concepts to concrete implementation
+
+- Conceptual
+  - contains business logic and rules
+  - describes systems data (schemas, tables, fields)
+  - often helpful to visualize in an entity relationship diagram
+- Logical
+  - details how conceptual model will actually get implemented
+  - add information on types of customer ids, names, custom addresses etc
+  - map out primary and foreign keys
+- Physical
+  - defines how the logical model will be implemented in a database system
+  - note specific databases, schemas, talbes
