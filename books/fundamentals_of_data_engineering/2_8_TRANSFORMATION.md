@@ -406,3 +406,166 @@ Notes for coding in native spark:
   - good spark code is substantially declarative
 - be careful with udfs
 - consider intermixing sql
+
+#### Update patterns
+
+Since transformations persist data, we will often update persisted data in place
+
+Patterns:
+
+- Truncate and reload
+  - nothing gets updated - simply wipe old data
+  - kill n fill?
+- Insert only
+  - insert new record without changing or deleting old records
+  - can be used to maintain a current view of the data
+  - be careful about single-row inserts, really hard for some engines
+- Delete
+  - in many systems, deletes are more expensive than inserts
+  - hard delete: permanently removes records from a database
+    - good for removing data to improve performance
+    - good for legal compliance
+  - soft delete: mark a record as "deleted"
+    - good for if you dont want to delete a record permanently, but want to filter it out of query results
+  - insert deletion: inserts a new record with a `deleted` flag without modifying the previous version of the record
+    - allows us to fillow an insert only pattern but still account for deletions
+- Upsert/merge
+  - consistently cause the most trouble for data engineering teams
+    - esp for people transitioning from row-based data warehouses to column-based cloud systems
+  - upserting: takes set of source records, and looks for matches against a target table
+    - when match occurs, target record gets updated (replaced by new record)
+    - if no match exists, the db inserts a new record
+    - the merge pattern adds the ability to delete records
+
+#### Schema Updates
+
+- one advantage of columnar systems over row-based systems:
+  - while updating dat ais more difficult, updating the schema is easier
+  - columns can be added, deleted, and renamed
+
+#### Data wrangling
+
+Takesmessy, malformed data and turns it into useful, clean data - generally a batch process
+
+Graphical data wrangling is actually really good
+
+DAG are super useful here
+
+#### Business Logic and Derived Data
+
+ETL scripts are netorious for breaking the DRY principle
+
+#### MapReduce
+
+#### After MapReduce
+
+- while mapreduce is powerful, it is viewed as excessively rigid
+  - namely that data is transferred between tasks by storing on disk or pushing over the network
+  - this drives high disk bandwidth utilization and increased processing time
+
+### Materialized Views, Federation, and Query Visualization
+
+#### Views
+
+A database object that we can select from like any other table
+
+A view is just a query that references other tables
+
+- useful for security purposes as well
+- useful for providing deduplicated picture, esp when using an insert-only pattern
+
+#### Materialized Views
+
+Does all or some of the computation in advance
+
+A defacto transformation step, but the db manages execution for convenience
+
+#### Composable Materialized Views
+
+In general, materialized views do not allow for composition: a materialized view cannot select from another materialized view
+
+#### Federated Queries
+
+Database feature that allow an OLAP database to select data from an external source, such as object store or RDBMS
+
+#### Data Virtualization
+
+Closely related to federated queries, but typically entails a data processing and query system that doesnt store data internally
+
+Good solution for organizations with data stored across various sources
+
+Works closely with data mesh as well
+
+### Streaming Transformations and Processing
+
+#### Basics
+
+#### Transformations and Queries are a Continuum
+
+#### Streaming DAGs
+
+#### Micro-batch vs true streaming
+
+way to take a batch oriented framework and apply it in a streaming situation
+
+true streaming systems are designed to process one event at a time
+
+need to understand the use case to make a decision
+
+## Who Youll Work With
+
+### Upstream Stakeholders
+
+- those who control the business definitions
+- those who control the systems generating data
+
+### Downstream Stakeholders
+
+Transformations are where data starts providing utility to downstream stakeholders
+
+Make sure what you do is useful - users should be able to query the data source with confidence the data is highest quality and completeness and can be integrated into their workflows and data products
+
+## Undercurrents
+
+### Security
+
+- who has access to the new dataset
+- monitor and control read/write priviledges
+- keep credentials hidden, use secrets manager
+- dont let unsecured or unencrypted data to traverse the public internet
+
+### Data Management
+
+- account for definitional accuracy
+- do transformations adhere to expected business logic
+- make sure data is free of defects going into transformation processes
+- use a MDM (master data manager?)
+- data lineage becomes invaluable
+- watch regulatory compliance
+
+### DataOps
+
+Two areas of concern: data and systems
+
+- monitor and alert for changes or anomalies
+- when you query, are the inputs and outputs correct? how do you know?
+- if query is saved to a table, is the schema correct?
+- what about shape of data and related statistics like min/max, nulls, etc?
+- how are systems performing
+  - monitor metrics like queue length, query concurrency, memory usage, storage utilization, network latency, disk io
+  - use to spot bottlenecks and poor performing queries that should be refactored
+
+### Data Architecture
+
+- build robust systems that can process and transform data without imploding
+
+### Orchestration
+
+### Software Engineering
+
+- analytics as code
+- use low-code gui based transformation tools
+
+## Conclusion
+
+- data engineers are not hired to play with latest technilogical toys, but to serve their customers
