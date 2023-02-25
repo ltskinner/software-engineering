@@ -185,3 +185,5 @@ Exercise the power of negative thinking and always be paranoid
 Make security a habit - something you revisit monthly with everyone so its not familliar, scary, complicated or otherwise undaunting
 
 #### [Example Security Policy](./_SECURITY_POLICY.md)
+
+### [Chapter 11. The Future of Data Engineering](./3_11_FUTURE.md)
