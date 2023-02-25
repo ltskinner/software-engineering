@@ -160,4 +160,10 @@ When modeling data, the idea is to move from abstract modeling concepts to concr
   - map out primary and foreign keys
 - Physical
   - defines how the logical model will be implemented in a database system
-  - note specific databases, schemas, talbes
+  - note specific databases, schemas, tables
+
+## [Chapter 9. Serving Data for Analytics, Machine Learning, and Reverse ETL](./2_9_SERVING.md)
+
+"It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, youll do things differently"
+
+Above all else, trust is the root consideration in serving data. /end users need to trust the data theyre receiving
