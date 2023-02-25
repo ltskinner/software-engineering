@@ -162,8 +162,26 @@ When modeling data, the idea is to move from abstract modeling concepts to concr
   - defines how the logical model will be implemented in a database system
   - note specific databases, schemas, tables
 
-## [Chapter 9. Serving Data for Analytics, Machine Learning, and Reverse ETL](./2_9_SERVING.md)
+### [Chapter 9. Serving Data for Analytics, Machine Learning, and Reverse ETL](./2_9_SERVING.md)
 
 "It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, youll do things differently"
 
 Above all else, trust is the root consideration in serving data. /end users need to trust the data theyre receiving
+
+## Part III. Security, Privacy, and the Future of Data Engineering
+
+### [Chapter 10. Security and Privacy](./3_10_SECURITY_PRIVACY.md)
+
+One security breach or data leak can leave your business dead in the water; your career and reputation are ruined if its your fault
+
+The weakest link in security and privacy is you
+
+- security is often compromised at the human level
+- condust yourself as if your always a target
+- a bot, or human actor is trying to infultrate your sensitive credentials and information at any given time
+
+Exercise the power of negative thinking and always be paranoid
+
+Make security a habit - something you revisit monthly with everyone so its not familliar, scary, complicated or otherwise undaunting
+
+#### [Example Security Policy](./_SECURITY_POLICY.md)
