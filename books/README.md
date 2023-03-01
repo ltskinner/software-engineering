@@ -77,8 +77,10 @@
 ## ML+MLOps - Holding Pen Until Make Decision on machine-learning repo
 
 - [x] [Designing Machine Learning Systems](https://www.amazon.com/dp/B0B1LGL2SR/?coliid=I1WYIU1K9FKR5R)
-- [ ] [Fundamentals of Data Engineering](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/)
+- [x] [Fundamentals of Data Engineering](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/)
 - [ ] [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 - [ ] [Machine Learning Design Patterns](https://www.amazon.com/Machine-Learning-Design-Patterns-Preparation/dp/1098115783)
 - [ ] [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Engineering-Action-Wilson/dp/1617298719)
-- [ ] [Practical MLOps](https://www.amazon.com/Practical-MLOps-Noah-Gift-ebook/dp/B09G9BKXM6)
+- [ ] [Practical MLOps](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017)
+
+Then go back and finish k8s
