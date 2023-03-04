@@ -126,3 +126,5 @@ Secondary index partitioning:
   - Where the secondary indexes are partitioned separately, using the indexed values
   - When a document is written, several partitions of the secondary index need to be updated
   - But, a read can be served from a single partition
+
+### [Chapter 7. Transactions](./2_7_TRANSACTIONS.md)
