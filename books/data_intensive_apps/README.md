@@ -40,3 +40,65 @@ In order for a system to continue running smoothly, we need to maintain compatab
   - Trickier because requires older code to ignore additions made by newer versions of the code
 
 "Data outlives code"
+
+## Part II. Distributed Data
+
+Various reasons why you want to distribute data across multiple machines:
+
+- Scalability
+- Fault tolerance/high availability
+- Latency
+
+Scaling to Higher Load:
+
+- simple to vertical scale - just buy a more powerful machine
+  - this is a `shared memory architecture`
+  - linear cost growth
+  - due to bottlenecks, 2x compute doesnt always mean handling 2x load
+  - limited fault tolerance
+
+Shared-Nothing Architecture
+
+- scale horizontal - node oriented
+- covered here mostly because they require the most caution by the developer
+  - there are conmstraints and tradeoffs
+
+Replication vs Partitioning - two common ways data is distributed across multiple nodes
+
+- Replication
+  - Keep a copy of the same data on several different nodes. Provides redundancy and can improve performance
+- Partitioning
+  - Splitting a big database into partitions (shards)
+
+### [Chapter 5. Replication](./2_5_REPLICATION.md)
+
+Replication can serve several purposes:
+
+- High Availability
+  - Keep the system running, when one machine (or several machines, or an entire datacenter) goes down
+- Disconnected Operation
+  - Allowing an application to continue working when there is a network interruption
+- Latency
+  - Placing data geographically close to users, so that users can interact with it faster
+- Scalability
+  - Being able to handle a higher volume of reads than a single machine could handle, by performing reads on replicas
+
+Main approaches:
+
+- Single-leader replication
+  - client sends all writes to single node (leader), which are sent to other replicas
+  - reads performed by any replica
+- Multi-Leader replication
+  - clients send writes to one of several leaders
+  - leaders send changes to each other and to followers
+- Leaderless replication
+  - Clients send each write to several nodes, and read from several nodes in parallel in order to detect and correct nodes with stale data
+
+Consistency models:
+
+- Read-after-write consistency
+  - Users should always see data that they submitted themselves
+- Monotonic reads
+  - After users have seen the data at one point in time, they shouldnt later see the data from some earlier point in time
+- Consistent prefix reads
+  - Users should see the data in a state that makes causal sense
