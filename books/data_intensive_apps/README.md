@@ -102,3 +102,27 @@ Consistency models:
   - After users have seen the data at one point in time, they shouldnt later see the data from some earlier point in time
 - Consistent prefix reads
   - Users should see the data in a state that makes causal sense
+
+### [Chapter 6. Partitioning](./2_6_PARTITIONING.md)
+
+Two main approaches to partitioning:
+
+- Key range partitioning
+  - Keys are sorted and a partition owns all keys from some minimum up to some maximum
+  - Sorting has the advantage that efficient range queries are possible
+  - Risk of hotspots if the application often accesses keys that are close together in the sorted order
+  - Partitions are rebalanced dynamically by splitting the range into two subranges when a partition gets too big
+- Hash partitioning
+  - Hash function applied to each key, and a partition owns a range of hashes
+  - Makes range queries inefficient, but may distribute the load more evenly
+  - Common to create a fixed number of partitions in advance, and assign several partitions to each node - dynamic partitioning can also be used
+
+Secondary index partitioning:
+
+- Document-partitioned indexes (local indexes)
+  - Secondary indexes are stored in the same partition as the primary key and value
+  - Measn that only a single partition needs to be updated on write, but a read of the secondary index requires a scatter/gather across all partitions
+- Term-partitioned indexes (global indexes)
+  - Where the secondary indexes are partitioned separately, using the indexed values
+  - When a document is written, several partitions of the secondary index need to be updated
+  - But, a read can be served from a single partition
