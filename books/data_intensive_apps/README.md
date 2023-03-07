@@ -173,3 +173,7 @@ Build tolerance of partial failures, so that the system as a whole may continue 
 
 - First, must be able to detect faults (but can be hard)
 - Then, have to handle - but not easy considering no shared memory or common knowledge, and all info must be exchanged over the unreliable network. Use quorums
+
+### [Chapter 9. Consistency and Concensus](./2_9_CONSISTENCY_CONCENSUS.md)
+
+Best way of building fault-tolerant systems is to find some general purpose abstractions with useful guarantees, implement them once, and then let applications rely on those guarantees
