@@ -177,3 +177,47 @@ Build tolerance of partial failures, so that the system as a whole may continue 
 ### [Chapter 9. Consistency and Concensus](./2_9_CONSISTENCY_CONCENSUS.md)
 
 Best way of building fault-tolerant systems is to find some general purpose abstractions with useful guarantees, implement them once, and then let applications rely on those guarantees
+
+## Part III. Derived Data
+
+Systems of Record - holds authoritative versions of the data - commonly normalized
+
+Derived Data Systems - result of taking some existing data form another system, and transforming or procesisng it in some way (recreatable) - commonly denormalized
+
+### [Chapter 10. Batch Processing](./3_10_BATCH_PROCESSING.md)
+
+"A system cannot be successful it it is too strongly influenced by a single person. Once the initial design is complete and fairly robust, the real test begins as people with many different viewpoints undertake their own experiments"
+
+#### The Unix Philosophy
+
+- Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features"
+- Expect the output of every program to become the input to another, as yet unknown, program. Dont clutter output with extraneous information. Avoid stringently columnar or binary input formats. Dont insist on interactive input
+- Design and build software, even operating systems, to be tried early, within weeks. Dont hesitate to throw away the clumsy parts and rebuild them
+- Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after youve finished using them
+
+The approach: automation, rapid prototyping, incremental iteration, friendly to experimentation, breaking large projects into manageable chunks
+
+#### Summary
+
+Two main problems that distributed batch processing frameworks need to solve are:
+
+- Partitioning
+- Fault Tolerance
+
+How partitioned algorithms work:
+
+- Sort-merge Jions
+  - Each of the inputs being joined goes throught a mapper that extracts the join key
+  - By partitioning, sorting, and marging, all the records with the same key end up going to the same call of the reducer - this function can then output the joined records
+- Broadcast hash joins
+  - One of the two join inputs is small, so it is not partitioned and can be entirely loaded into a hash table
+  - Then, you can start a mapper for each partition of the large join input, load the hash table for the small input into each mapper, and then scan over the large input one record at a time, querying the hash table for each record
+- Partitioned hash joins
+  - If the two join inputs are partitioned in the same way (using the same key, same hash function, and same number of partitions), then the hash table approach can eb used independently for each partitions
+
+Distributed batch processing engines have a deliberately restricted programming model:
+
+- callback functions (mappers and reducers) are assumed to be stateless and to have no externally visible side effects besides their designated output
+- this restriction allows the framework to hide some of the hard distributed system problem behind its abstraction
+
+The framework allows you do guarantee that the final output of a job is the same as if no faults have occured (though faults could have occured internally, and were retried)
