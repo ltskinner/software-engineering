@@ -221,3 +221,25 @@ Distributed batch processing engines have a deliberately restricted programming 
 - this restriction allows the framework to hide some of the hard distributed system problem behind its abstraction
 
 The framework allows you do guarantee that the final output of a job is the same as if no faults have occured (though faults could have occured internally, and were retried)
+
+### [Chapter 11. Stream Processing](./3_11_STREAM_PROCESSING.md)
+
+Types of Brokers
+
+- AMPQ/JMS-style message broker
+  - Assigns individual messages to consumers, and consumers acknowledge individual messages when they have been successfully processed
+  - Messages are deleted from the broker once they have been ackd
+- Log-based messge broker
+  - The broker assigns all messages in a partition to the same consumer node, and always delivers messages in the same order
+  - Parallelism is achieved through partitioning, and consumers track their progress by checkpointing the offset of the last message they have processed
+  - The broker retains messages on disk, so it is possible to jump back and reread old messages if necessary
+
+Types of Joins
+
+- Stream-stream joins
+  - Both input streams consiste of activity events, and the join operator searches for related events that occur within some window of time
+- Stream-table joins
+  - One input stream consistes of activity events, while the other is a database changelog
+- Table-table joins
+  - Both input streams are db changelogs
+  - The result is a stream of changes to the materialized view of the join between the two tables
