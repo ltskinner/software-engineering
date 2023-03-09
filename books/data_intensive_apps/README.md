@@ -243,3 +243,21 @@ Types of Joins
 - Table-table joins
   - Both input streams are db changelogs
   - The result is a stream of changes to the materialized view of the join between the two tables
+
+### [Chapter 12. The Future of Data Systems](./3_12_FUTURE.md)
+
+"If the highest aim of a captain was to preserve his ship, he would keep it in port forever"
+
+"In my experienct, 99% of people only need X" or "dont need X" - such statements speak about the experience of the speaker, not the actual usefulness of a technology. What one person considers to be an obscure and pointless feature may well be a central requirement for someone else
+
+"In many business contexts, it is acceptable to temporarily violate a constraint and fix it up later by apologizing"
+
+#### The Lambda Architecture
+
+In lambda approach, the stream processor consumes the events and quickly produces an approximate update to the view
+
+The batch processor later consumes the same set of events, and produces a corrected version of the derived view
+
+The reasoning behind this design is that batch processing is simpler and less prone to bugs
+
+While stream processors are thought to be less reliable and harder to make fault tolerant - moreover `the stream process can use fast approximate algorithms while the batch process uses slower exact algorithms`
