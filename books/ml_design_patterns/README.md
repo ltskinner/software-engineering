@@ -40,3 +40,35 @@ Concatenate two categorical features
 ## Design Pattern 4: Multimodal Input
 
 Addresses the problem of representing different types of data or data that can be expressed in complex ways by concatenating all the available data representations
+
+## [Chapter 3. Problem Representation Design Patterns](./3_PROBLEM_REPRESENTATION.md)
+
+### Design Pattern 5: Reframing
+
+Changing the representation of the output of the ml problem - i.e. take a regression problem and pose it as a classification problem (and vice versa)
+
+### Design Pattern 6: Multilabel
+
+Problems where we can assign more than one label to a given training sample
+
+### Design Pattern 7: Ensembles
+
+Combining multiple machine learning models and aggregate their results to make predictions
+
+Can be an effective means to improve performance and produce predictions that are better than any single model
+
+By building several models with different inductive biases and aggregating their outputs, we hope to get a model with better performance
+
+- Bagging
+- Boosting
+- Stacking
+
+### Design Pattern 8: Cascade
+
+Situations where a ml problem can broken up into a series of ml problems
+
+Convert into hierarchical situation
+
+### Design Pattern 9: Neutral Class
+
+### Design Pattern 10: Rebalancing
