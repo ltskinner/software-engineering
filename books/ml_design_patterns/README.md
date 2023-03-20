@@ -72,3 +72,30 @@ Convert into hierarchical situation
 ### Design Pattern 9: Neutral Class
 
 ### Design Pattern 10: Rebalancing
+
+## [Chpater 4. Model Training Patterns](./4_TRAINING_PATTERNS.md)
+
+### Design Pattern 11: Useful Overfitting
+
+Overfitting is useful when these conditions met:
+
+- There is no noise, so the labels are accurate for all instances
+- You have the complete dataset, thus, overfitting becomes interpolating the dataset
+
+Overfitting is also a good sanity check - complex models should be able to overfit on a small enough batch of data. If you train a NN that isnt capable of overfitting the training set, you should be using a bigger one
+
+### Design Pattern 12: Checkpoints
+
+Here we store the full state of the model periodically so that we have partially trained models available
+
+### Design Pattern 13: Transfer Learning
+
+Take part of a previously trained model, freeze the weights, and incorporate the non-trainable layers into a new model that solves a similar problem, but on a smaller dataset
+
+### Design Pattern 14: Distribution Strategy
+
+The training loop is carried out over multiple workers, often with caching, hardware acceleration, and parallelization
+
+### Design Pattern 15: Hyperparameter Tuning
+
+The training loop itself is inserted into an optimization method to find the optimal set of model hyperparameters
