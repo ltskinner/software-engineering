@@ -99,3 +99,45 @@ The training loop is carried out over multiple workers, often with caching, hard
 ### Design Pattern 15: Hyperparameter Tuning
 
 The training loop itself is inserted into an optimization method to find the optimal set of model hyperparameters
+
+## [Chapter 5. Design Patterns for Resilient Serving](./5_RESILIENT_SERVING.md)
+
+### Design Pattern 16: Stateless Serving Function
+
+### Design Pattern 17: Batch Serving
+
+### Design Pattern 18: Continued Model Evaluation
+
+Basically, keep an eye on production predicitons and retrain as necessary, being conscious of the impact of stale training data
+
+### Design Pattern 19: Two-Phase Predictions
+
+Provides a way to address the problem of keeping large, complex models performant when they have to be deployed on distributed devices by splitting the use cases into two phases, with only the simpler phase being carried out on the edge
+
+## Design Pattern 20: Keyed Predictions
+
+Normally, you train a model on the same set of input features that the model will be supplied in realtime when it is deployed. However, it can be advantageous for you model to pass though a client-supplied key.
+
+Basically lets you associate inputs and output results in asynch settings where results may be unordered
+
+## [Chapter 6. Reproducibility Design Patterns](./6_REPRODUCIBILITY.md)
+
+### Design Pattern 21: Transform
+
+Makes moving an ML model to production easier by keeping inputs, features, and transforms carefully separate
+
+### Design Pattern 22: Repeatable Splitting
+
+### Design Pattern 23: Bridged Schema
+
+Provides a way to adapt the data used to train a model from its older, original data schema, to newer better data. Lets us augment new improved data with some older data to improve model accuracy
+
+### Design Pattern 24: Windowed Inference
+
+### Design Pattern 25: Workflow Pipeline
+
+### Design Pattern 26: Feature Store
+
+Simplifies management and reuse of features across projects by decoupling the feature creation process from the development of models using those features
+
+### Design Pattern 27: Model Versioning
