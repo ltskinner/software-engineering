@@ -72,7 +72,7 @@ Helps models learn relationships between inputs faster by explicitly making each
 
 Concatenate two categorical features
 
-## Design Pattern 4: Multimodal Input
+### Design Pattern 4: Multimodal Input
 
 Addresses the problem of representing different types of data or data that can be expressed in complex ways by concatenating all the available data representations
 
@@ -149,7 +149,7 @@ Basically, keep an eye on production predicitons and retrain as necessary, being
 
 Provides a way to address the problem of keeping large, complex models performant when they have to be deployed on distributed devices by splitting the use cases into two phases, with only the simpler phase being carried out on the edge
 
-## Design Pattern 20: Keyed Predictions
+### Design Pattern 20: Keyed Predictions
 
 Normally, you train a model on the same set of input features that the model will be supplied in realtime when it is deployed. However, it can be advantageous for you model to pass though a client-supplied key.
 
