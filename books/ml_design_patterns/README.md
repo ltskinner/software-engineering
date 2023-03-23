@@ -4,7 +4,7 @@
 
 ## Patterns Reference
 
-| Chapter | Design Pattern | Problem Solved | Solution | NLP | CV | Predictive Analytics | IoT | Recommendation Systems | Fraud and Anomaly Detection |
+| Chapter | Design Pattern | Problem Solved | Solution | NLP | CV | Pred. Analysis | IoT | Rec. Systems | Fraud and Anomaly Det. |
 | - | - | - | - | - | - | - | - | - | - |
 | Data Representation | Hashed feature | Problems associated with categorical features such as incomplete vocabulary, model size due to cardinality, and cold start | Bucket a deterministic and portable hash of string representation and accept the trade-off of collisions in the data representation | x | | | x | x | |
 | | Embeddings | High-cardinality features where closeness relationships are important to preserve | Learn a data representation that maps high cardinality data into a lower-dimensional space in such a way that the information relevant to the learning problem is preserved | x | x | x | | x | x |
