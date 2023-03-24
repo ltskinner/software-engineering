@@ -12,3 +12,5 @@
 
 # mypy cache
 /.mypy_cache
+
+/books/practical_mlops/exercises
