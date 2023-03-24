@@ -149,13 +149,13 @@ The ability to build once and deploy many times is a critical feature in modern 
 
 [https://github.com/ltskinner/pml_1_adder](https://github.com/ltskinner/pml_1_adder)
 
-- [ ] Create a new Github repo with necessary python scaffolding using
+- [x] Create a new Github repo with necessary python scaffolding using
   - [x] Makefile
   - [x] linting
   - [x] testing
   - [x] Then, perform additional steps such as code formatting in your Makefile
-- [ ] Using GitHub Actions, test a Github project with two or more python versions
-- [ ] Using a cloud native build server (AWS Code Build, Azure DevOps pipelines), perform continuous integration for your project
+- [x] Using GitHub Actions, test a Github project with two or more python versions
+- [x] Using a cloud native build server (AWS Code Build, Azure DevOps pipelines), perform continuous integration for your project
 - [ ] Containerize a Github project by integrating a Dockerfile and automatically registering new containers to a Container Registry
 - [ ] Create a simple load test for your application using a load test framework such as
   - locust
