@@ -10,6 +10,8 @@ Current problems with ML:
 
 ## [Chapter 1. Introduction to MLOps](./1_INTRO.md)
 
+Example repo: [https://github.com/ltskinner/pml_1_adder](https://github.com/ltskinner/pml_1_adder)
+
 Critical tools and processes for ML Engineering:
 
 - Cloud native ML platforms
