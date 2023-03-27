@@ -29,7 +29,7 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 
 | **Best Practices** | | |
 | - | - | - |
-| [Programming](./best_practices/PROGRAMMING.md) |  [Naming Conventions](./best_practices/NAMING_CONVENTIONS.md) | [Diagramming](./best_practices/DIGRAMMING.md) |
+| [Programming](./best_practices/PROGRAMMING.md) |  [Naming Conventions](./best_practices/NAMING_CONVENTIONS.md) | [Diagramming](./best_practices/DIAGRAMMING.md) |
 | | | |
 | **Agile** | | |
 | [Agile Rules](https://github.com/ltskinner/software-engineering/blob/master/books/agile_project_management_with_scrum/RULES.md) | [Sprint Planning](./qa_checklists/SPRINT_PLANNING.md) | [Sprint Review](./qa_checklists/SPRINT_REVIEW.md) |
@@ -82,9 +82,9 @@ Notes on programming + best practices, design patterns, architectural patterns, 
 * [Code Complete Quality Assurance](./books/code_complete/quality_assurance)
 * [Python Unit Test Example](./python/unit_testing)
 
-#### -> Peer Reviews
+#### -> [Peer Reviews](./peer_reviews)
 
-#### [-> Testing](./qa_checklists/3_3_TESTING.mc)
+#### [-> Testing](./qa_checklists/3_3_TESTING.md)
 
 ### Software Metrics
 
