@@ -156,9 +156,21 @@ The ability to build once and deploy many times is a critical feature in modern 
   - [x] Then, perform additional steps such as code formatting in your Makefile
 - [x] Using GitHub Actions, test a Github project with two or more python versions
 - [x] Using a cloud native build server (AWS Code Build, Azure DevOps pipelines), perform continuous integration for your project
-- [ ] Containerize a Github project by integrating a Dockerfile and automatically registering new containers to a Container Registry
-- [ ] Create a simple load test for your application using a load test framework such as
-  - locust
-  - loader io
-  - and automatically run this test when you push changes to a staging branch
+- [x] Containerize a Github project by integrating a Dockerfile and automatically registering new containers to a Container Registry
+- [x] Create a simple load test for your application using a load test framework such as
+  - [x] locust (or loader io)
+  - [ ] automatically run this test when you push changes to a staging branch
 
+## Useful Links
+
+- Github Actions to DockerHub:
+  - https://github.com/marketplace/actions/build-and-push-docker-images
+  - https://docs.github.com/en/actions/publishing-packages/publishing-docker-images
+- AWS ECR:
+  - https://docs.aws.amazon.com/codebuild/latest/userguide/sample-docker.html
+  - https://docs.aws.amazon.com/codebuild/latest/userguide/sample-ecr.html
+- Locust:
+  - https://github.com/marketplace/actions/locust-load-test
+  - for FastAPI: https://medium.com/@ashmi_banerjee/3-step-tutorial-to-performance-test-ml-serving-apis-using-locust-and-fastapi-40e6cc580adc
+- Github Actions Sequencing Jobs:
+  - `need` - https://stackoverflow.com/questions/63148639/create-dependencies-between-jobs-in-github-actions
