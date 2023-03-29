@@ -159,7 +159,7 @@ The ability to build once and deploy many times is a critical feature in modern 
 - [x] Containerize a Github project by integrating a Dockerfile and automatically registering new containers to a Container Registry
 - [x] Create a simple load test for your application using a load test framework such as
   - [x] locust (or loader io)
-  - [ ] automatically run this test when you push changes to a staging branch
+  - [x] automatically run this test when you push changes to a staging branch FROM LEFT FIELD THE SOLUTION APPEARS
 
 ## Useful Links
 
