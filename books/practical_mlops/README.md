@@ -46,3 +46,10 @@ DevOps is a set of technical **and** management practices that aim to increase a
 - 25% Data
 - 25% Models
 - 25% Business
+
+## [Chapter 2. MLOps Foundations](./2_FOUNDATIONS.md)
+
+### Bash and the Linux Terminal
+
+Better way to think about the terminal is the "advanced settings" of the environment you are working on: the cloud, ml, or programming - if you need to do the advanced tasks, it is the way to perform it
+
