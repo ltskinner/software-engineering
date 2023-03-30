@@ -4,9 +4,9 @@
   - Recognition of the limits of your knowledge
 - Intellectual courage
   - The ability to argue for your beliefs even in the face of social pressure
-- Intellectaul empathy
+- Intellectual empathy
   - The ability to put yourself in the minds of others to understand their position
-- Intellectaul autonomy
+- Intellectual autonomy
   - The ability to think for yourself independently of others
 - Intellectual integrity
   - The ability to think and argue with the same intellectual standards you expect others to apply to you
