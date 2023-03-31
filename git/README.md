@@ -6,6 +6,13 @@
 
 [https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)
 
+## Pull Issues
+
+[Handling pull issues](https://stackoverflow.com/questions/71768999/how-to-merge-when-you-get-error-hint-you-have-divergent-branches-and-need-to-s)
+
+[Handling `git fatal: Not possible to fast-forward, aborting.`](https://stackoverflow.com/questions/13106179/error-fatal-not-possible-to-fast-forward-aborting)
+
+
 ## Better Usage
 
 ```bash
