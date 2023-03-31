@@ -68,7 +68,7 @@ Commands:
 
 ## Exercises
 
-- [ ] Do Build an MLOps Pipeline from Zero
+- [x] Do Build an MLOps Pipeline from Zero
 - [ ] Run a hello world python GitHub project and check it out and run your tests on all three clouds:
   - [ ] AWS
   - [ ] Azure
@@ -76,7 +76,7 @@ Commands:
 - [ ] Make a new flask application that serves out a "hello world" type route using AWS Elastic Beanstalk you think other people would find helpful
   - [ ] Put the code into a GitHub repo
   - [ ] Put a screenshot of it serving out a request in the README
-  - [ ] Create a CD process to deploy the Flas app using AWS codebuild
+  - [ ] Create a CD process to deploy the Flask app using AWS codebuild
 - [ ] Fork this Flask ml app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [ ] Deploy it with CD on aws using elastic beanstalk and code pipeline
 - [ ] Fork this Flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
