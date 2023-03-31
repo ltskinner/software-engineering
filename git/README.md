@@ -2,6 +2,10 @@
 
 [Version control overview](./OVERVIEW.md)
 
+## Email Stuff
+
+[https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)
+
 ## Better Usage
 
 ```bash
