@@ -69,10 +69,10 @@ Commands:
 ## Exercises
 
 - [x] Do Build an MLOps Pipeline from Zero
-- [ ] Run a hello world python GitHub project and check it out and run your tests on all three clouds:
-  - [ ] AWS
-  - [ ] Azure
-  - [ ] GCP
+- [x] Run a hello world python GitHub project and check it out and run your tests on all three clouds:
+  - [x] AWS
+  - [x] Azure
+  - [x] GCP
 - [ ] Make a new flask application that serves out a "hello world" type route using AWS Elastic Beanstalk you think other people would find helpful
   - [ ] Put the code into a GitHub repo
   - [ ] Put a screenshot of it serving out a request in the README
