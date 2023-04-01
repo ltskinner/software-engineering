@@ -2,6 +2,10 @@
 
 [Version control overview](./OVERVIEW.md)
 
+## WSL Credentials
+
+[https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git)
+
 ## Email Stuff
 
 [https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address](https://stackoverflow.com/questions/43863522/error-your-push-would-publish-a-private-email-address)
