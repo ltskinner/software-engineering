@@ -78,7 +78,7 @@ Commands:
   - [x] Put the code into a GitHub repo
   - [x] Create a CD process to deploy the Flask app using AWS codebuild
   - [x] Put a screenshot of it serving out a request in the README
-- [ ] Fork this Flask ml app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
+- [x] Fork this Flask ml app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [ ] Deploy it with CD on aws using elastic beanstalk and code pipeline
 - [ ] Fork this Flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [ ] Deploy with on GCP with Google App engine and Cloud Build (or Cloud Run and Cloud Build)
