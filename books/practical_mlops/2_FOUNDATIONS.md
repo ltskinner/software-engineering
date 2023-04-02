@@ -73,10 +73,11 @@ Commands:
   - [x] AWS
   - [x] Azure
   - [x] GCP
-- [ ] Make a new flask application that serves out a "hello world" type route using AWS Elastic Beanstalk you think other people would find helpful
-  - [ ] Put the code into a GitHub repo
-  - [ ] Put a screenshot of it serving out a request in the README
-  - [ ] Create a CD process to deploy the Flask app using AWS codebuild
+- [x] Make a new flask application that serves out a "hello world" type route using AWS Elastic Beanstalk you think other people would find helpful
+  - [x] PRIVATE REPO
+  - [x] Put the code into a GitHub repo
+  - [x] Create a CD process to deploy the Flask app using AWS codebuild
+  - [x] Put a screenshot of it serving out a request in the README
 - [ ] Fork this Flask ml app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [ ] Deploy it with CD on aws using elastic beanstalk and code pipeline
 - [ ] Fork this Flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
