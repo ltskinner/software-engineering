@@ -79,9 +79,9 @@ Commands:
   - [x] Create a CD process to deploy the Flask app using AWS codebuild
   - [x] Put a screenshot of it serving out a request in the README
 - [x] Fork this Flask ml app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
-  - [ ] Deploy it with CD on aws using elastic beanstalk and code pipeline
-- [ ] Fork this Flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
-  - [ ] Deploy with on GCP with Google App engine and Cloud Build (or Cloud Run and Cloud Build)
+  - [x] Deploy it with CD on aws using elastic beanstalk and code pipeline
+- [x] Fork this Flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
+  - [x] Deploy with on GCP with Google App engine and Cloud Build (or Cloud Run and Cloud Build)
 - [ ] Fork this flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [ ] Deploy it with CD on Azure using Azure App Services and Azure DevOps Pipelines
 - [ ] Use the traveling salesman code example and port it to work with coordinates you grab from an api
