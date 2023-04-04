@@ -82,8 +82,8 @@ Commands:
   - [x] Deploy it with CD on aws using elastic beanstalk and code pipeline
 - [x] Fork this Flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [x] Deploy with on GCP with Google App engine and Cloud Build (or Cloud Run and Cloud Build)
-- [ ] Fork this flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
-  - [ ] Deploy it with CD on Azure using Azure App Services and Azure DevOps Pipelines
+- [x] Fork this flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
+  - [x] Deploy it with CD on Azure using Azure App Services and Azure DevOps Pipelines
 - [ ] Use the traveling salesman code example and port it to work with coordinates you grab from an api
   - [ ] Say all of the best resturaunts in a city you want to visit
 - [ ] Using TensorFlow Playground:
