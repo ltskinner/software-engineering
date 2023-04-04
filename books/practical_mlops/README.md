@@ -53,3 +53,16 @@ DevOps is a set of technical **and** management practices that aim to increase a
 
 Better way to think about the terminal is the "advanced settings" of the environment you are working on: the cloud, ml, or programming - if you need to do the advanced tasks, it is the way to perform it
 
+## [Chapter 3. MLOps for Containers and Edge Devices](./3_CONTAINERS_EDGE.md)
+
+Containers are the secret ingredient for MLOps
+
+Containers increase the entire ML architecture quality by reducing complexity since the images are already "baked"
+
+Intellectual horsepower can shift to other problems like data drift, analyzing the feature store for suitable candidates for a newer model, or evaluating whether the new model solves customer needs
+
+### Containers in Monetizing MLOps
+
+Container as a product - sell it on SageMaker marketplace
+
+In companies looking to monetize ML, the container is an ideal package for delivering both models and algorithms to customers
