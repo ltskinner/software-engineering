@@ -84,11 +84,11 @@ Commands:
   - [x] Deploy with on GCP with Google App engine and Cloud Build (or Cloud Run and Cloud Build)
 - [x] Fork this flask ML app: https://github.com/paiml/practical-mlops-book/blob/main/README.md#chapter-2-mlops-in-the-cloud
   - [x] Deploy it with CD on Azure using Azure App Services and Azure DevOps Pipelines
-- [ ] Use the traveling salesman code example and port it to work with coordinates you grab from an api
-  - [ ] Say all of the best resturaunts in a city you want to visit
-- [ ] Using TensorFlow Playground:
-  - [ ] Experiment with changing the hyperparameters across different datasets as well as problem types
-  - [ ] Can you identify optimal configurations of hidden layers, learning rate, and regularization rate for different datasets?
+- [x] Use the traveling salesman code example and port it to work with coordinates you grab from an api
+  - [x] Say all of the best resturaunts in a city you want to visit - did with national parks instead lol
+- [x] Using TensorFlow Playground:
+  - [x] Experiment with changing the hyperparameters across different datasets as well as problem types
+  - [x] Can you identify optimal configurations of hidden layers, learning rate, and regularization rate for different datasets?
 
 ## Critical Thinking Discussion Questions
 
