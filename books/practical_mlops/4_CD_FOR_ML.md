@@ -80,7 +80,7 @@ When you send an HTTP request to the container, several software layers are requ
 - The onyx runtime needs to consume the string and produce a prediction
 - A json response with an http 200 response needs to contain the boolean value of the prediction
 
-Every single one of these steps can (and should) be testes
+Every single one of these steps can (and should) be tests
 
 #### Automated Checks
 
@@ -105,8 +105,12 @@ Linters catch the first instance of an issue
   - [x] Document it thoroughly
   - [x] Add GitHub Actions to ensure it builds correctly
 - [x] Make changes to the ONNX container so that it pushes to DockerHub instead of GitHub Packages
-- [ ] Modify a SageMaker pipeline so it prompts you before registering the model after training it
+- [x] Modify a SageMaker pipeline so it prompts you before registering the model after training it
+  - [Approval](https://docs.aws.amazon.com/sagemaker/latest/dg/model-registry-approve.html)
+  - [Full cleanup](https://catalog.workshops.aws/sagemaker-studio-emr/en-US/08-clean-up)
 - [ ] Using the Azure SDK, create a Jupyter notebook that will increase the percentile of traffic going to a container
+  - **SKIPPING**
+  - [azureml](https://learn.microsoft.com/en-us/python/api/overview/azure/ml/install?view=azure-ml-py)
 
 ## Critical Thinking Discussion Questions
 

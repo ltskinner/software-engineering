@@ -68,3 +68,11 @@ Container as a product - sell it on SageMaker marketplace
 In companies looking to monetize ML, the container is an ideal package for delivering both models and algorithms to customers
 
 ## [Chapter 4. Continuous Delivery for Machine Learning Models](./4_CD_FOR_ML.md)
+
+
+## Example Cleanup
+
+- [ ] GCP
+- [ ] Azure
+- [ ] AWS
+  - [ ] [Sagemaker Resources](https://catalog.workshops.aws/sagemaker-studio-emr/en-US/08-clean-up)
