@@ -104,7 +104,7 @@ Linters catch the first instance of an issue
   - [x] Publish it to a github repo
   - [x] Document it thoroughly
   - [x] Add GitHub Actions to ensure it builds correctly
-- [ ] Make changes to the ONNX container so that it pushes to DockerHub instead of GitHub Packages
+- [x] Make changes to the ONNX container so that it pushes to DockerHub instead of GitHub Packages
 - [ ] Modify a SageMaker pipeline so it prompts you before registering the model after training it
 - [ ] Using the Azure SDK, create a Jupyter notebook that will increase the percentile of traffic going to a container
 
