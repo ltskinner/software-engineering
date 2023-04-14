@@ -66,3 +66,5 @@ Intellectual horsepower can shift to other problems like data drift, analyzing t
 Container as a product - sell it on SageMaker marketplace
 
 In companies looking to monetize ML, the container is an ideal package for delivering both models and algorithms to customers
+
+## [Chapter 4. Continuous Delivery for Machine Learning Models](./4_CD_FOR_ML.md)
