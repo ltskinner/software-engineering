@@ -110,9 +110,10 @@ In companies looking to monetize ML, the container is an ideal package for deliv
   - Use this one: https://tfhub.dev/tensorflow/mask_rcnn/inception_resnet_v2_1024x1024/1
 - [x] Use the MobileNet V2 model to perform inference on other objects and get accurate results
   - Use this: https://tfhub.dev/google/lite-model/qat/mobilenet_v2_retinanet_256/1
-- [ ] Create a new container image, based on the Flask example, that serves a model and that provides examples on a GET request to interact with the model
-  - [ ] Create another endpoint that provides useful metadata about the model
-- [ ] Publish the newly created image to a container registry (DockerHub)
+- [x] Create a new container image, based on the Flask example, that serves a model
+  - [x] Provide examples on a GET request to interact with the model
+  - [x] Create another endpoint that provides useful metadata about the model
+- [x] Publish the newly created image to a container registry (DockerHub)
 
 ## Critical Thinking Discussion Questions
 
