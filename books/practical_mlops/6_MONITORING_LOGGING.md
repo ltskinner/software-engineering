@@ -48,6 +48,7 @@ Two operations specific to ML that cloud providers should monitor and capture us
 ## Exercises
 
 - [ ] Use a different dataset and create a drift report with violations using AWS SageMaker
+  - SKIP - dont care. Want to learn sagemaker properly from scratch, Im just making a mess in there now
 - [x] Add Python logging to a script that will log errors to STDERR, info statements to STDOUT, and all levels to a file
 - [x] Create a time-series dataset on Azure ML Studio
 - [x] Configure a dataset monitor in Azure ML Studio that will send an email when a drift is detected beyond the acceptable threshold
