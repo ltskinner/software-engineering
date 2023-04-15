@@ -94,10 +94,16 @@ Dont self-handicap lmao
 
 Yknow bro, id probably be much more rigorous in evaluating models if I wasnt so involved in building them haha
 
+## [Chapter 6. Monitoring and Logging](./6_MONITORING_LOGGING.md)
+
+"Before becoming a {something specific}, you must become a {general precursor}"
+
 ## Example Cleanup
 
 - [ ] GCP
   - VertexAI - def do not forget about this lol
+  - Absolutely NUKE **everything** in GCP, will never, ever use this and will actively avoid GCP shops when job hunting lmao
+  - [how to delete](https://stackoverflow.com/questions/52408422/delete-all-resources-in-a-google-cloud-project#:~:text=Simply%20go%20to%20%22IAM%20%26%20Admin,%2C%20see%20the%20billing%2C%20etc.)
 - [ ] Azure
 - [ ] AWS
   - [ ] [Sagemaker Resources](https://catalog.workshops.aws/sagemaker-studio-emr/en-US/08-clean-up)
