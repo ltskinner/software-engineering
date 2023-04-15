@@ -69,10 +69,35 @@ In companies looking to monetize ML, the container is an ideal package for deliv
 
 ## [Chapter 4. Continuous Delivery for Machine Learning Models](./4_CD_FOR_ML.md)
 
+## [Chapter 5. AutoML and KaizenML](./5_AUTOML.md)
+
+- Rules without Ideas is prison
+- Ideas without Rules is chaos
+- Bonsai teaches us balance
+- Balancing rules against innovation is a pervasive problem in all of life
+
+"Difficulty, or lack therof, doe snot equate with completeness or realness"
+
+"MLOps: you dont need to build it to use it"
+
+Dont self-handicap lmao
+
+### AutoML Flavors
+
+- Apple
+- Google
+- Azure
+- AWS - SageMaker AutoPilot
+- Open Source
+  - Ludwig
+  - FLAML - Fast and Lightweight AutoML
+
+Yknow bro, id probably be much more rigorous in evaluating models if I wasnt so involved in building them haha
 
 ## Example Cleanup
 
 - [ ] GCP
+  - VertexAI - def do not forget about this lol
 - [ ] Azure
 - [ ] AWS
   - [ ] [Sagemaker Resources](https://catalog.workshops.aws/sagemaker-studio-emr/en-US/08-clean-up)
