@@ -98,6 +98,10 @@ Yknow bro, id probably be much more rigorous in evaluating models if I wasnt so 
 
 "Before becoming a {something specific}, you must become a {general precursor}"
 
+## [Chapter 7. MLOps for AWS](./7_MLOPS_FOR_AWS.md)\
+
+"Compare the opportunity cost of doing something yourself"
+
 ## Example Cleanup
 
 - [ ] GCP
