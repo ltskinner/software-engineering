@@ -201,7 +201,7 @@ Q: 3-5 career advice
 
 ## Exercises
 
-- [ ] Build a ML CD pipeline for a flask webservice using Elastic Beanstalk [link](https://github.com/noahgift/Flask-Elastic-Beanstalk)
+- [x] Build a ML CD pipeline for a flask webservice using Elastic Beanstalk [link](https://github.com/noahgift/Flask-Elastic-Beanstalk)
   - OK so Elastic Beanstalk is good for deploying web applications and services
   - ECS is good for orchustrating containers
 - [ ] Start an Amazon SageMaker instance and build and deploy the AWS example for "US census data for the population segmentation example"
