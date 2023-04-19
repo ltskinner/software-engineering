@@ -201,17 +201,19 @@ Q: 3-5 career advice
 
 ## Exercises
 
-- Build a ML CD pipeline for a flask webservice using Elastic Beanstalk [link](https://github.com/noahgift/Flask-Elastic-Beanstalk)
-- Start an Amazon SageMaker instance and build and deploy the AWS example for "US census data for the population segmentation example"
-- Build a CaaS ML prediction service using AWS Fargate [link](https://github.com/noahgift/eks-fargate-tutorial)
-- Build a serverless data engineering prototype [link](https://github.com/noahgift/awslambda)
-- Build a computer vision trigger that detects labels [link](https://github.com/noahgift/serverless-cookbook/blob/main/aws-lambda-image-label-s3-trigger.py)
-- Use the MLOps Cookbook base project and deploy it to as many different targets as you can:
-  - Containerized CLI
-  - EKS
-  - Elastic Beanstalk
-  - Spot Instances
-  - Anything else you can think of
+- [ ] Build a ML CD pipeline for a flask webservice using Elastic Beanstalk [link](https://github.com/noahgift/Flask-Elastic-Beanstalk)
+  - OK so Elastic Beanstalk is good for deploying web applications and services
+  - ECS is good for orchustrating containers
+- [ ] Start an Amazon SageMaker instance and build and deploy the AWS example for "US census data for the population segmentation example"
+- [ ] Build a CaaS ML prediction service using AWS Fargate [link](https://github.com/noahgift/eks-fargate-tutorial)
+- [ ] Build a serverless data engineering prototype [link](https://github.com/noahgift/awslambda)
+- [ ] Build a computer vision trigger that detects labels [link](https://github.com/noahgift/serverless-cookbook/blob/main/aws-lambda-image-label-s3-trigger.py)
+- [ ] Use the MLOps Cookbook base project and deploy it to as many different targets as you can:
+  - [ ] Containerized CLI
+  - [ ] EKS
+  - [ ] Elastic Beanstalk
+  - [ ] Spot Instances
+  - [ ] Anything else you can think of
 
 ## Critical Thinking Discussion Questions
 
