@@ -205,7 +205,9 @@ Q: 3-5 career advice
   - OK so Elastic Beanstalk is good for deploying web applications and services
   - ECS is good for orchustrating containers
 - [ ] Start an Amazon SageMaker instance and build and deploy the AWS example for "US census data for the population segmentation example"
-- [ ] Build a CaaS ML prediction service using AWS Fargate [link](https://github.com/noahgift/eks-fargate-tutorial)
+  - **skipping** consciously skipping in favor of finishing book, and revisiting in a "sagemaker only" headspace
+- [x] Build a CaaS ML prediction service using AWS Fargate [link](https://github.com/noahgift/eks-fargate-tutorial)
+  - Fargate -> ECS
 - [ ] Build a serverless data engineering prototype [link](https://github.com/noahgift/awslambda)
 - [ ] Build a computer vision trigger that detects labels [link](https://github.com/noahgift/serverless-cookbook/blob/main/aws-lambda-image-label-s3-trigger.py)
 - [ ] Use the MLOps Cookbook base project and deploy it to as many different targets as you can:
