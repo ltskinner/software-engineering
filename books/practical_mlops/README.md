@@ -102,6 +102,40 @@ Yknow bro, id probably be much more rigorous in evaluating models if I wasnt so 
 
 "Compare the opportunity cost of doing something yourself"
 
+## [Chapter 8. MLOps for Azure](./8_MLOPS_AZURE.md)
+
+**ALWAYS ENSURE AUTHENTICATION IS DONE CORRECTLY. DO NOT TRY TO SKIP OR WORK AROUND THESE RESTRICTIONS, EVEN WHEN ITS AN OPTION**
+
+### Troubleshooting Deployments
+
+- Do not ever assume things.
+- Question everything.
+- Pay attention to deteails.
+- Trust, but verify.
+
+## [Chapter 9. MLOps for GCP](./9_MLOPS_GCP.md)
+
+Cons:
+
+- fewer practicioners
+- part of "surveillance capitalism" - "sv and other corps mining users information to predict and shape behavior"
+- google has reputation for:
+  - poor user and customer experience
+  - frequently abandons products (like hangouts and plus)
+  - so, if gcp continues to be the third-best optoin, will they discontinue it?
+
+Pros:
+
+- good at creating things that work at "planet scale"
+
+## [Chapter 10. ML Interoperability](./10_ML_INTEROPERABILITY.md)
+
+Use ONNX
+
+## [Chapter 11. Building MLOps Command Line Tools and Microservices](./11_MLOPS_CLI_MS.md)
+
+## [Chapter 12. ML Engineering and MLOps Case Studies](./12_ML_CASE_STUDIES.md)
+
 ## Example Cleanup
 
 - [ ] GCP
@@ -109,5 +143,27 @@ Yknow bro, id probably be much more rigorous in evaluating models if I wasnt so 
   - Absolutely NUKE **everything** in GCP, will never, ever use this and will actively avoid GCP shops when job hunting lmao
   - [how to delete](https://stackoverflow.com/questions/52408422/delete-all-resources-in-a-google-cloud-project#:~:text=Simply%20go%20to%20%22IAM%20%26%20Admin,%2C%20see%20the%20billing%2C%20etc.)
 - [ ] Azure
+  - [ ] App Service is biggest one
+  - [ ] Then Pipelines
 - [ ] AWS
   - [ ] [Sagemaker Resources](https://catalog.workshops.aws/sagemaker-studio-emr/en-US/08-clean-up)
+
+## Some Closing Remarks
+
+### Book Itself
+
+Enjoyed the exercises and discussion questions thoroughly
+
+The "personal stories" about stuff unrelated to work were inessential tho
+
+### Cloud Platforms
+
+GCP is cancer
+
+AWS is still pog for most things, sagemaker is a whole ass beast tho
+
+Azure ML ecosystem is much more user friendly, tho doesnt always work. The workflows are super intuitive, but it doesnt always work. I love the idea of Azure ML, and the automl is actually really good, but just enough hops, skips, and jumps to where I wouldnt feel comfortable migrating existing services on AWS over
+
+The docs also seem to be like really, really up to date, which is a little concerning. Like the interfaces and sdks are definitely under constant development, which I dont love, I like things more stable. BUT, that said, with the rapid iteration, I think the Azure ML ecosystem long term will be better than sagemaker and I will certainly prioritize Azure ML for my next ML engagement
+
+But for now, the simplicity and unified portal for AWS is unbeatable, truly. Much smaller delta from dev env to prod env with it
