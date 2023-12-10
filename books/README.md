@@ -89,3 +89,9 @@ Pushing this until happy with other fundamental skills:
 - [ ] [Machine Learning in Action](https://www.amazon.com/Machine-Learning-Engineering-Action-Wilson/dp/1617298719)
 
 - [ ] [Data Pipelines with Apache Airflow](https://www.amazon.com/Pipelines-Apache-Airflow-Julian-Ruiter-ebook/dp/B0978171QX/)
+
+## Graphs
+
+- [ ] [Graph Databases in Action](https://www.amazon.com/Graph-Databases-Action-Examples-Gremlin-ebook/dp/B09781RC7W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1702225165&sr=8-1)
+- [ ] [Graph Theoretic Methods in Multiagent Networks](https://www.amazon.com/Theoretic-Multiagent-Networks-Princeton-Mathematics-ebook/dp/B003TU1O1C/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+- [ ] [Graph-Based Social Media Analysis](https://www.amazon.com/Graph-Based-Analysis-Chapman-Knowledge-Discovery-ebook/dp/B018TVFZE2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
