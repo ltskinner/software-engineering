@@ -91,3 +91,54 @@ Improper uniqueness usually appears in one of three ways:
 - Poor query performance
 
 ### [3. Running Basic and Recursive Traversals](./3_TRAVERSAL.md)
+
+Basic operations:
+
+- find a starting vertex
+- identify an edge to traverse
+- traverse that edge
+- complete the traversal by arriving at the destination vertex
+
+Things to remember:
+
+- Traversing is a series of steps
+- Traversing requires knowing where we are
+- Edge direction matters
+- Traversals dont have history
+
+#### Starting operators
+
+`g = graph.traversal()`
+
+#### Global Steps
+
+- `V()` - iter all vertex
+- `E()` - iter all edges - rarely use
+
+#### Filtering Steps
+
+- `.hasLabel(label)` - v and e with label
+- `.has(key, value)` - v and e
+- `.has(label, key, value)` - `g.V().hasLabel('person').has('first_name', 'Ted')`
+
+#### Traversal Steps
+
+- `.out(label)` e out
+- `.in(label)` e in
+- `.both(label)` e both out and in
+
+### Value Retrieval Steps
+
+- `.values(keys)` - returns values of `properties`
+- `.valueMap(keys)` - returns keys and values
+
+### Recursive Steps
+
+- `.repeat(traversal)`
+  - `.times(integer)`
+  - `.until(traversal)` - Reccomend providing:
+    - `times()`, or
+    - `timeLimit()`
+- `emit()` - to see intermediate steps
+  - `.unitl().emit().repeat()` - shows start
+  - `.until().repeat().emit()` - dupes last v

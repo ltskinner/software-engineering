@@ -32,5 +32,35 @@ g.addE('friends').from(josh).to(hank).next()
 g.addE('friends').from(ted).to(josh).next()
 
 // Prints out the graph 
-g.V().valueMap(true).toList()
+//g.V().valueMap(true).toList()
 
+g.V()
+    .has('person', 'first_name', 'Ted')
+    .out('friends')
+    .values('first_name')
+
+
+g.V()
+    .has('person', 'first_name', 'Ted')
+    .repeat(
+        out('friends')
+    ).times(2)
+    .values('first_name')
+
+g.V()
+    .has('person', 'first_name', 'Ted')
+    .until(
+        has('person', 'first_name', 'Hank')
+    ).repeat(
+        out('friends')
+    ).emit()
+    .values('first_name')
+
+g.V()
+    .has('person', 'first_name', 'Ted')
+    .until(
+        has('person', 'first_name', 'Hank')
+    ).emit().repeat(
+        out('friends')
+    )
+    .values('first_name')
