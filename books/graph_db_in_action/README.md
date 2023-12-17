@@ -145,4 +145,6 @@ Things to remember:
 
 ### [4. Pathfinding Traversals and Mutating Graphs](./4_PATHS_MUTATING.md)
 
-### [5 Formatting Results](./5_FORMATTING_RESULTS.md)
+### [5. Formatting Results](./5_FORMATTING_RESULTS.md)
+
+### [6. Developing an Application](./6_DEV_APP.md)
