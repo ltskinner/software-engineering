@@ -152,3 +152,5 @@ Things to remember:
 ## Part 2. Building on Graph Databases
 
 ### [7. Advanced Data Modeling Techniques](./7_ADV_MODELING.md)
+
+### [8. Building Traversals Using Known Walks](./8_KNOWN_WALKS.md)
