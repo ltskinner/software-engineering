@@ -148,3 +148,7 @@ Things to remember:
 ### [5. Formatting Results](./5_FORMATTING_RESULTS.md)
 
 ### [6. Developing an Application](./6_DEV_APP.md)
+
+## Part 2. Building on Graph Databases
+
+### [7. Advanced Data Modeling Techniques](./7_ADV_MODELING.md)
