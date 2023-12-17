@@ -143,4 +143,6 @@ Things to remember:
   - `.unitl().emit().repeat()` - shows start
   - `.until().repeat().emit()` - dupes last v
 
-### [4. Pathfinding Traversals and Mutating Graphs](./2_GRAPH_DATA_MODELING.md)
+### [4. Pathfinding Traversals and Mutating Graphs](./4_PATHS_MUTATING.md)
+
+### [5 Formatting Results](./5_FORMATTING_RESULTS.md)
