@@ -154,3 +154,5 @@ Things to remember:
 ### [7. Advanced Data Modeling Techniques](./7_ADV_MODELING.md)
 
 ### [8. Building Traversals Using Known Walks](./8_KNOWN_WALKS.md)
+
+### [9. Working with Subgraphs](./9_SUBGRAPHS.md)
