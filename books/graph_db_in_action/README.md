@@ -156,3 +156,12 @@ Things to remember:
 ### [8. Building Traversals Using Known Walks](./8_KNOWN_WALKS.md)
 
 ### [9. Working with Subgraphs](./9_SUBGRAPHS.md)
+
+## Part 3. Moving Beyond the Basics
+
+Path divides:
+
+- One direction - the frontier of graph analytics
+- Other - familiar territory of debugging and performance-tuning
+
+### [10. Performance, Pitfalls, and Anti-Patterns](./10_ANTI_PATTERNS.md)
