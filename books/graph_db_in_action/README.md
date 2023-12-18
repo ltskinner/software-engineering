@@ -165,3 +165,5 @@ Path divides:
 - Other - familiar territory of debugging and performance-tuning
 
 ### [10. Performance, Pitfalls, and Anti-Patterns](./10_ANTI_PATTERNS.md)
+
+### [11. Whats Next: Graph Analytics, Machine Learning, and resources](./11_WHATS_NEXT.md)
