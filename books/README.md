@@ -92,6 +92,7 @@ Pushing this until happy with other fundamental skills:
 
 ## Graphs
 
-- [ ] [Graph Databases in Action](https://www.amazon.com/Graph-Databases-Action-Examples-Gremlin-ebook/dp/B09781RC7W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1702225165&sr=8-1)
+- [x] [Graph Databases in Action](https://www.amazon.com/Graph-Databases-Action-Examples-Gremlin-ebook/dp/B09781RC7W/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1702225165&sr=8-1)
+- [ ] [The Practicioners Guide to Graph Data](https://www.amazon.com/Practitioners-Guide-Graph-Data-Technologies-ebook/dp/B086BY8YQB/)
 - [ ] [Graph Theoretic Methods in Multiagent Networks](https://www.amazon.com/Theoretic-Multiagent-Networks-Princeton-Mathematics-ebook/dp/B003TU1O1C/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 - [ ] [Graph-Based Social Media Analysis](https://www.amazon.com/Graph-Based-Analysis-Chapman-Knowledge-Discovery-ebook/dp/B018TVFZE2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
