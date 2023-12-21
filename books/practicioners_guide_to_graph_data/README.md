@@ -7,3 +7,5 @@
 [Github Repo](https://github.com/datastax/graph-book)
 
 ## [Chapter 1. Graph Thinking](./1_GRAPH_THINKING.md)
+
+## [Chaptr 2. Evolving from Relational to Graph Thinking](./2_REL_TO_GRAPH.md)
