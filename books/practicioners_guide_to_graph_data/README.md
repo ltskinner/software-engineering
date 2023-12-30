@@ -66,3 +66,7 @@ Spend time designing your data architecture, models and queries to present infor
 Tip: If you ever question what object type you have in the middle of developing a gremlin traversal, add `.next().getClass()` to where you are in the traversal, this will inspect the objects
 
 ## [Chapter 5. Exploring Neighborhoods in Production](./5_NBHOODS_IN_PRODUCTION.md)
+
+Cassandra stuff
+
+## [Chapter 6. Using Trees in Development](./6_TREES.md)
