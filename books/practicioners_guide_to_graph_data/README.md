@@ -35,6 +35,8 @@ Rules of Thumb:
 - 8. Let the direction you want to walk through your edge labels determine the indexes you need on an edge label in your graph schema
 - 9. Load your data; then apply your indexes
 - 10. Keep only the edges and indexes that you need for your production queries
+- 11. Time goes up onthe way up, and time goes down on the way down. When this rule of thumb isnt true, the path is invalid and should be filtered out of the results
+- 12. Cluster your edges on disk so that you can sort through them in your queries and mitigate the effect of your datas branching factor
 
 Pitfalls in Naming Conventions:
 
@@ -70,3 +72,5 @@ Tip: If you ever question what object type you have in the middle of developing 
 Cassandra stuff
 
 ## [Chapter 6. Using Trees in Development](./6_TREES.md)
+
+## [Chapter 7. Using Trees in Production](./7_TREES_PRODUCTION.md)
