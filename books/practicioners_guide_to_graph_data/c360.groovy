@@ -169,3 +169,52 @@ g.addE("owes").
     from(aaliyah).
     to(loan_18).
     next();
+
+
+// Chapter 4
+
+// Vertexes
+
+schema.vertexLabel("Transaction").
+    ifNotExists().
+    partitionBy("transaction_id", Text).
+    property("transaction_type", Text).
+    property("timestamp", Text).
+    create();
+
+schema.vertexLabel("Vendor").
+    ifNotExists().
+    partitionBy("vendor_id", Text).
+    property("vendor_name", Text).
+    create();
+
+// Edges
+schema.edgeLabel("withdraw_from").
+    ifNotExists().
+    from("Transaction").
+    to("Account").
+    create();
+
+schema.edgeLabel("deposit_to").
+    ifNotExists().
+    from("Transaction").
+    to("Account").
+    create();
+
+schema.edgeLabel("pay").
+    ifNotExists().
+    from("Transaction").
+    to("Loan").
+    create();
+
+schema.edgeLabel("charge").
+    ifNotExists().
+    from("Transaction").
+    to("CreditCard").
+    create();
+
+schema.edgeLabel("pay").
+    ifNotExists().
+    from("Transaction").
+    to("Vendor").
+    create();
