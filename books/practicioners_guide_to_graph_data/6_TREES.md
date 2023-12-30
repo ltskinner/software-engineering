@@ -243,6 +243,6 @@ dev.V(tower).
   repeat(
     __.in("send").  // __ is an anonymous traversal
     simplePath()).  // remove cycles
-    times(3).  // only do 3 times
+    times(3).  // only do 3 times - not doing this will timeout bc no end can be reached
     peth()
 ```
