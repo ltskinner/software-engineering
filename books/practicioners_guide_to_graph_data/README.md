@@ -11,3 +11,8 @@
 ## [Chaptr 2. Evolving from Relational to Graph Thinking](./2_REL_TO_GRAPH.md)
 
 ## [Chapter 3. Getting Started: A Simple Customer 360](./3_GETTING_STARTED.md)
+
+We like to think of querying a graph database, loosely, as the reverse of a SQL query.
+
+- Relational sequence: `SELECT`-`FROM`-`WHERE`
+- In graph, follow in reverse: `WHERE`-`JOIN`-`SELECT`
