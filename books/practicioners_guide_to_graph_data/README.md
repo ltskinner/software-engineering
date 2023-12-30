@@ -31,6 +31,10 @@ Rules of Thumb:
 - 4. Nouns and Concepts should be vertex labels. Verbs should be edge labels
 - 5. When in development, let the direction of your edges reflect how you would think about the data in your domain
 - 6. If you need to use data to subselect a group, make it a property
+- 7. Properties can be duplicated onto edges or vertices; use denormalization to reduce the number of elements you have to process in a query
+- 8. Let the direction you want to walk through your edge labels determine the indexes you need on an edge label in your graph schema
+- 9. Load your data; then apply your indexes
+- 10. Keep only the edges and indexes that you need for your production queries
 
 Pitfalls in Naming Conventions:
 
@@ -60,3 +64,5 @@ Advice:
 Spend time designing your data architecture, models and queries to present information that is most meaningful to them
 
 Tip: If you ever question what object type you have in the middle of developing a gremlin traversal, add `.next().getClass()` to where you are in the traversal, this will inspect the objects
+
+## [Chapter 5. Exploring Neighborhoods in Production](./5_NBHOODS_IN_PRODUCTION.md)
