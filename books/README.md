@@ -80,7 +80,7 @@
 - [x] [Fundamentals of Data Engineering](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302/)
 - [x] [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 - [x] [Machine Learning Design Patterns](https://www.amazon.com/Machine-Learning-Design-Patterns-Preparation/dp/1098115783)
-- [ ] [Practical MLOps](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017)
+- [x] [Practical MLOps](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017)
 
 Finish k8s et al
 
@@ -96,3 +96,12 @@ Pushing this until happy with other fundamental skills:
 - [x] [The Practicioners Guide to Graph Data](https://www.amazon.com/Practitioners-Guide-Graph-Data-Technologies-ebook/dp/B086BY8YQB/)
 - [ ] [Graph Theoretic Methods in Multiagent Networks](https://www.amazon.com/Theoretic-Multiagent-Networks-Princeton-Mathematics-ebook/dp/B003TU1O1C/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
 - [ ] [Graph-Based Social Media Analysis](https://www.amazon.com/Graph-Based-Analysis-Chapman-Knowledge-Discovery-ebook/dp/B018TVFZE2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+
+### Knowledge Graphs
+
+- [ ] [Building Knowledge Graphs](https://www.amazon.com/Building-Knowledge-Graphs-Jesus-Barrasa-ebook/dp/B0C92QH9Z3/ref=pd_rhf_se_s_reads_dynr_d_sccl_1_1/138-8889995-6322928)
+
+### Causal Inference
+
+- [ ] [Causal Inference in Python](https://www.amazon.com/dp/B0CBW96BWK/)
+- [ ] [Causal Inference and Discovery in Python](https://www.amazon.com/Causal-Inference-Discovery-Python-learning-ebook/dp/B0C4LKQ1X7/)
