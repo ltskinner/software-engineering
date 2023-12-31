@@ -74,3 +74,25 @@ Cassandra stuff
 ## [Chapter 6. Using Trees in Development](./6_TREES.md)
 
 ## [Chapter 7. Using Trees in Production](./7_TREES_PRODUCTION.md)
+
+## [Chapter 8. Finding Paths in Development](./8_PATHS.md)
+
+## [Chapter 9. Finding Paths in Production](./9_PATHS_PROD.md)
+
+## [Chapter 10. Recommendations in Development](./10_RECS_IN_DEV.md)
+
+Types of recommender systems:
+
+- Content-Based: Focused only on the preferences of the user
+- Social Data Mining: Systems that do not need input from user. Only on popular historical trends
+- Collaborative Filtering: Type of rec system that predicts new content (filtering) by matching the interests of the individual user with the preferences of many users (collaborating)
+  - User-Based
+  - Item-Based
+  - Hybrid Models
+- Hybrid Models (not a dupe)
+
+## [Chapter 11. Simple Entity Resolution in Graphs](./11_ENTITY_RESOLUTION.md)
+
+## [Chapter 12. Recommendations in Production](./12_RECS_IN_PROD.md)
+
+## [Chapter 13. Epilogue](./13_EPILOGUE.md)
