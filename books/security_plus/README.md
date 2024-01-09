@@ -27,7 +27,7 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 
 ## Chapters
 
-- Chapter 1. Todays Security Professional
+- [Chapter 1. Todays Security Professional](./1_SECURITY_PROFS.md)
 - Chapter 2. Cybersecurity Threat Landscape
 - Chapter 3. Malicious Code
 - Chapter 4. Social Engineering and Password Attacks
