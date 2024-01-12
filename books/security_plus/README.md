@@ -28,7 +28,7 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 ## Chapters
 
 - [Chapter 1. Todays Security Professional](./1_SECURITY_PROFS.md) - 17/20 = .85
-- Chapter 2. Cybersecurity Threat Landscape
+- [Chapter 2. Cybersecurity Threat Landscape](./2_LANDSCAPE.md) - 18/20 = .90
 - Chapter 3. Malicious Code
 - Chapter 4. Social Engineering and Password Attacks
 - Chapter 5. Security Assessment and Testing
@@ -46,6 +46,8 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - Chapter 17. Risk Management and Privacy
 
 ## Objective Map
+
+Remember: every question on the exam ties back to a specific exam objective
 
 - 1.0 General Security Concepts
   - 1.1 Compare and contrast various types of security controls
