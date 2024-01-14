@@ -35,9 +35,9 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 6. Application Security](./6_APP_SEC.md) - 18/20 = .90
 - [Chapter 7. Cryptography and the PKI](./7_CRYPTOGRAPHY_PKI.md) - 15/20 = .75
 - [Chapter 8. Identity and Access Management](./8_IAM.md) - 16/20 = .80
-- Chapter 9. Resilience and Physical Security
-- Chapter 10. Cloud and Virtualization Security
-- Chapter 11. Endpoint Security
+- [Chapter 9. Resilience and Physical Security](./9_PHYSICAL.md) - 15/20 = .75
+- [Chapter 10. Cloud and Virtualization Security](./10_CLOUD.md) - 9/20 = .45 BADBADBAD
+- [Chapter 11. Endpoint Security](./11_ENDPOINT.md)
 - Chapter 12. Network Security
 - Chapter 13. Wireless and Mobile Security
 - Chapter 14. Monitoring and Incident Response
