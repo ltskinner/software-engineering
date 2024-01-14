@@ -146,3 +146,167 @@ Major strengths of asymmetric keys:
   - key escrow - third party stores a copy of the key for use in emergency
 
 ## Asymmetric Cryptography
+
+Public key anyone can have, no weakness in security
+
+Private keys can only be owned by one individual - it is never shared
+
+- RSA
+- Elliptic Curve (ECC)
+
+Key Length:
+
+- the length of the crypto key is the most important security param
+- length of key depends on alg too, 1024 RSA is same as 160 bit ECC
+
+## Hash Functions
+
+Five (5) requirements for hash fns:
+
+- Accept an input of nay length
+- Produce an output of a fixed length, regarless of length of input
+- Hash value is relatively easy to compute
+- Hash fn is one way (super hard to determine input given an output)
+- A secure hash function is collision free (two diff inputs shouldnt come up with same output)
+
+Algs:
+
+- SHA (-1 -2 -3)
+- MD5 (message digest algorithm) - 128bit
+  - subject to collisions
+
+## Digital Signatures
+
+Two distinct goals:
+
+- Signed messages assure the recipient that the message came from the sender (non-repudiation)
+- Ensure msg not altered in transit
+
+### HMAC
+
+Hash-Based Message Authentication Code
+
+- guarantees integrity
+- does not provide non-repudiation
+- More efficient than PKI, like a halfway point between none and PKI
+
+### Which Key Should I Use
+
+- If you want to encrypt, use the recipients public key
+- If you want to decrypt, use your private key
+- If you want to digitally sign, use your private key
+- If you want to verify the signature, use senders public key
+
+### Public Key Infrastructure
+
+- facilitates comms between parties previously unknown to each other
+- combines asym and symm crypto with hashing and digital certs
+
+#### Certificates
+
+Digital certificates provide communicating parties with assurance the people are who they claim to be
+
+- signed by a Certificate Authority
+
+Trust in a Cert is only as good as your trust in the CA that issue them
+
+Registration Authorities assist CAs with burden of verifying users identities prior to issuing certs
+
+#### Certificate Generation and Destruction
+
+Digital vertificate formats:
+
+- Distinguished Encoding Rules (DER)
+  - Binary, .der, .crt, .cer
+- Privacy Enhanced Mail (PEM)
+  - Text, .pem, .crt
+- Personal Information Exchange (PFX)
+  - Binary, .pfx, .p12
+- P7B
+  - Text, .p7b
+
+## Asymmetric Key Management
+
+- Keep private key secret
+- retire keys
+- back up keys
+
+### Hardware Security Modules (HSM)
+
+- provide way to manage keys
+- YubiKey
+
+## Cryptographic Attacks
+
+- Brute Force
+- Frequency Analysis
+  - looking at blocks of encrypted messages for patterns
+- Known Plain Text
+  - Gives attackers starting point
+- Chosen Plain Text
+  - attacker obtains the ciphertexts corresponding to set of plain texts of their own choosing
+- Related Key Attack
+  - Same as chosen but get two different sets of plain text matching ciphertext
+- Birthday attack
+  - attack on hashes
+  - probability of collisions
+- Downgrade Attack
+  - against TLS
+  - get system to shift to less ecure crypto mode
+- Hashing, Salting, Key Stretching
+  - Key stretching (creates keys from passwords)
+    - PBKDF2 - Password-Based Key Derivation Function v2
+
+Exploiting Weak Keys
+
+- Dont use WEP
+
+Exploiting Human Error
+
+## Emerging Issues in Crypto
+
+- Tor and the Dark Web
+  - perfect forward secrecy - where layers of encryptoin prevent nodes from reading anything other than specific info needed to forward traffic
+- Blockchain
+- Lightweight Cryptography
+  - Lowe power consumption on edge devices
+  - satellites, smart cards
+- Homomorphic Encryption
+  - allows you to still do operations on the data while preserving privacy
+  - like operations on ciphertext results in same outputs as when preformed on plain text
+- Quantum Computing
+  - prime numbers
+
+## Exam Essentials
+
+- Understand the goals fo cryptography
+  - Confidentiality, Integrity, authentication, non-repudiation
+- Explain differences between symmetric and asymmetric encryption
+- Explain how digital signatures provide non-repudiation
+- Understand purpose and use of digital certs
+- Demonstrate familiarity with emerging issues in cryptography
+
+## Review Questions
+
+- 1. D  D
+- 2. A  A
+- 3. D  D
+- 4. A  A
+- 5. A  A
+- 6. C  C
+- 7. B  ~D AES is symmetric
+- 8. B  ~C idk
+- 9. D  ~C symmetric = existing
+- 10. A ~B asymmetric is always 2
+- 11. A ~D idk
+- 12. C C
+- 13. A A
+- 14. C C idk
+- 15. A A
+- 16. C C
+- 17. C C
+- 18. D D
+- 19. B B
+- 20. A A
+
+15/20 = .75
