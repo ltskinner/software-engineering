@@ -33,11 +33,11 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 4. Social Engineering and Password Attacks](./4_SOCIAL_ENGR.md) - 16/20 = .80
 - [Chapter 5. Security Assessment and Testing](./5_SEC_ASS_TESTING.md) - 16/20 = .80
 - [Chapter 6. Application Security](./6_APP_SEC.md) - 18/20 = .90
-- [Chapter 7. Cryptography and the PKI](./7_CRYPTOGRAPHY_PKI.md) - 15/20 = .75
+- [Chapter 7. Cryptography and the PKI](./7_CRYPTOGRAPHY_PKI.md) - 15/20 = .75 BADBADBAD
 - [Chapter 8. Identity and Access Management](./8_IAM.md) - 16/20 = .80
 - [Chapter 9. Resilience and Physical Security](./9_PHYSICAL.md) - 15/20 = .75
 - [Chapter 10. Cloud and Virtualization Security](./10_CLOUD.md) - 9/20 = .45 BADBADBAD
-- [Chapter 11. Endpoint Security](./11_ENDPOINT.md)
+- [Chapter 11. Endpoint Security](./11_ENDPOINT.md) - 15/20 = .75
 - Chapter 12. Network Security
 - Chapter 13. Wireless and Mobile Security
 - Chapter 14. Monitoring and Incident Response
