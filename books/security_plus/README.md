@@ -38,7 +38,7 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 9. Resilience and Physical Security](./9_PHYSICAL.md) - 15/20 = .75
 - [Chapter 10. Cloud and Virtualization Security](./10_CLOUD.md) - 9/20 = .45 BADBADBAD
 - [Chapter 11. Endpoint Security](./11_ENDPOINT.md) - 15/20 = .75
-- [Chapter 12. Network Security](./12_NETWORK.md)
+- [Chapter 12. Network Security](./12_NETWORK.md) - 15/20 = .75
 - Chapter 13. Wireless and Mobile Security
 - Chapter 14. Monitoring and Incident Response
 - Chapter 15. Digital Forensics
