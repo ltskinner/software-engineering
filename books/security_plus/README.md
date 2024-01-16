@@ -39,7 +39,7 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 10. Cloud and Virtualization Security](./10_CLOUD.md) - 9/20 = .45 BADBADBAD
 - [Chapter 11. Endpoint Security](./11_ENDPOINT.md) - 15/20 = .75
 - [Chapter 12. Network Security](./12_NETWORK.md) - 15/20 = .75
-- Chapter 13. Wireless and Mobile Security
+- [Chapter 13. Wireless and Mobile Security](./13_WIRELESS_MOBILE.md) - 18/20 = .90
 - Chapter 14. Monitoring and Incident Response
 - Chapter 15. Digital Forensics
 - Chapter 16. Security Governance and Compliance
