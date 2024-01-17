@@ -40,7 +40,7 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 11. Endpoint Security](./11_ENDPOINT.md) - 15/20 = .75
 - [Chapter 12. Network Security](./12_NETWORK.md) - 15/20 = .75
 - [Chapter 13. Wireless and Mobile Security](./13_WIRELESS_MOBILE.md) - 18/20 = .90
-- [Chapter 14. Monitoring and Incident Response](./14_MONITORING.md)
+- [Chapter 14. Monitoring and Incident Response](./14_MONITORING.md) - 15/20 = .75
 - Chapter 15. Digital Forensics
 - Chapter 16. Security Governance and Compliance
 - Chapter 17. Risk Management and Privacy

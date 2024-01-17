@@ -137,3 +137,102 @@ Indicators:
 - log proecessing: rsyslog - fast
   - alternative: syslog-ng - enhanced filtering, logging to dbs
   - NXlog
+
+#### Going Beyond Logs: Using Metadata
+
+- email metadata:
+  - headers (sender, recipient, date, time, att)
+- mobile metadata:
+  - call logs, sms, data usage, gps, cell towers
+- web metadata:
+  - metatags, headers, cookies
+- file metadata
+  - time, gps, author
+
+#### Other Data Sources
+
+- vulnurability scans
+- packet capture
+- automated reporting
+
+### Benchmarks and Logging
+
+- central logging
+- log levels
+- endpoints and servers log critical and important events
+
+### Reporting and Archiving
+
+## Mitigation and Recovery
+
+### Security Orchestration, Automation, and Response (SOAR)
+
+- assess attack surface
+- state of systems
+- where isues exist
+- automation of remediation and restoration workflows
+
+### Containment, Mitigation and Recovery Techniques
+
+reconfigure:
+
+- application allow lists
+- application deny lists
+- isolation/quarantine
+- monitoring
+
+common remediation actions:
+
+- firewall rule changes
+- mobile device management change policies
+- dlp
+- content and url filtering
+- updating or revoking certs
+
+- isolation: moves system into protected space or network (vlans too)
+- containment: leaves system in place but works to prevent further malicious actions or attacks
+  - network level is done with firewall
+  - system level is difficult without shutting down
+- segmentation
+
+### Root Cause Analysis
+
+After mitigated issues and on path to recovery
+
+Find underlying cause for issue or compromise, id how to fix, and ensure systemi issues addressed:
+
+- five whys
+- event analysis
+- diagramming
+
+## Exam Essentials
+
+- The incident response cycle and incident reponse process outline how to respond to an incident
+- Threat hunting uses data to identify potential indicators of compromise
+- Data sources and data management for incident response provide insight into what occured as well as investigative and detection tools
+- Mitigation techniques ensure that the impact of incidents are limited
+
+## Review Questions
+
+- 1. D  D
+- 2. B  ~C oh my god
+- 3. C  C
+- 4. C  C
+- 5. D  D
+- 6. B  B
+- 7. C  C
+- 8. C  C
+- 9. A  A
+- 10. C C
+- 11. B B
+- 12. C C
+- 13. D D
+- 14. C C
+- 15. C ~B awful question
+- 16. D ~B
+- 17. A A
+- 18. A A
+- 19. B ~D absolutely cancer question
+- 20. A ~C vuln scans
+
+15/20 = .75
