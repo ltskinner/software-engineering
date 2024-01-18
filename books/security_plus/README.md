@@ -42,7 +42,7 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 13. Wireless and Mobile Security](./13_WIRELESS_MOBILE.md) - 18/20 = .90
 - [Chapter 14. Monitoring and Incident Response](./14_MONITORING.md) - 15/20 = .75
 - [Chapter 15. Digital Forensics](./15_DIGITAL_FORENSICS.md) - 14/20 = .70
-- Chapter 16. Security Governance and Compliance
+- [Chapter 16. Security Governance and Compliance](./16_GOVERNANCE_COMPLIANCE.md) - 16/20 = .80
 - Chapter 17. Risk Management and Privacy
 
 ## Objective Map
