@@ -43,7 +43,9 @@ Test questions: [https://books.wiley.com/series/sybex-test-prep-and-certificatio
 - [Chapter 14. Monitoring and Incident Response](./14_MONITORING.md) - 15/20 = .75
 - [Chapter 15. Digital Forensics](./15_DIGITAL_FORENSICS.md) - 14/20 = .70
 - [Chapter 16. Security Governance and Compliance](./16_GOVERNANCE_COMPLIANCE.md) - 16/20 = .80
-- Chapter 17. Risk Management and Privacy
+- [Chapter 17. Risk Management and Privacy](./17_RISK_PRIVACY.md) - 17/20 = .85
+
+Overall: 269/370 = .79
 
 ## Objective Map
 
