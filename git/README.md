@@ -16,7 +16,6 @@
 
 [Handling `git fatal: Not possible to fast-forward, aborting.`](https://stackoverflow.com/questions/13106179/error-fatal-not-possible-to-fast-forward-aborting)
 
-
 ## Better Usage
 
 ```bash
@@ -28,6 +27,8 @@ $ git push
 ```
 
 ## After Pull Request
+
+Like, after doing an in-browser pull request
 
 ```bash
 git checkout master (you are switching your branch to master)
