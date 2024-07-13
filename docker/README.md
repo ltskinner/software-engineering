@@ -30,7 +30,7 @@ Save the Dockerfile in a folder like this:
 
 Next, to be safe, `cd docker` into the docker folder and run
 
-`docker build --tag <image_name>:<tag> .`
+`docker build . --tag <image_name>:<tag>`
 
 Note:
 
