@@ -82,6 +82,7 @@
 - [x] [Machine Learning Design Patterns](https://www.amazon.com/Machine-Learning-Design-Patterns-Preparation/dp/1098115783)
 - [x] [Practical MLOps](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017)
 - [ ] [Reliable Machine Learning](https://www.amazon.com/Reliable-Machine-Learning-Cathy-Chen-ebook/dp/B0BG14C8YS/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+- [ ] [Machine Learning Production Systems](https://www.amazon.com/Machine-Learning-Production-Systems-Engineering/dp/1098156013/)
 
 Finish k8s et al
 
